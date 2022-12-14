@@ -1,7 +1,8 @@
 {{config(   materialized='incremental',
             tags='football',
             schema ='football',
-            alias ='f_results_team')}}
+            alias ='f_results_team',
+            enabled=false)}}
 
     SELECT
         f.*
