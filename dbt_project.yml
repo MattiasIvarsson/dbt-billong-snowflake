@@ -1,0 +1,77 @@
+
+name: 'billong'
+version: '2.0'
+config-version: 2
+
+# This setting configures which "profile" dbt uses for this project. Profiles contain
+# database connection information, and should be configured in the  ~/.dbt/profiles.yml file
+profile: 'billong'
+
+# These configurations specify where dbt should look for different types of files.
+# The `A-source-paths` config, for example, states that A-source models can be found
+# in the "model/" directory. You probably won't need to change these!
+model-paths: ["models"]
+analysis-paths: ["analysis"] 
+test-paths: ["tests"]
+seed-paths: ["data"]
+macro-paths: ["macros"]
+
+target-path: "target"  # directory which will store compiled SQL files
+clean-targets:         # directories to be removed by `dbt clean`
+    - "target"
+    - "dbt_modules"
+
+vars:
+  billong_event: ['current']
+  billong_start_date_limit: 'CAST(DATEADD(YEAR, DATEDIFF(YEAR,0,GETDATE())-8, 0) AS DATE)'
+  billong_country_key: 'England'
+# You can define configurations for models in the `A-source-paths` directory here.
+# Using these configurations, you can enable or disable models, change how they
+# are materialized, and more!
+
+#on-run-start:
+
+# In this example config, we tell dbt to build all models in the example/ directory
+# as views (the default). These settings can be overridden in the
+#individual model files
+# using the `{{ config(...) }}` macro.
+
+dispatch:
+ - macro_namespace: dbt_utils
+   search_order: ['tsql_utils', 'dbt_utils']
+ - macro_namespace: dbt_date
+   search_order: ['tsql_utils', 'dbt_date']
+ - macro_namespace: dbt_expectations
+   search_order: ['tsql_utils', 'dbt_expectations']
+ - macro_namespace: audit_helper
+   search_order: ['tsql_utils', 'audit_helper']
+
+
+
+
+models:
+  billong: # MUST BE SOME NAME AS PROJECT
+      pre-hook: "{{ logging.log_model_start_event() }}"
+      post-hook: "{{ logging.log_model_end_event() }}"
+      # Applies to all files under models/example/
+      land:
+          materialized: view
+          schema: land
+          tags: land
+      staging:
+          materialized: view
+          schema: staging
+          tags: staging
+      inter:
+          materialized: table
+          schema: inter
+          tags: inter
+      marts:
+          materialized: table
+          schema: marts
+          tags: marts
+
+seeds:
+  billong:
+    enabled: true
+    schema: seeds

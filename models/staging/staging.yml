@@ -1,0 +1,58 @@
+version: 2
+
+models:
+
+  - name: f_results_match_stg
+    description: Game result from all countries Season 2000 - 2021
+    columns:
+      - name: match_key
+        description: Primary key
+        tests:
+          - not_null
+          - unique
+
+
+  - name: results_england_stg
+    description: Game result from england Season 2000 - 2021
+    columns:
+      - name: match_key
+        description: Primary key
+        tests:
+          - not_null
+          - unique
+
+  - name: results_france_stg
+    description: Game result from england Season 2000 - 2021
+    columns:
+      - name: match_key
+        description: Primary key
+        tests:
+          - not_null
+          - unique
+
+  - name: results_germany_stg
+    description: Game result from england Season 2000 - 2021
+    columns:
+      - name: match_key
+        description: Primary key
+        tests:
+          - not_null
+          - unique
+
+  - name: results_italy_stg
+    description: Game result from england Season 2000 - 2021
+    columns:
+      - name: match_key
+        description: Primary key
+        tests:
+          - not_null
+          - unique
+
+  - name: results_spain_stg
+    description: Game result from england Season 2000 - 2021
+    columns:
+      - name: match_key
+        description: Primary key
+        tests:
+          - not_null
+          - unique

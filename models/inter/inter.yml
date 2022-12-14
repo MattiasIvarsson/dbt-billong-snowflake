@@ -1,0 +1,36 @@
+version: 2
+
+models:
+
+  - name: f_results_match
+    description: Matches from season 2000 - 2021
+    columns:
+      - name: match_key
+        description: Primary key
+        tests:
+          - not_null
+
+
+  - name: f_results_team
+    description: teamsresults from season 2000 - 2021
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - match_key
+            - location
+    columns:
+      - name: match_key #match_unique_key
+        description: Primary key
+        tests:
+          - not_null
+
+      - name: location  # FAIILARAR
+        tests:
+          - accepted_values:
+              values: ['Home', 'Away',] # FEL
+      - name: league_key
+        tests:
+          - relationships:
+              to: ref('d_league')
+              field: league_key
+

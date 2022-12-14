@@ -1,0 +1,81 @@
+selectors:
+
+# ------- DAILY LAND - STAGING ------------------------------
+# ------------------------------------------------------------
+  - name: daily_land_staging
+    definition:
+      union:
+        # LAND TAG AND ITS PARENTS
+        - method: tag
+          value: land
+
+        # STAGING TAG AND ITS PARENTS
+        - method: tag
+          value: staging
+          parents: true
+          parents_depth: 1
+
+
+# ------- DAILY STAGING --------------------------------------
+# ------------------------------------------------------------
+  - name: daily_staging
+    definition:
+      method: tag
+      value: staging
+      parents: true
+      parents_depth: 1
+
+
+# ------- DAILY CORE RUN EXCLUDE STAGING AND MARTS -----------
+# ------------------------------------------------------------
+  - name: daily_core
+    definition:
+      union:
+
+        # INTER TAG AND ITS PARENTS
+        - method: tag
+          value: inter
+          parents: true
+          parents_depth: 1
+
+        # ADMIN FOLDER AND ITS PARENTS
+        - method: path  # folder path instead of tag
+          value: models/A-admin
+
+        # EXCLUDE TAGS
+        - exclude:
+            - method: tag
+              value: staging
+              parents: true # Exclude all models from dail_staging
+              parents_depth: 1
+
+            - method: tag
+              value: marts
+
+            - method: tag
+              value: scoring
+
+            - method: tag
+              value: phone_db
+
+# ------- DAILY CORE RUN MARTS -------------------------------
+# ------------------------------------------------------------
+# DAILY CORE RUN MARTS
+  - name: daily_marts
+    definition:
+      method: tag
+      value: football
+
+# ------- DAILY TEST RUN ------------------------------------
+# ------------------------------------------------------------
+  - name: daily_core_test
+    definition:
+      union:
+        - method: path
+          value: models # All models in folder models
+        # EXCLUDE TAGS
+        - exclude:
+            - method: tag
+              value: staging
+              parents: true # exclude all modes from daily_staging
+              parents_depth: 1

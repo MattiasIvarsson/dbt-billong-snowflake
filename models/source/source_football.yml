@@ -1,0 +1,54 @@
+version: 2
+
+sources:
+  - name: football_land
+    database: BILLONG_LAND   # Tell dbt to look for the source in the "raw" database
+    schema: dbo            # You wouldn't put your source data in public, would you?
+
+    tables:
+      # ENGLAND --------------------------------------
+      - name: england_2000_2019
+        identifier: England_2000_2019
+
+      - name: england_2019_2022
+        identifier: England_2019_2022
+
+      # GERMANY --------------------------------------
+      - name: germany_2000_2019
+        identifier: Germany_2000_2019
+
+      - name: germany_2019_2022
+        identifier: Germany_2019_2022
+
+      # FRANCE --------------------------------------
+      - name: france_2000_2019
+        identifier: France_2000_2019
+
+      - name: france_2019_2022
+        identifier: France_2019_2022
+
+      # ITALY --------------------------------------
+      - name: italy_2000_2019
+        identifier: Italy_2000_2019
+
+      - name: italy_2019_2022
+        identifier: Italy_2019_2022
+
+      # SPAIN --------------------------------------
+      - name: spain_2000_2019
+        identifier: Spain_2000_2019
+
+      - name: spain_2019_2022
+        identifier: Spain_2019_2022
+
+      # OTHER --------------------------------------
+
+      - name: football_teams_data_financial
+        identifier: football_teams_data_financial
+
+      - name: football_teams_data
+        identifier: football_teams_data
+
+      - name: football_countries_union
+        identifier: countries_union
+
