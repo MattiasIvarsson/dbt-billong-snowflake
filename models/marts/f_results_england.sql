@@ -1,7 +1,8 @@
 {{config(   materialized='incremental',
             tags='football',
             schema ='football',
-            alias ='f_result_premier_league'
+            alias ='f_result_premier_league',
+            enabled=false
 )}}
 
  --- TEST to have all marts and simalar in another dbt project.
