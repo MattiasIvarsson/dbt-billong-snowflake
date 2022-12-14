@@ -13393,3 +13393,1875 @@ Function EXTRACT does not support VARCHAR(16777216) argument type
 2022-12-14 15:42:41.601292 (Thread-556): handling status request
 2022-12-14 15:42:41.601772 (Thread-556): 15:42:41  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe6f98cac0>]}
 2022-12-14 15:42:41.603898 (Thread-556): sending response (<Response 70326 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:42:50.368240 (Thread-557): 15:42:50  Unable to do partial parsing because config vars, config profile, or config target have changed
+2022-12-14 15:42:50.368640 (Thread-557): 15:42:50  Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe7e977940>]}
+2022-12-14 15:42:50.445567 (Thread-558): handling status request
+2022-12-14 15:42:50.446031 (Thread-558): 15:42:50  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe771a3a90>]}
+2022-12-14 15:42:50.446503 (Thread-558): sending response (<Response 180 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:42:50.552634 (Thread-559): handling status request
+2022-12-14 15:42:50.553037 (Thread-559): 15:42:50  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe770db850>]}
+2022-12-14 15:42:50.553469 (Thread-559): sending response (<Response 163 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:42:50.610916 (Thread-560): handling status request
+2022-12-14 15:42:50.611476 (Thread-560): 15:42:50  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe7708bb80>]}
+2022-12-14 15:42:50.611928 (Thread-560): sending response (<Response 163 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:42:50.671849 (Thread-561): handling status request
+2022-12-14 15:42:50.672284 (Thread-561): 15:42:50  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe77167220>]}
+2022-12-14 15:42:50.672754 (Thread-561): sending response (<Response 163 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:42:50.728730 (Thread-562): handling status request
+2022-12-14 15:42:50.729195 (Thread-562): 15:42:50  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe770f3f70>]}
+2022-12-14 15:42:50.729645 (Thread-562): sending response (<Response 163 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:42:50.748048 (Thread-557): 15:42:50  Parsing macros/get_custom_schema.sql
+2022-12-14 15:42:50.749304 (Thread-557): 15:42:50  Parsing macros/create_stmt_fromfile.sql
+2022-12-14 15:42:50.749855 (Thread-557): 15:42:50  Parsing macros/star_custom.sql
+2022-12-14 15:42:50.752858 (Thread-557): 15:42:50  Parsing macros/star_cast.sql
+2022-12-14 15:42:50.756286 (Thread-557): 15:42:50  Parsing macros/test_unique_where_concat.sql
+2022-12-14 15:42:50.757744 (Thread-557): 15:42:50  Parsing macros/create_initial_tables.sql
+2022-12-14 15:42:50.758543 (Thread-557): 15:42:50  Parsing macros/create_stored_procedures.sql
+2022-12-14 15:42:50.758969 (Thread-557): 15:42:50  Parsing macros/create_udfs.sql
+2022-12-14 15:42:50.760449 (Thread-557): 15:42:50  Parsing macros/procedure_definition_materialization.sql
+2022-12-14 15:42:50.763048 (Thread-557): 15:42:50  Parsing macros/table_insert_only_materialization.sql
+2022-12-14 15:42:50.765285 (Thread-557): 15:42:50  Parsing macros/sql_functions/column_trim_clean_nonprintable_char.sql
+2022-12-14 15:42:50.765834 (Thread-557): 15:42:50  Parsing macros/table/create_table_store_store_test2.sql
+2022-12-14 15:42:50.769900 (Thread-557): 15:42:50  Parsing macros/table/create_table_store_store_test3.sql
+2022-12-14 15:42:50.774028 (Thread-557): 15:42:50  Parsing macros/mapping/birthdate.sql
+2022-12-14 15:42:50.774922 (Thread-557): 15:42:50  Parsing macros/variables/get_variable_list.sql
+2022-12-14 15:42:50.776958 (Thread-557): 15:42:50  Parsing macros/variables/input_variables_list.sql
+2022-12-14 15:42:50.778613 (Thread-557): 15:42:50  Parsing macros/materialization/print_list_item.sql
+2022-12-14 15:42:50.779967 (Thread-557): 15:42:50  Parsing macros/materialization/hash_columns.sql
+2022-12-14 15:42:50.780756 (Thread-557): 15:42:50  Parsing macros/materialization/print_concat_columns.sql
+2022-12-14 15:42:50.782482 (Thread-557): 15:42:50  Parsing macros/materialization/print_columns_dict.sql
+2022-12-14 15:42:50.783636 (Thread-557): 15:42:50  Parsing macros/materialization/insert_only_engine.sql
+2022-12-14 15:42:50.786846 (Thread-557): 15:42:50  Parsing macros/materialization/print_columns.sql
+2022-12-14 15:42:50.788140 (Thread-557): 15:42:50  Parsing macros/udf/dbo_ConvertFirstLetterinCapital.sql
+2022-12-14 15:42:50.788996 (Thread-557): 15:42:50  Parsing macros/udf/udf_dbo_JaccDistance.sql
+2022-12-14 15:42:50.789532 (Thread-563): handling status request
+2022-12-14 15:42:50.790084 (Thread-557): 15:42:50  Parsing macros/udf/udf_dbo_LevDistance.sql
+2022-12-14 15:42:50.790417 (Thread-563): 15:42:50  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe770d30d0>]}
+2022-12-14 15:42:50.790922 (Thread-557): 15:42:50  Parsing macros/udf/dbo_DelimitedSplit8K.sql
+2022-12-14 15:42:50.791401 (Thread-563): sending response (<Response 163 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:42:50.792102 (Thread-557): 15:42:50  Parsing macros/udf/dbo_udfGetOnlyNumeric.sql
+2022-12-14 15:42:50.793001 (Thread-557): 15:42:50  Parsing macros/udf/udf_dbo_JaroDistance.sql
+2022-12-14 15:42:50.793501 (Thread-557): 15:42:50  Parsing macros/udf/udf_dbo_LongestDistance.sql
+2022-12-14 15:42:50.794031 (Thread-557): 15:42:50  Parsing macros/udf/udf_dbo_Similarity.sql
+2022-12-14 15:42:50.794630 (Thread-557): 15:42:50  Parsing macros/apply_grants.sql
+2022-12-14 15:42:50.795716 (Thread-557): 15:42:50  Parsing macros/catalog.sql
+2022-12-14 15:42:50.797554 (Thread-557): 15:42:50  Parsing macros/adapters.sql
+2022-12-14 15:42:50.837686 (Thread-557): 15:42:50  Parsing macros/materializations/seed.sql
+2022-12-14 15:42:50.843196 (Thread-557): 15:42:50  Parsing macros/materializations/incremental.sql
+2022-12-14 15:42:50.853378 (Thread-557): 15:42:50  Parsing macros/materializations/test.sql
+2022-12-14 15:42:50.854801 (Thread-557): 15:42:50  Parsing macros/materializations/snapshot.sql
+2022-12-14 15:42:50.855371 (Thread-564): handling status request
+2022-12-14 15:42:50.856449 (Thread-557): 15:42:50  Parsing macros/materializations/merge.sql
+2022-12-14 15:42:50.856815 (Thread-564): 15:42:50  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe770f3a00>]}
+2022-12-14 15:42:50.860551 (Thread-557): 15:42:50  Parsing macros/materializations/table.sql
+2022-12-14 15:42:50.861418 (Thread-564): sending response (<Response 163 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:42:50.867783 (Thread-557): 15:42:50  Parsing macros/materializations/view.sql
+2022-12-14 15:42:50.869611 (Thread-557): 15:42:50  Parsing macros/utils/escape_single_quotes.sql
+2022-12-14 15:42:50.870285 (Thread-557): 15:42:50  Parsing macros/utils/safe_cast.sql
+2022-12-14 15:42:50.870986 (Thread-557): 15:42:50  Parsing macros/utils/array_construct.sql
+2022-12-14 15:42:50.871615 (Thread-557): 15:42:50  Parsing macros/utils/timestamps.sql
+2022-12-14 15:42:50.873633 (Thread-557): 15:42:50  Parsing macros/utils/right.sql
+2022-12-14 15:42:50.874314 (Thread-557): 15:42:50  Parsing macros/utils/bool_or.sql
+2022-12-14 15:42:50.874876 (Thread-557): 15:42:50  Parsing macros/etc/statement.sql
+2022-12-14 15:42:50.880234 (Thread-557): 15:42:50  Parsing macros/etc/datetime.sql
+2022-12-14 15:42:50.888246 (Thread-557): 15:42:50  Parsing macros/adapters/apply_grants.sql
+2022-12-14 15:42:50.901713 (Thread-557): 15:42:50  Parsing macros/adapters/freshness.sql
+2022-12-14 15:42:50.906175 (Thread-557): 15:42:50  Parsing macros/adapters/columns.sql
+2022-12-14 15:42:50.921817 (Thread-557): 15:42:50  Parsing macros/adapters/timestamps.sql
+2022-12-14 15:42:50.925650 (Thread-565): handling status request
+2022-12-14 15:42:50.929399 (Thread-557): 15:42:50  Parsing macros/adapters/relation.sql
+2022-12-14 15:42:50.932259 (Thread-565): 15:42:50  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe748540d0>]}
+2022-12-14 15:42:50.942983 (Thread-565): sending response (<Response 163 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:42:50.946982 (Thread-557): 15:42:50  Parsing macros/adapters/schema.sql
+2022-12-14 15:42:50.949709 (Thread-557): 15:42:50  Parsing macros/adapters/persist_docs.sql
+2022-12-14 15:42:50.954362 (Thread-557): 15:42:50  Parsing macros/adapters/metadata.sql
+2022-12-14 15:42:50.964083 (Thread-557): 15:42:50  Parsing macros/adapters/indexes.sql
+2022-12-14 15:42:50.966867 (Thread-557): 15:42:50  Parsing macros/get_custom_name/get_custom_database.sql
+2022-12-14 15:42:50.968481 (Thread-557): 15:42:50  Parsing macros/get_custom_name/get_custom_schema.sql
+2022-12-14 15:42:50.971162 (Thread-557): 15:42:50  Parsing macros/get_custom_name/get_custom_alias.sql
+2022-12-14 15:42:50.972602 (Thread-557): 15:42:50  Parsing macros/python_model/python.sql
+2022-12-14 15:42:50.978431 (Thread-557): 15:42:50  Parsing macros/materializations/hooks.sql
+2022-12-14 15:42:50.982135 (Thread-557): 15:42:50  Parsing macros/materializations/configs.sql
+2022-12-14 15:42:50.984425 (Thread-557): 15:42:50  Parsing macros/materializations/seeds/seed.sql
+2022-12-14 15:42:50.991059 (Thread-557): 15:42:50  Parsing macros/materializations/seeds/helpers.sql
+2022-12-14 15:42:51.008627 (Thread-557): 15:42:51  Parsing macros/materializations/tests/test.sql
+2022-12-14 15:42:51.013142 (Thread-557): 15:42:51  Parsing macros/materializations/tests/helpers.sql
+2022-12-14 15:42:51.014025 (Thread-566): handling status request
+2022-12-14 15:42:51.015946 (Thread-557): 15:42:51  Parsing macros/materializations/tests/where_subquery.sql
+2022-12-14 15:42:51.016326 (Thread-566): 15:42:51  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe74853a00>]}
+2022-12-14 15:42:51.018146 (Thread-557): 15:42:51  Parsing macros/materializations/models/view/helpers.sql
+2022-12-14 15:42:51.018675 (Thread-566): sending response (<Response 163 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:42:51.020062 (Thread-557): 15:42:51  Parsing macros/materializations/models/view/create_or_replace_view.sql
+2022-12-14 15:42:51.023508 (Thread-557): 15:42:51  Parsing macros/materializations/models/view/create_view_as.sql
+2022-12-14 15:42:51.026130 (Thread-557): 15:42:51  Parsing macros/materializations/models/view/view.sql
+2022-12-14 15:42:51.031705 (Thread-557): 15:42:51  Parsing macros/materializations/models/incremental/strategies.sql
+2022-12-14 15:42:51.038513 (Thread-557): 15:42:51  Parsing macros/materializations/models/incremental/column_helpers.sql
+2022-12-14 15:42:51.046254 (Thread-557): 15:42:51  Parsing macros/materializations/models/incremental/incremental.sql
+2022-12-14 15:42:51.056183 (Thread-557): 15:42:51  Parsing macros/materializations/models/incremental/on_schema_change.sql
+2022-12-14 15:42:51.071809 (Thread-557): 15:42:51  Parsing macros/materializations/models/incremental/is_incremental.sql
+2022-12-14 15:42:51.073357 (Thread-557): 15:42:51  Parsing macros/materializations/models/incremental/merge.sql
+2022-12-14 15:42:51.087874 (Thread-557): 15:42:51  Parsing macros/materializations/models/table/create_table_as.sql
+2022-12-14 15:42:51.088729 (Thread-567): handling status request
+2022-12-14 15:42:51.092296 (Thread-557): 15:42:51  Parsing macros/materializations/models/table/table.sql
+2022-12-14 15:42:51.092683 (Thread-567): 15:42:51  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe721274f0>]}
+2022-12-14 15:42:51.098601 (Thread-557): 15:42:51  Parsing macros/materializations/snapshots/strategies.sql
+2022-12-14 15:42:51.099100 (Thread-567): sending response (<Response 163 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:42:51.115119 (Thread-557): 15:42:51  Parsing macros/materializations/snapshots/snapshot_merge.sql
+2022-12-14 15:42:51.116901 (Thread-557): 15:42:51  Parsing macros/materializations/snapshots/snapshot.sql
+2022-12-14 15:42:51.127887 (Thread-557): 15:42:51  Parsing macros/materializations/snapshots/helpers.sql
+2022-12-14 15:42:51.140213 (Thread-557): 15:42:51  Parsing macros/generic_test_sql/not_null.sql
+2022-12-14 15:42:51.141150 (Thread-557): 15:42:51  Parsing macros/generic_test_sql/relationships.sql
+2022-12-14 15:42:51.142047 (Thread-557): 15:42:51  Parsing macros/generic_test_sql/unique.sql
+2022-12-14 15:42:51.142793 (Thread-557): 15:42:51  Parsing macros/generic_test_sql/accepted_values.sql
+2022-12-14 15:42:51.144145 (Thread-557): 15:42:51  Parsing macros/utils/intersect.sql
+2022-12-14 15:42:51.145008 (Thread-557): 15:42:51  Parsing macros/utils/position.sql
+2022-12-14 15:42:51.146117 (Thread-557): 15:42:51  Parsing macros/utils/escape_single_quotes.sql
+2022-12-14 15:42:51.147231 (Thread-557): 15:42:51  Parsing macros/utils/safe_cast.sql
+2022-12-14 15:42:51.148555 (Thread-557): 15:42:51  Parsing macros/utils/array_construct.sql
+2022-12-14 15:42:51.150058 (Thread-557): 15:42:51  Parsing macros/utils/cast_bool_to_text.sql
+2022-12-14 15:42:51.151170 (Thread-557): 15:42:51  Parsing macros/utils/datediff.sql
+2022-12-14 15:42:51.152426 (Thread-557): 15:42:51  Parsing macros/utils/concat.sql
+2022-12-14 15:42:51.153431 (Thread-557): 15:42:51  Parsing macros/utils/length.sql
+2022-12-14 15:42:51.154437 (Thread-557): 15:42:51  Parsing macros/utils/any_value.sql
+2022-12-14 15:42:51.155428 (Thread-557): 15:42:51  Parsing macros/utils/data_types.sql
+2022-12-14 15:42:51.162737 (Thread-557): 15:42:51  Parsing macros/utils/array_concat.sql
+2022-12-14 15:42:51.163898 (Thread-557): 15:42:51  Parsing macros/utils/right.sql
+2022-12-14 15:42:51.165046 (Thread-557): 15:42:51  Parsing macros/utils/array_append.sql
+2022-12-14 15:42:51.166150 (Thread-557): 15:42:51  Parsing macros/utils/last_day.sql
+2022-12-14 15:42:51.168107 (Thread-557): 15:42:51  Parsing macros/utils/split_part.sql
+2022-12-14 15:42:51.170135 (Thread-557): 15:42:51  Parsing macros/utils/date_trunc.sql
+2022-12-14 15:42:51.171575 (Thread-557): 15:42:51  Parsing macros/utils/literal.sql
+2022-12-14 15:42:51.172132 (Thread-568): handling status request
+2022-12-14 15:42:51.173197 (Thread-557): 15:42:51  Parsing macros/utils/hash.sql
+2022-12-14 15:42:51.173554 (Thread-568): 15:42:51  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe748a7dc0>]}
+2022-12-14 15:42:51.174953 (Thread-557): 15:42:51  Parsing macros/utils/except.sql
+2022-12-14 15:42:51.175440 (Thread-568): sending response (<Response 163 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:42:51.176369 (Thread-557): 15:42:51  Parsing macros/utils/bool_or.sql
+2022-12-14 15:42:51.177744 (Thread-557): 15:42:51  Parsing macros/utils/replace.sql
+2022-12-14 15:42:51.179088 (Thread-557): 15:42:51  Parsing macros/utils/dateadd.sql
+2022-12-14 15:42:51.180437 (Thread-557): 15:42:51  Parsing macros/utils/listagg.sql
+2022-12-14 15:42:51.182813 (Thread-557): 15:42:51  Parsing tests/generic/builtin.sql
+2022-12-14 15:42:51.185739 (Thread-557): 15:42:51  Parsing macros/materializations/insert_by_period_helpers.sql
+2022-12-14 15:42:51.210190 (Thread-557): 15:42:51  Parsing macros/materializations/insert_by_period_materialization.sql
+2022-12-14 15:42:51.230797 (Thread-557): 15:42:51  Parsing macros/dbt_expectations/math/log_natural.sql
+2022-12-14 15:42:51.231451 (Thread-557): 15:42:51  Parsing macros/dbt_expectations/schema_tests/table_shape/expect_grouped_row_values_to_have_recent_data.sql
+2022-12-14 15:42:51.234538 (Thread-557): 15:42:51  Parsing macros/dbt_expectations/schema_tests/multi-column/expect_select_column_values_to_be_unique_within_record.sql
+2022-12-14 15:42:51.239670 (Thread-557): 15:42:51  Parsing macros/dbt_expectations/schema_tests/_generalized/expression_is_true.sql
+2022-12-14 15:42:51.240351 (Thread-569): handling status request
+2022-12-14 15:42:51.242907 (Thread-557): 15:42:51  Parsing macros/dbt_expectations/schema_tests/_generalized/equal_expression.sql
+2022-12-14 15:42:51.243290 (Thread-569): 15:42:51  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe77108970>]}
+2022-12-14 15:42:51.251554 (Thread-557): 15:42:51  Parsing macros/dbt_expectations/schema_tests/distributional/expect_column_values_to_be_within_n_stdevs.sql
+2022-12-14 15:42:51.252071 (Thread-569): sending response (<Response 163 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:42:51.254400 (Thread-557): 15:42:51  Parsing macros/dbt_expectations/schema_tests/distributional/expect_column_values_to_be_within_n_moving_stdevs.sql
+2022-12-14 15:42:51.261935 (Thread-557): 15:42:51  Parsing macros/dbt_expectations/schema_tests/aggregate_functions/expect_column_stdev_to_be_between.sql
+2022-12-14 15:42:51.263688 (Thread-557): 15:42:51  Parsing macros/dbt_expectations/schema_tests/aggregate_functions/expect_column_most_common_value_to_be_in_set.sql
+2022-12-14 15:42:51.267192 (Thread-557): 15:42:51  Parsing macros/dbt_utils/sql/deduplicate.sql
+2022-12-14 15:42:51.267931 (Thread-557): 15:42:51  Parsing macros/dbt_utils/sql/surrogate_key.sql
+2022-12-14 15:42:51.271691 (Thread-557): 15:42:51  Parsing macros/dbt_utils/sql/get_tables_by_pattern_sql.sql
+2022-12-14 15:42:51.272555 (Thread-557): 15:42:51  Parsing macros/dbt_utils/sql/generate_series.sql
+2022-12-14 15:42:51.274284 (Thread-557): 15:42:51  Parsing macros/dbt_utils/schema_cleanup/drop_old_relations.sql
+2022-12-14 15:42:51.279320 (Thread-557): 15:42:51  Parsing macros/dbt_utils/schema_cleanup/drop_schemas_by_prefixes.sql
+2022-12-14 15:42:51.281913 (Thread-557): 15:42:51  Parsing macros/dbt_utils/schema_cleanup/drop_schema_by_name.sql
+2022-12-14 15:42:51.282778 (Thread-557): 15:42:51  Parsing macros/dbt_utils/datetime/date_spine.sql
+2022-12-14 15:42:51.292932 (Thread-557): 15:42:51  Parsing macros/dbt_utils/schema_tests/sequential_values.sql
+2022-12-14 15:42:51.294990 (Thread-557): 15:42:51  Parsing macros/dbt_utils/schema_tests/test_not_null_where.sql
+2022-12-14 15:42:51.295629 (Thread-570): handling status request
+2022-12-14 15:42:51.297120 (Thread-557): 15:42:51  Parsing macros/dbt_utils/schema_tests/test_unique_where.sql
+2022-12-14 15:42:51.297512 (Thread-570): 15:42:51  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe721a1670>]}
+2022-12-14 15:42:51.298887 (Thread-557): 15:42:51  Parsing macros/dbt_utils/schema_tests/mutually_exclusive_ranges.sql
+2022-12-14 15:42:51.299376 (Thread-570): sending response (<Response 180 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:42:51.306879 (Thread-557): 15:42:51  Parsing macros/dbt_utils/schema_tests/relationships_where.sql
+2022-12-14 15:42:51.309903 (Thread-557): 15:42:51  Parsing macros/dbt_utils/cross_db_utils/width_bucket.sql
+2022-12-14 15:42:51.311930 (Thread-557): 15:42:51  Parsing macros/dbt_date/calendar_date/week_end.sql
+2022-12-14 15:42:51.312753 (Thread-557): 15:42:51  Parsing macros/dbt_date/calendar_date/to_unixtimestamp.sql
+2022-12-14 15:42:51.313330 (Thread-557): 15:42:51  Parsing macros/dbt_date/calendar_date/iso_week_of_year.sql
+2022-12-14 15:42:51.314010 (Thread-557): 15:42:51  Parsing macros/dbt_date/calendar_date/month_name.sql
+2022-12-14 15:42:51.314775 (Thread-557): 15:42:51  Parsing macros/dbt_date/calendar_date/day_name.sql
+2022-12-14 15:42:51.315503 (Thread-557): 15:42:51  Parsing macros/dbt_date/calendar_date/convert_timezones.sql
+2022-12-14 15:42:51.316233 (Thread-557): 15:42:51  Parsing macros/dbt_date/calendar_date/date_part.sql
+2022-12-14 15:42:51.316788 (Thread-557): 15:42:51  Parsing macros/dbt_date/calendar_date/week_of_year.sql
+2022-12-14 15:42:51.317480 (Thread-557): 15:42:51  Parsing macros/dbt_date/calendar_date/iso_week_start.sql
+2022-12-14 15:42:51.318183 (Thread-557): 15:42:51  Parsing macros/dbt_date/calendar_date/from_unixtimestamp.sql
+2022-12-14 15:42:51.319031 (Thread-571): handling status request
+2022-12-14 15:42:51.321284 (Thread-557): 15:42:51  Parsing macros/dbt_date/calendar_date/day_of_week.sql
+2022-12-14 15:42:51.321654 (Thread-571): 15:42:51  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe721bea90>]}
+2022-12-14 15:42:51.322710 (Thread-557): 15:42:51  Parsing macros/dbt_date/calendar_date/week_start.sql
+2022-12-14 15:42:51.323193 (Thread-571): sending response (<Response 163 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:42:51.324119 (Thread-557): 15:42:51  Parsing macros/dbt_audit_helper/compare_queries.sql
+2022-12-14 15:42:51.326118 (Thread-557): 15:42:51  Parsing macros/dbt_audit_helper/compare_relation_columns.sql
+2022-12-14 15:42:51.327931 (Thread-557): 15:42:51  Parsing macros/dbt_audit_helper/compare_column_values.sql
+2022-12-14 15:42:51.332620 (Thread-557): 15:42:51  Parsing macros/dbt_audit_helper/compare_relations.sql
+2022-12-14 15:42:51.334610 (Thread-557): 15:42:51  Parsing macros/sql/pivot.sql
+2022-12-14 15:42:51.338637 (Thread-557): 15:42:51  Parsing macros/sql/star.sql
+2022-12-14 15:42:51.344006 (Thread-557): 15:42:51  Parsing macros/sql/get_table_types_sql.sql
+2022-12-14 15:42:51.345584 (Thread-557): 15:42:51  Parsing macros/sql/generate_surrogate_key.sql
+2022-12-14 15:42:51.348107 (Thread-557): 15:42:51  Parsing macros/sql/deduplicate.sql
+2022-12-14 15:42:51.351945 (Thread-557): 15:42:51  Parsing macros/sql/surrogate_key.sql
+2022-12-14 15:42:51.353426 (Thread-557): 15:42:51  Parsing macros/sql/get_query_results_as_dict.sql
+2022-12-14 15:42:51.355692 (Thread-557): 15:42:51  Parsing macros/sql/date_spine.sql
+2022-12-14 15:42:51.359735 (Thread-557): 15:42:51  Parsing macros/sql/get_column_values.sql
+2022-12-14 15:42:51.365083 (Thread-557): 15:42:51  Parsing macros/sql/groupby.sql
+2022-12-14 15:42:51.366456 (Thread-557): 15:42:51  Parsing macros/sql/get_tables_by_pattern_sql.sql
+2022-12-14 15:42:51.372947 (Thread-557): 15:42:51  Parsing macros/sql/nullcheck_table.sql
+2022-12-14 15:42:51.374545 (Thread-557): 15:42:51  Parsing macros/sql/get_tables_by_prefix_sql.sql
+2022-12-14 15:42:51.376160 (Thread-557): 15:42:51  Parsing macros/sql/safe_divide.sql
+2022-12-14 15:42:51.377240 (Thread-557): 15:42:51  Parsing macros/sql/get_relations_by_pattern.sql
+2022-12-14 15:42:51.380513 (Thread-557): 15:42:51  Parsing macros/sql/get_relations_by_prefix.sql
+2022-12-14 15:42:51.384073 (Thread-557): 15:42:51  Parsing macros/sql/safe_add.sql
+2022-12-14 15:42:51.386232 (Thread-557): 15:42:51  Parsing macros/sql/haversine_distance.sql
+2022-12-14 15:42:51.386808 (Thread-572): handling status request
+2022-12-14 15:42:51.393122 (Thread-557): 15:42:51  Parsing macros/sql/unpivot.sql
+2022-12-14 15:42:51.393499 (Thread-572): 15:42:51  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe77170d60>]}
+2022-12-14 15:42:51.399431 (Thread-557): 15:42:51  Parsing macros/sql/generate_series.sql
+2022-12-14 15:42:51.399921 (Thread-572): sending response (<Response 163 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:42:51.404148 (Thread-557): 15:42:51  Parsing macros/sql/get_single_value.sql
+2022-12-14 15:42:51.407427 (Thread-557): 15:42:51  Parsing macros/sql/width_bucket.sql
+2022-12-14 15:42:51.412360 (Thread-557): 15:42:51  Parsing macros/sql/nullcheck.sql
+2022-12-14 15:42:51.414088 (Thread-557): 15:42:51  Parsing macros/sql/union.sql
+2022-12-14 15:42:51.426721 (Thread-557): 15:42:51  Parsing macros/sql/get_filtered_columns_in_relation.sql
+2022-12-14 15:42:51.429530 (Thread-557): 15:42:51  Parsing macros/jinja_helpers/pretty_time.sql
+2022-12-14 15:42:51.430863 (Thread-557): 15:42:51  Parsing macros/jinja_helpers/_is_relation.sql
+2022-12-14 15:42:51.432018 (Thread-557): 15:42:51  Parsing macros/jinja_helpers/slugify.sql
+2022-12-14 15:42:51.433541 (Thread-557): 15:42:51  Parsing macros/jinja_helpers/_is_ephemeral.sql
+2022-12-14 15:42:51.435494 (Thread-557): 15:42:51  Parsing macros/jinja_helpers/log_info.sql
+2022-12-14 15:42:51.436636 (Thread-557): 15:42:51  Parsing macros/jinja_helpers/pretty_log_format.sql
+2022-12-14 15:42:51.437760 (Thread-557): 15:42:51  Parsing macros/web/get_url_parameter.sql
+2022-12-14 15:42:51.439349 (Thread-557): 15:42:51  Parsing macros/web/get_url_path.sql
+2022-12-14 15:42:51.441805 (Thread-557): 15:42:51  Parsing macros/web/get_url_host.sql
+2022-12-14 15:42:51.443739 (Thread-557): 15:42:51  Parsing macros/generic_tests/expression_is_true.sql
+2022-12-14 15:42:51.445759 (Thread-557): 15:42:51  Parsing macros/generic_tests/not_constant.sql
+2022-12-14 15:42:51.447898 (Thread-557): 15:42:51  Parsing macros/generic_tests/sequential_values.sql
+2022-12-14 15:42:51.451665 (Thread-557): 15:42:51  Parsing macros/generic_tests/not_null_proportion.sql
+2022-12-14 15:42:51.454819 (Thread-557): 15:42:51  Parsing macros/generic_tests/at_least_one.sql
+2022-12-14 15:42:51.456933 (Thread-557): 15:42:51  Parsing macros/generic_tests/equality.sql
+2022-12-14 15:42:51.460503 (Thread-557): 15:42:51  Parsing macros/generic_tests/equal_rowcount.sql
+2022-12-14 15:42:51.464655 (Thread-557): 15:42:51  Parsing macros/generic_tests/not_accepted_values.sql
+2022-12-14 15:42:51.465517 (Thread-573): handling status request
+2022-12-14 15:42:51.467754 (Thread-557): 15:42:51  Parsing macros/generic_tests/mutually_exclusive_ranges.sql
+2022-12-14 15:42:51.468115 (Thread-573): 15:42:51  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe74883e50>]}
+2022-12-14 15:42:51.477182 (Thread-557): 15:42:51  Parsing macros/generic_tests/relationships_where.sql
+2022-12-14 15:42:51.477741 (Thread-573): sending response (<Response 163 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:42:51.480023 (Thread-557): 15:42:51  Parsing macros/generic_tests/not_empty_string.sql
+2022-12-14 15:42:51.482304 (Thread-557): 15:42:51  Parsing macros/generic_tests/accepted_range.sql
+2022-12-14 15:42:51.484742 (Thread-557): 15:42:51  Parsing macros/generic_tests/fewer_rows_than.sql
+2022-12-14 15:42:51.489040 (Thread-557): 15:42:51  Parsing macros/generic_tests/unique_combination_of_columns.sql
+2022-12-14 15:42:51.491845 (Thread-557): 15:42:51  Parsing macros/generic_tests/recency.sql
+2022-12-14 15:42:51.495247 (Thread-557): 15:42:51  Parsing macros/generic_tests/cardinality_equality.sql
+2022-12-14 15:42:51.557294 (Thread-574): handling status request
+2022-12-14 15:42:51.573047 (Thread-574): 15:42:51  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe7c047040>]}
+2022-12-14 15:42:51.970918 (Thread-574): sending response (<Response 163 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:42:51.971432 (Thread-557): 15:42:51  1699: static parser successfully parsed inter/d_team.sql
+2022-12-14 15:42:51.974933 (Thread-557): 15:42:51  1699: static parser successfully parsed inter/d_league.sql
+2022-12-14 15:42:51.977529 (Thread-557): 15:42:51  1603: static parser failed on inter/f_results_match.sql
+2022-12-14 15:42:51.984171 (Thread-557): 15:42:51  1602: parser fallback to jinja rendering on inter/f_results_match.sql
+2022-12-14 15:42:51.985671 (Thread-557): 15:42:51  1603: static parser failed on inter/d_calendar.sql
+2022-12-14 15:42:51.990913 (Thread-557): 15:42:51  1602: parser fallback to jinja rendering on inter/d_calendar.sql
+2022-12-14 15:42:51.992457 (Thread-557): 15:42:51  1699: static parser successfully parsed inter/f_results_team.sql
+2022-12-14 15:42:51.995241 (Thread-557): 15:42:51  1699: static parser successfully parsed staging/f_results_team_stg.sql
+2022-12-14 15:42:51.998273 (Thread-557): 15:42:51  1699: static parser successfully parsed staging/f_results_match_stg.sql
+2022-12-14 15:42:52.001040 (Thread-557): 15:42:52  1699: static parser successfully parsed staging/results_england_stg.sql
+2022-12-14 15:42:52.004103 (Thread-557): 15:42:52  1699: static parser successfully parsed staging/results_france_stg.sql
+2022-12-14 15:42:52.006814 (Thread-557): 15:42:52  1699: static parser successfully parsed staging/d_season_stg.sql
+2022-12-14 15:42:52.009522 (Thread-557): 15:42:52  1699: static parser successfully parsed staging/results_spain_stg.sql
+2022-12-14 15:42:52.012294 (Thread-557): 15:42:52  1699: static parser successfully parsed staging/results_italy_stg.sql
+2022-12-14 15:42:52.015011 (Thread-557): 15:42:52  1699: static parser successfully parsed staging/results_germany_stg.sql
+2022-12-14 15:42:52.017840 (Thread-557): 15:42:52  1603: static parser failed on marts/f_results_england.sql
+2022-12-14 15:42:52.023744 (Thread-557): 15:42:52  1602: parser fallback to jinja rendering on marts/f_results_england.sql
+2022-12-14 15:42:52.025368 (Thread-557): 15:42:52  1603: static parser failed on marts/f_results_team_m.sql
+2022-12-14 15:42:52.030568 (Thread-557): 15:42:52  1602: parser fallback to jinja rendering on marts/f_results_team_m.sql
+2022-12-14 15:42:52.032051 (Thread-557): 15:42:52  1699: static parser successfully parsed land/land_england_2019_2022.sql
+2022-12-14 15:42:52.036421 (Thread-557): 15:42:52  1699: static parser successfully parsed land/land_france_2019_2022.sql
+2022-12-14 15:42:52.039064 (Thread-557): 15:42:52  1699: static parser successfully parsed land/land_spain_2019_2022.sql
+2022-12-14 15:42:52.039597 (Thread-575): handling status request
+2022-12-14 15:42:52.042226 (Thread-557): 15:42:52  1699: static parser successfully parsed land/land_italy_2019_2022.sql
+2022-12-14 15:42:52.042603 (Thread-575): 15:42:52  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe8d9a1460>]}
+2022-12-14 15:42:52.045170 (Thread-557): 15:42:52  1699: static parser successfully parsed land/land_germany_2019_2022.sql
+2022-12-14 15:42:52.045648 (Thread-575): sending response (<Response 163 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:42:52.125551 (Thread-557): 15:42:52  Test 'test.billong.not_null_f_results_match_match_key.f825f17928' (models/inter/inter.yml) depends on a node named 'f_results_match' which is disabled
+2022-12-14 15:42:52.126369 (Thread-576): handling status request
+2022-12-14 15:42:52.137260 (Thread-577): handling status request
+2022-12-14 15:42:52.147930 (Thread-576): 15:42:52  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe861a7160>]}
+2022-12-14 15:42:52.154843 (Thread-577): 15:42:52  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe92860490>]}
+2022-12-14 15:42:52.155347 (Thread-576): sending response (<Response 163 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:42:52.155810 (Thread-577): sending response (<Response 180 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:42:52.201734 (Thread-557): 15:42:52  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe83a00100>]}
+2022-12-14 15:42:52.211444 (Thread-578): handling status request
+2022-12-14 15:42:52.211809 (Thread-578): 15:42:52  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe9294d730>]}
+2022-12-14 15:42:52.214357 (Thread-578): sending response (<Response 70309 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:42:52.220345 (Thread-579): handling list request
+2022-12-14 15:42:52.220648 (Thread-579): 15:42:52  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe9294d5b0>]}
+2022-12-14 15:42:52.259825 (Thread-579): 15:42:52  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe9294db80>]}
+2022-12-14 15:42:52.260394 (Thread-579): 15:42:52  Found 16 models, 4 tests, 0 snapshots, 0 analyses, 496 macros, 0 operations, 0 seed files, 13 sources, 0 exposures, 0 metrics
+2022-12-14 15:42:52.260680 (Thread-579): 15:42:52  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe7208dcd0>]}
+2022-12-14 15:42:52.265037 (Thread-579): sending response (<Response 15008 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:42:52.971378 (Thread-580): handling status request
+2022-12-14 15:42:52.971784 (Thread-580): 15:42:52  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe838bfee0>]}
+2022-12-14 15:42:52.974181 (Thread-580): sending response (<Response 70326 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:42:55.096008 (Thread-581): handling cli_args request
+2022-12-14 15:42:55.096414 (Thread-581): 15:42:55  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe838bf7f0>]}
+2022-12-14 15:42:57.773793 (Thread-581): sending response (<Response 133 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:42:57.861789 (MainThread): 15:42:57  Unable to do partial parsing because config vars, config profile, or config target have changed
+2022-12-14 15:42:57.862247 (MainThread): 15:42:57  Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'f3161013-812a-4e87-a6cc-5f8059a4e1d9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcfc63e5610>]}
+2022-12-14 15:42:58.208724 (Thread-582): handling ps request
+2022-12-14 15:42:58.209258 (Thread-582): 15:42:58  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe900891f0>]}
+2022-12-14 15:42:58.211246 (Thread-582): sending response (<Response 10199 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:42:58.256748 (MainThread): 15:42:58  Parsing macros/get_custom_schema.sql
+2022-12-14 15:42:58.257930 (MainThread): 15:42:58  Parsing macros/create_stmt_fromfile.sql
+2022-12-14 15:42:58.258448 (MainThread): 15:42:58  Parsing macros/star_custom.sql
+2022-12-14 15:42:58.261979 (MainThread): 15:42:58  Parsing macros/star_cast.sql
+2022-12-14 15:42:58.265321 (MainThread): 15:42:58  Parsing macros/test_unique_where_concat.sql
+2022-12-14 15:42:58.266763 (MainThread): 15:42:58  Parsing macros/create_initial_tables.sql
+2022-12-14 15:42:58.267569 (MainThread): 15:42:58  Parsing macros/create_stored_procedures.sql
+2022-12-14 15:42:58.267931 (MainThread): 15:42:58  Parsing macros/create_udfs.sql
+2022-12-14 15:42:58.269370 (MainThread): 15:42:58  Parsing macros/procedure_definition_materialization.sql
+2022-12-14 15:42:58.271937 (MainThread): 15:42:58  Parsing macros/table_insert_only_materialization.sql
+2022-12-14 15:42:58.274222 (MainThread): 15:42:58  Parsing macros/sql_functions/column_trim_clean_nonprintable_char.sql
+2022-12-14 15:42:58.274775 (MainThread): 15:42:58  Parsing macros/table/create_table_store_store_test2.sql
+2022-12-14 15:42:58.309857 (Thread-583): handling poll request
+2022-12-14 15:42:58.310246 (Thread-583): 15:42:58  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe838bf790>]}
+2022-12-14 15:42:58.310980 (Thread-583): sending response (<Response 4665 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:42:58.278899 (MainThread): 15:42:58  Parsing macros/table/create_table_store_store_test3.sql
+2022-12-14 15:42:58.283075 (MainThread): 15:42:58  Parsing macros/mapping/birthdate.sql
+2022-12-14 15:42:58.283853 (MainThread): 15:42:58  Parsing macros/variables/get_variable_list.sql
+2022-12-14 15:42:58.285858 (MainThread): 15:42:58  Parsing macros/variables/input_variables_list.sql
+2022-12-14 15:42:58.287471 (MainThread): 15:42:58  Parsing macros/materialization/print_list_item.sql
+2022-12-14 15:42:58.288864 (MainThread): 15:42:58  Parsing macros/materialization/hash_columns.sql
+2022-12-14 15:42:58.289587 (MainThread): 15:42:58  Parsing macros/materialization/print_concat_columns.sql
+2022-12-14 15:42:58.291255 (MainThread): 15:42:58  Parsing macros/materialization/print_columns_dict.sql
+2022-12-14 15:42:58.292338 (MainThread): 15:42:58  Parsing macros/materialization/insert_only_engine.sql
+2022-12-14 15:42:58.295556 (MainThread): 15:42:58  Parsing macros/materialization/print_columns.sql
+2022-12-14 15:42:58.296755 (MainThread): 15:42:58  Parsing macros/udf/dbo_ConvertFirstLetterinCapital.sql
+2022-12-14 15:42:58.297282 (MainThread): 15:42:58  Parsing macros/udf/udf_dbo_JaccDistance.sql
+2022-12-14 15:42:58.297671 (MainThread): 15:42:58  Parsing macros/udf/udf_dbo_LevDistance.sql
+2022-12-14 15:42:58.298138 (MainThread): 15:42:58  Parsing macros/udf/dbo_DelimitedSplit8K.sql
+2022-12-14 15:42:58.298753 (MainThread): 15:42:58  Parsing macros/udf/dbo_udfGetOnlyNumeric.sql
+2022-12-14 15:42:58.299182 (MainThread): 15:42:58  Parsing macros/udf/udf_dbo_JaroDistance.sql
+2022-12-14 15:42:58.299565 (MainThread): 15:42:58  Parsing macros/udf/udf_dbo_LongestDistance.sql
+2022-12-14 15:42:58.299950 (MainThread): 15:42:58  Parsing macros/udf/udf_dbo_Similarity.sql
+2022-12-14 15:42:58.300362 (MainThread): 15:42:58  Parsing macros/apply_grants.sql
+2022-12-14 15:42:58.301339 (MainThread): 15:42:58  Parsing macros/catalog.sql
+2022-12-14 15:42:58.303103 (MainThread): 15:42:58  Parsing macros/adapters.sql
+2022-12-14 15:42:58.343014 (MainThread): 15:42:58  Parsing macros/materializations/seed.sql
+2022-12-14 15:42:58.348816 (MainThread): 15:42:58  Parsing macros/materializations/incremental.sql
+2022-12-14 15:42:58.359058 (MainThread): 15:42:58  Parsing macros/materializations/test.sql
+2022-12-14 15:42:58.360103 (MainThread): 15:42:58  Parsing macros/materializations/snapshot.sql
+2022-12-14 15:42:58.361017 (MainThread): 15:42:58  Parsing macros/materializations/merge.sql
+2022-12-14 15:42:58.364641 (MainThread): 15:42:58  Parsing macros/materializations/table.sql
+2022-12-14 15:42:58.370108 (MainThread): 15:42:58  Parsing macros/materializations/view.sql
+2022-12-14 15:42:58.371451 (MainThread): 15:42:58  Parsing macros/utils/escape_single_quotes.sql
+2022-12-14 15:42:58.372007 (MainThread): 15:42:58  Parsing macros/utils/safe_cast.sql
+2022-12-14 15:42:58.372504 (MainThread): 15:42:58  Parsing macros/utils/array_construct.sql
+2022-12-14 15:42:58.373030 (MainThread): 15:42:58  Parsing macros/utils/timestamps.sql
+2022-12-14 15:42:58.474506 (Thread-584): handling status request
+2022-12-14 15:42:58.474976 (Thread-584): 15:42:58  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe929f5af0>]}
+2022-12-14 15:42:58.478573 (Thread-584): sending response (<Response 70326 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:42:58.374952 (MainThread): 15:42:58  Parsing macros/utils/right.sql
+2022-12-14 15:42:58.375669 (MainThread): 15:42:58  Parsing macros/utils/bool_or.sql
+2022-12-14 15:42:58.376125 (MainThread): 15:42:58  Parsing macros/etc/statement.sql
+2022-12-14 15:42:58.381346 (MainThread): 15:42:58  Parsing macros/etc/datetime.sql
+2022-12-14 15:42:58.389342 (MainThread): 15:42:58  Parsing macros/adapters/apply_grants.sql
+2022-12-14 15:42:58.403100 (MainThread): 15:42:58  Parsing macros/adapters/freshness.sql
+2022-12-14 15:42:58.405048 (MainThread): 15:42:58  Parsing macros/adapters/columns.sql
+2022-12-14 15:42:58.414461 (MainThread): 15:42:58  Parsing macros/adapters/timestamps.sql
+2022-12-14 15:42:58.417892 (MainThread): 15:42:58  Parsing macros/adapters/relation.sql
+2022-12-14 15:42:58.432409 (MainThread): 15:42:58  Parsing macros/adapters/schema.sql
+2022-12-14 15:42:58.434604 (MainThread): 15:42:58  Parsing macros/adapters/persist_docs.sql
+2022-12-14 15:42:58.439306 (MainThread): 15:42:58  Parsing macros/adapters/metadata.sql
+2022-12-14 15:42:58.446423 (MainThread): 15:42:58  Parsing macros/adapters/indexes.sql
+2022-12-14 15:42:58.449232 (MainThread): 15:42:58  Parsing macros/get_custom_name/get_custom_database.sql
+2022-12-14 15:42:58.450792 (MainThread): 15:42:58  Parsing macros/get_custom_name/get_custom_schema.sql
+2022-12-14 15:42:58.554012 (Thread-585): handling ps request
+2022-12-14 15:42:58.554441 (Thread-585): 15:42:58  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe900bd5e0>]}
+2022-12-14 15:42:58.555559 (Thread-585): sending response (<Response 10199 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:42:58.453122 (MainThread): 15:42:58  Parsing macros/get_custom_name/get_custom_alias.sql
+2022-12-14 15:42:58.454726 (MainThread): 15:42:58  Parsing macros/python_model/python.sql
+2022-12-14 15:42:58.460739 (MainThread): 15:42:58  Parsing macros/materializations/hooks.sql
+2022-12-14 15:42:58.464643 (MainThread): 15:42:58  Parsing macros/materializations/configs.sql
+2022-12-14 15:42:58.467059 (MainThread): 15:42:58  Parsing macros/materializations/seeds/seed.sql
+2022-12-14 15:42:58.473963 (MainThread): 15:42:58  Parsing macros/materializations/seeds/helpers.sql
+2022-12-14 15:42:58.492032 (MainThread): 15:42:58  Parsing macros/materializations/tests/test.sql
+2022-12-14 15:42:58.496613 (MainThread): 15:42:58  Parsing macros/materializations/tests/helpers.sql
+2022-12-14 15:42:58.498357 (MainThread): 15:42:58  Parsing macros/materializations/tests/where_subquery.sql
+2022-12-14 15:42:58.500106 (MainThread): 15:42:58  Parsing macros/materializations/models/view/helpers.sql
+2022-12-14 15:42:58.501504 (MainThread): 15:42:58  Parsing macros/materializations/models/view/create_or_replace_view.sql
+2022-12-14 15:42:58.504643 (MainThread): 15:42:58  Parsing macros/materializations/models/view/create_view_as.sql
+2022-12-14 15:42:58.507048 (MainThread): 15:42:58  Parsing macros/materializations/models/view/view.sql
+2022-12-14 15:42:58.512348 (MainThread): 15:42:58  Parsing macros/materializations/models/incremental/strategies.sql
+2022-12-14 15:42:58.519144 (MainThread): 15:42:58  Parsing macros/materializations/models/incremental/column_helpers.sql
+2022-12-14 15:42:58.527019 (MainThread): 15:42:58  Parsing macros/materializations/models/incremental/incremental.sql
+2022-12-14 15:42:58.536929 (MainThread): 15:42:58  Parsing macros/materializations/models/incremental/on_schema_change.sql
+2022-12-14 15:42:58.552866 (MainThread): 15:42:58  Parsing macros/materializations/models/incremental/is_incremental.sql
+2022-12-14 15:42:58.554389 (MainThread): 15:42:58  Parsing macros/materializations/models/incremental/merge.sql
+2022-12-14 15:42:58.569137 (MainThread): 15:42:58  Parsing macros/materializations/models/table/create_table_as.sql
+2022-12-14 15:42:58.572586 (MainThread): 15:42:58  Parsing macros/materializations/models/table/table.sql
+2022-12-14 15:42:58.578263 (MainThread): 15:42:58  Parsing macros/materializations/snapshots/strategies.sql
+2022-12-14 15:42:58.593918 (MainThread): 15:42:58  Parsing macros/materializations/snapshots/snapshot_merge.sql
+2022-12-14 15:42:58.595572 (MainThread): 15:42:58  Parsing macros/materializations/snapshots/snapshot.sql
+2022-12-14 15:42:58.606578 (MainThread): 15:42:58  Parsing macros/materializations/snapshots/helpers.sql
+2022-12-14 15:42:58.618988 (MainThread): 15:42:58  Parsing macros/generic_test_sql/not_null.sql
+2022-12-14 15:42:58.619916 (MainThread): 15:42:58  Parsing macros/generic_test_sql/relationships.sql
+2022-12-14 15:42:58.620747 (MainThread): 15:42:58  Parsing macros/generic_test_sql/unique.sql
+2022-12-14 15:42:58.621398 (MainThread): 15:42:58  Parsing macros/generic_test_sql/accepted_values.sql
+2022-12-14 15:42:58.622720 (MainThread): 15:42:58  Parsing macros/utils/intersect.sql
+2022-12-14 15:42:58.623542 (MainThread): 15:42:58  Parsing macros/utils/position.sql
+2022-12-14 15:42:58.624590 (MainThread): 15:42:58  Parsing macros/utils/escape_single_quotes.sql
+2022-12-14 15:42:58.625709 (MainThread): 15:42:58  Parsing macros/utils/safe_cast.sql
+2022-12-14 15:42:58.627000 (MainThread): 15:42:58  Parsing macros/utils/array_construct.sql
+2022-12-14 15:42:58.628509 (MainThread): 15:42:58  Parsing macros/utils/cast_bool_to_text.sql
+2022-12-14 15:42:58.629540 (MainThread): 15:42:58  Parsing macros/utils/datediff.sql
+2022-12-14 15:42:58.630868 (MainThread): 15:42:58  Parsing macros/utils/concat.sql
+2022-12-14 15:42:58.631826 (MainThread): 15:42:58  Parsing macros/utils/length.sql
+2022-12-14 15:42:58.632744 (MainThread): 15:42:58  Parsing macros/utils/any_value.sql
+2022-12-14 15:42:58.633652 (MainThread): 15:42:58  Parsing macros/utils/data_types.sql
+2022-12-14 15:42:58.640568 (MainThread): 15:42:58  Parsing macros/utils/array_concat.sql
+2022-12-14 15:42:58.641641 (MainThread): 15:42:58  Parsing macros/utils/right.sql
+2022-12-14 15:42:58.642750 (MainThread): 15:42:58  Parsing macros/utils/array_append.sql
+2022-12-14 15:42:58.643800 (MainThread): 15:42:58  Parsing macros/utils/last_day.sql
+2022-12-14 15:42:58.645670 (MainThread): 15:42:58  Parsing macros/utils/split_part.sql
+2022-12-14 15:42:58.647667 (MainThread): 15:42:58  Parsing macros/utils/date_trunc.sql
+2022-12-14 15:42:58.648694 (MainThread): 15:42:58  Parsing macros/utils/literal.sql
+2022-12-14 15:42:58.649590 (MainThread): 15:42:58  Parsing macros/utils/hash.sql
+2022-12-14 15:42:58.650979 (MainThread): 15:42:58  Parsing macros/utils/except.sql
+2022-12-14 15:42:58.651793 (MainThread): 15:42:58  Parsing macros/utils/bool_or.sql
+2022-12-14 15:42:58.652699 (MainThread): 15:42:58  Parsing macros/utils/replace.sql
+2022-12-14 15:42:58.653891 (MainThread): 15:42:58  Parsing macros/utils/dateadd.sql
+2022-12-14 15:42:58.655137 (MainThread): 15:42:58  Parsing macros/utils/listagg.sql
+2022-12-14 15:42:58.657433 (MainThread): 15:42:58  Parsing tests/generic/builtin.sql
+2022-12-14 15:42:58.660329 (MainThread): 15:42:58  Parsing macros/materializations/insert_by_period_helpers.sql
+2022-12-14 15:42:58.684864 (MainThread): 15:42:58  Parsing macros/materializations/insert_by_period_materialization.sql
+2022-12-14 15:42:58.705692 (MainThread): 15:42:58  Parsing macros/dbt_expectations/math/log_natural.sql
+2022-12-14 15:42:58.706266 (MainThread): 15:42:58  Parsing macros/dbt_expectations/schema_tests/table_shape/expect_grouped_row_values_to_have_recent_data.sql
+2022-12-14 15:42:58.709361 (MainThread): 15:42:58  Parsing macros/dbt_expectations/schema_tests/multi-column/expect_select_column_values_to_be_unique_within_record.sql
+2022-12-14 15:42:58.714373 (MainThread): 15:42:58  Parsing macros/dbt_expectations/schema_tests/_generalized/expression_is_true.sql
+2022-12-14 15:42:58.716809 (MainThread): 15:42:58  Parsing macros/dbt_expectations/schema_tests/_generalized/equal_expression.sql
+2022-12-14 15:42:58.725052 (MainThread): 15:42:58  Parsing macros/dbt_expectations/schema_tests/distributional/expect_column_values_to_be_within_n_stdevs.sql
+2022-12-14 15:42:58.727217 (MainThread): 15:42:58  Parsing macros/dbt_expectations/schema_tests/distributional/expect_column_values_to_be_within_n_moving_stdevs.sql
+2022-12-14 15:42:58.734182 (MainThread): 15:42:58  Parsing macros/dbt_expectations/schema_tests/aggregate_functions/expect_column_stdev_to_be_between.sql
+2022-12-14 15:42:58.735683 (MainThread): 15:42:58  Parsing macros/dbt_expectations/schema_tests/aggregate_functions/expect_column_most_common_value_to_be_in_set.sql
+2022-12-14 15:42:58.739034 (MainThread): 15:42:58  Parsing macros/dbt_utils/sql/deduplicate.sql
+2022-12-14 15:42:58.739682 (MainThread): 15:42:58  Parsing macros/dbt_utils/sql/surrogate_key.sql
+2022-12-14 15:42:58.743402 (MainThread): 15:42:58  Parsing macros/dbt_utils/sql/get_tables_by_pattern_sql.sql
+2022-12-14 15:42:58.744221 (MainThread): 15:42:58  Parsing macros/dbt_utils/sql/generate_series.sql
+2022-12-14 15:42:58.745876 (MainThread): 15:42:58  Parsing macros/dbt_utils/schema_cleanup/drop_old_relations.sql
+2022-12-14 15:42:58.751306 (MainThread): 15:42:58  Parsing macros/dbt_utils/schema_cleanup/drop_schemas_by_prefixes.sql
+2022-12-14 15:42:58.753872 (MainThread): 15:42:58  Parsing macros/dbt_utils/schema_cleanup/drop_schema_by_name.sql
+2022-12-14 15:42:58.754679 (MainThread): 15:42:58  Parsing macros/dbt_utils/datetime/date_spine.sql
+2022-12-14 15:42:58.757761 (MainThread): 15:42:58  Parsing macros/dbt_utils/schema_tests/sequential_values.sql
+2022-12-14 15:42:58.759575 (MainThread): 15:42:58  Parsing macros/dbt_utils/schema_tests/test_not_null_where.sql
+2022-12-14 15:42:58.760852 (MainThread): 15:42:58  Parsing macros/dbt_utils/schema_tests/test_unique_where.sql
+2022-12-14 15:42:58.762108 (MainThread): 15:42:58  Parsing macros/dbt_utils/schema_tests/mutually_exclusive_ranges.sql
+2022-12-14 15:42:58.769803 (MainThread): 15:42:58  Parsing macros/dbt_utils/schema_tests/relationships_where.sql
+2022-12-14 15:42:58.771038 (MainThread): 15:42:58  Parsing macros/dbt_utils/cross_db_utils/width_bucket.sql
+2022-12-14 15:42:58.772919 (MainThread): 15:42:58  Parsing macros/dbt_date/calendar_date/week_end.sql
+2022-12-14 15:42:58.773583 (MainThread): 15:42:58  Parsing macros/dbt_date/calendar_date/to_unixtimestamp.sql
+2022-12-14 15:42:58.774017 (MainThread): 15:42:58  Parsing macros/dbt_date/calendar_date/iso_week_of_year.sql
+2022-12-14 15:42:58.774776 (MainThread): 15:42:58  Parsing macros/dbt_date/calendar_date/month_name.sql
+2022-12-14 15:42:58.775464 (MainThread): 15:42:58  Parsing macros/dbt_date/calendar_date/day_name.sql
+2022-12-14 15:42:58.776144 (MainThread): 15:42:58  Parsing macros/dbt_date/calendar_date/convert_timezones.sql
+2022-12-14 15:42:58.776826 (MainThread): 15:42:58  Parsing macros/dbt_date/calendar_date/date_part.sql
+2022-12-14 15:42:58.777327 (MainThread): 15:42:58  Parsing macros/dbt_date/calendar_date/week_of_year.sql
+2022-12-14 15:42:58.777954 (MainThread): 15:42:58  Parsing macros/dbt_date/calendar_date/iso_week_start.sql
+2022-12-14 15:42:58.778425 (MainThread): 15:42:58  Parsing macros/dbt_date/calendar_date/from_unixtimestamp.sql
+2022-12-14 15:42:58.780762 (MainThread): 15:42:58  Parsing macros/dbt_date/calendar_date/day_of_week.sql
+2022-12-14 15:42:58.781718 (MainThread): 15:42:58  Parsing macros/dbt_date/calendar_date/week_start.sql
+2022-12-14 15:42:58.782562 (MainThread): 15:42:58  Parsing macros/dbt_audit_helper/compare_queries.sql
+2022-12-14 15:42:58.784132 (MainThread): 15:42:58  Parsing macros/dbt_audit_helper/compare_relation_columns.sql
+2022-12-14 15:42:58.785922 (MainThread): 15:42:58  Parsing macros/dbt_audit_helper/compare_column_values.sql
+2022-12-14 15:42:58.790586 (MainThread): 15:42:58  Parsing macros/dbt_audit_helper/compare_relations.sql
+2022-12-14 15:42:58.792483 (MainThread): 15:42:58  Parsing macros/sql/pivot.sql
+2022-12-14 15:42:58.796432 (MainThread): 15:42:58  Parsing macros/sql/star.sql
+2022-12-14 15:42:58.801915 (MainThread): 15:42:58  Parsing macros/sql/get_table_types_sql.sql
+2022-12-14 15:42:58.803446 (MainThread): 15:42:58  Parsing macros/sql/generate_surrogate_key.sql
+2022-12-14 15:42:58.805957 (MainThread): 15:42:58  Parsing macros/sql/deduplicate.sql
+2022-12-14 15:42:58.809501 (MainThread): 15:42:58  Parsing macros/sql/surrogate_key.sql
+2022-12-14 15:42:58.811082 (MainThread): 15:42:58  Parsing macros/sql/get_query_results_as_dict.sql
+2022-12-14 15:42:58.813279 (MainThread): 15:42:58  Parsing macros/sql/date_spine.sql
+2022-12-14 15:42:58.817366 (MainThread): 15:42:58  Parsing macros/sql/get_column_values.sql
+2022-12-14 15:42:58.822918 (MainThread): 15:42:58  Parsing macros/sql/groupby.sql
+2022-12-14 15:42:58.824221 (MainThread): 15:42:58  Parsing macros/sql/get_tables_by_pattern_sql.sql
+2022-12-14 15:42:58.830594 (MainThread): 15:42:58  Parsing macros/sql/nullcheck_table.sql
+2022-12-14 15:42:58.832256 (MainThread): 15:42:58  Parsing macros/sql/get_tables_by_prefix_sql.sql
+2022-12-14 15:42:58.833825 (MainThread): 15:42:58  Parsing macros/sql/safe_divide.sql
+2022-12-14 15:42:58.834899 (MainThread): 15:42:58  Parsing macros/sql/get_relations_by_pattern.sql
+2022-12-14 15:42:58.838141 (MainThread): 15:42:58  Parsing macros/sql/get_relations_by_prefix.sql
+2022-12-14 15:42:58.841454 (MainThread): 15:42:58  Parsing macros/sql/safe_add.sql
+2022-12-14 15:42:58.843549 (MainThread): 15:42:58  Parsing macros/sql/haversine_distance.sql
+2022-12-14 15:42:58.849660 (MainThread): 15:42:58  Parsing macros/sql/unpivot.sql
+2022-12-14 15:42:58.855597 (MainThread): 15:42:58  Parsing macros/sql/generate_series.sql
+2022-12-14 15:42:58.859807 (MainThread): 15:42:58  Parsing macros/sql/get_single_value.sql
+2022-12-14 15:42:58.862654 (MainThread): 15:42:58  Parsing macros/sql/width_bucket.sql
+2022-12-14 15:42:58.867569 (MainThread): 15:42:58  Parsing macros/sql/nullcheck.sql
+2022-12-14 15:42:58.869150 (MainThread): 15:42:58  Parsing macros/sql/union.sql
+2022-12-14 15:42:58.950658 (MainThread): 15:42:58  Parsing macros/sql/get_filtered_columns_in_relation.sql
+2022-12-14 15:42:58.953469 (MainThread): 15:42:58  Parsing macros/jinja_helpers/pretty_time.sql
+2022-12-14 15:42:58.954697 (MainThread): 15:42:58  Parsing macros/jinja_helpers/_is_relation.sql
+2022-12-14 15:42:58.955873 (MainThread): 15:42:58  Parsing macros/jinja_helpers/slugify.sql
+2022-12-14 15:42:58.957309 (MainThread): 15:42:58  Parsing macros/jinja_helpers/_is_ephemeral.sql
+2022-12-14 15:42:58.959165 (MainThread): 15:42:58  Parsing macros/jinja_helpers/log_info.sql
+2022-12-14 15:42:58.960347 (MainThread): 15:42:58  Parsing macros/jinja_helpers/pretty_log_format.sql
+2022-12-14 15:42:58.961426 (MainThread): 15:42:58  Parsing macros/web/get_url_parameter.sql
+2022-12-14 15:42:58.962973 (MainThread): 15:42:58  Parsing macros/web/get_url_path.sql
+2022-12-14 15:42:58.965631 (MainThread): 15:42:58  Parsing macros/web/get_url_host.sql
+2022-12-14 15:42:58.967508 (MainThread): 15:42:58  Parsing macros/generic_tests/expression_is_true.sql
+2022-12-14 15:42:58.969264 (MainThread): 15:42:58  Parsing macros/generic_tests/not_constant.sql
+2022-12-14 15:42:58.971422 (MainThread): 15:42:58  Parsing macros/generic_tests/sequential_values.sql
+2022-12-14 15:42:58.975190 (MainThread): 15:42:58  Parsing macros/generic_tests/not_null_proportion.sql
+2022-12-14 15:42:58.978388 (MainThread): 15:42:58  Parsing macros/generic_tests/at_least_one.sql
+2022-12-14 15:42:58.980465 (MainThread): 15:42:58  Parsing macros/generic_tests/equality.sql
+2022-12-14 15:42:58.984053 (MainThread): 15:42:58  Parsing macros/generic_tests/equal_rowcount.sql
+2022-12-14 15:42:58.988344 (MainThread): 15:42:58  Parsing macros/generic_tests/not_accepted_values.sql
+2022-12-14 15:42:58.990365 (MainThread): 15:42:58  Parsing macros/generic_tests/mutually_exclusive_ranges.sql
+2022-12-14 15:42:58.999099 (MainThread): 15:42:58  Parsing macros/generic_tests/relationships_where.sql
+2022-12-14 15:42:59.001429 (MainThread): 15:42:59  Parsing macros/generic_tests/not_empty_string.sql
+2022-12-14 15:42:59.003231 (MainThread): 15:42:59  Parsing macros/generic_tests/accepted_range.sql
+2022-12-14 15:42:59.005524 (MainThread): 15:42:59  Parsing macros/generic_tests/fewer_rows_than.sql
+2022-12-14 15:42:59.010028 (MainThread): 15:42:59  Parsing macros/generic_tests/unique_combination_of_columns.sql
+2022-12-14 15:42:59.012750 (MainThread): 15:42:59  Parsing macros/generic_tests/recency.sql
+2022-12-14 15:42:59.016109 (MainThread): 15:42:59  Parsing macros/generic_tests/cardinality_equality.sql
+2022-12-14 15:42:59.498587 (MainThread): 15:42:59  1699: static parser successfully parsed inter/d_team.sql
+2022-12-14 15:42:59.509934 (MainThread): 15:42:59  1699: static parser successfully parsed inter/d_league.sql
+2022-12-14 15:42:59.512668 (MainThread): 15:42:59  1603: static parser failed on inter/f_results_match.sql
+2022-12-14 15:42:59.518839 (MainThread): 15:42:59  1602: parser fallback to jinja rendering on inter/f_results_match.sql
+2022-12-14 15:42:59.520276 (MainThread): 15:42:59  1603: static parser failed on inter/d_calendar.sql
+2022-12-14 15:42:59.525386 (MainThread): 15:42:59  1602: parser fallback to jinja rendering on inter/d_calendar.sql
+2022-12-14 15:42:59.527073 (MainThread): 15:42:59  1699: static parser successfully parsed inter/f_results_team.sql
+2022-12-14 15:42:59.529817 (MainThread): 15:42:59  1699: static parser successfully parsed staging/f_results_team_stg.sql
+2022-12-14 15:42:59.532983 (MainThread): 15:42:59  1699: static parser successfully parsed staging/f_results_match_stg.sql
+2022-12-14 15:42:59.535884 (MainThread): 15:42:59  1699: static parser successfully parsed staging/results_england_stg.sql
+2022-12-14 15:42:59.538846 (MainThread): 15:42:59  1699: static parser successfully parsed staging/results_france_stg.sql
+2022-12-14 15:42:59.541879 (MainThread): 15:42:59  1699: static parser successfully parsed staging/d_season_stg.sql
+2022-12-14 15:42:59.545525 (MainThread): 15:42:59  1699: static parser successfully parsed staging/results_spain_stg.sql
+2022-12-14 15:42:59.548362 (MainThread): 15:42:59  1699: static parser successfully parsed staging/results_italy_stg.sql
+2022-12-14 15:42:59.551096 (MainThread): 15:42:59  1699: static parser successfully parsed staging/results_germany_stg.sql
+2022-12-14 15:42:59.554011 (MainThread): 15:42:59  1603: static parser failed on marts/f_results_england.sql
+2022-12-14 15:42:59.564091 (MainThread): 15:42:59  1602: parser fallback to jinja rendering on marts/f_results_england.sql
+2022-12-14 15:42:59.565532 (MainThread): 15:42:59  1603: static parser failed on marts/f_results_team_m.sql
+2022-12-14 15:42:59.570728 (MainThread): 15:42:59  1602: parser fallback to jinja rendering on marts/f_results_team_m.sql
+2022-12-14 15:42:59.572473 (MainThread): 15:42:59  1699: static parser successfully parsed land/land_england_2019_2022.sql
+2022-12-14 15:42:59.575180 (MainThread): 15:42:59  1699: static parser successfully parsed land/land_france_2019_2022.sql
+2022-12-14 15:42:59.577931 (MainThread): 15:42:59  1699: static parser successfully parsed land/land_spain_2019_2022.sql
+2022-12-14 15:42:59.580514 (MainThread): 15:42:59  1699: static parser successfully parsed land/land_italy_2019_2022.sql
+2022-12-14 15:42:59.583201 (MainThread): 15:42:59  1699: static parser successfully parsed land/land_germany_2019_2022.sql
+2022-12-14 15:42:59.689001 (MainThread): 15:42:59  Test 'test.billong.not_null_f_results_match_match_key.f825f17928' (models/inter/inter.yml) depends on a node named 'f_results_match' which is disabled
+2022-12-14 15:42:59.769184 (MainThread): 15:42:59  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'f3161013-812a-4e87-a6cc-5f8059a4e1d9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcfc41236a0>]}
+2022-12-14 15:42:59.797603 (MainThread): 15:42:59  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'f3161013-812a-4e87-a6cc-5f8059a4e1d9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcfc63e55e0>]}
+2022-12-14 15:42:59.797938 (MainThread): 15:42:59  Found 16 models, 4 tests, 0 snapshots, 0 analyses, 496 macros, 0 operations, 0 seed files, 13 sources, 0 exposures, 0 metrics
+2022-12-14 15:42:59.798040 (MainThread): 15:42:59  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f3161013-812a-4e87-a6cc-5f8059a4e1d9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcfc6201dc0>]}
+2022-12-14 15:42:59.799890 (MainThread): 15:42:59  
+2022-12-14 15:42:59.800388 (MainThread): 15:42:59  Acquiring new snowflake connection "master"
+2022-12-14 15:42:59.802063 (ThreadPoolExecutor-0_0): 15:42:59  Acquiring new snowflake connection "list_BILLONG"
+2022-12-14 15:42:59.812530 (ThreadPoolExecutor-0_1): 15:42:59  Acquiring new snowflake connection "list_BILLONG"
+2022-12-14 15:42:59.825710 (ThreadPoolExecutor-0_1): 15:42:59  Using snowflake connection "list_BILLONG"
+2022-12-14 15:42:59.825848 (ThreadPoolExecutor-0_1): 15:42:59  On list_BILLONG: /* {"app": "dbt", "dbt_version": "1.3.1", "profile_name": "user", "target_name": "default", "connection_name": "list_BILLONG"} */
+show terse schemas in database BILLONG
+    limit 10000
+2022-12-14 15:42:59.825932 (ThreadPoolExecutor-0_1): 15:42:59  Opening a new connection, currently in state init
+2022-12-14 15:42:59.827495 (ThreadPoolExecutor-0_0): 15:42:59  Using snowflake connection "list_BILLONG"
+2022-12-14 15:42:59.827612 (ThreadPoolExecutor-0_0): 15:42:59  On list_BILLONG: /* {"app": "dbt", "dbt_version": "1.3.1", "profile_name": "user", "target_name": "default", "connection_name": "list_BILLONG"} */
+show terse schemas in database BILLONG
+    limit 10000
+2022-12-14 15:42:59.827688 (ThreadPoolExecutor-0_0): 15:42:59  Opening a new connection, currently in state init
+2022-12-14 15:42:59.828920 (ThreadPoolExecutor-0_2): 15:42:59  Acquiring new snowflake connection "list_BILLONG"
+2022-12-14 15:42:59.831529 (ThreadPoolExecutor-0_2): 15:42:59  Using snowflake connection "list_BILLONG"
+2022-12-14 15:42:59.831634 (ThreadPoolExecutor-0_2): 15:42:59  On list_BILLONG: /* {"app": "dbt", "dbt_version": "1.3.1", "profile_name": "user", "target_name": "default", "connection_name": "list_BILLONG"} */
+show terse schemas in database BILLONG
+    limit 10000
+2022-12-14 15:42:59.831708 (ThreadPoolExecutor-0_2): 15:42:59  Opening a new connection, currently in state init
+2022-12-14 15:42:59.851521 (Thread-586): handling poll request
+2022-12-14 15:42:59.851920 (Thread-586): 15:42:59  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe8605a460>]}
+2022-12-14 15:42:59.854363 (Thread-586): sending response (<Response 72720 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:43:00.695139 (Thread-587): handling ps request
+2022-12-14 15:43:00.695599 (Thread-587): 15:43:00  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe8615b850>]}
+2022-12-14 15:43:00.696779 (Thread-587): sending response (<Response 10199 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:43:01.019103 (Thread-588): handling status request
+2022-12-14 15:43:01.019515 (Thread-588): 15:43:01  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe83963430>]}
+2022-12-14 15:43:01.021731 (Thread-588): sending response (<Response 70326 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:43:01.052165 (ThreadPoolExecutor-0_1): 15:43:01  SQL status: SUCCESS 8 in 1.23 seconds
+2022-12-14 15:43:01.054319 (ThreadPoolExecutor-0_1): 15:43:01  On list_BILLONG: Close
+2022-12-14 15:43:01.085826 (ThreadPoolExecutor-0_0): 15:43:01  SQL status: SUCCESS 8 in 1.26 seconds
+2022-12-14 15:43:01.087386 (ThreadPoolExecutor-0_0): 15:43:01  On list_BILLONG: Close
+2022-12-14 15:43:01.157832 (ThreadPoolExecutor-0_2): 15:43:01  SQL status: SUCCESS 8 in 1.33 seconds
+2022-12-14 15:43:01.159385 (ThreadPoolExecutor-0_2): 15:43:01  On list_BILLONG: Close
+2022-12-14 15:43:01.186842 (Thread-589): handling poll request
+2022-12-14 15:43:01.187239 (Thread-589): 15:43:01  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe83963ca0>]}
+2022-12-14 15:43:01.187787 (Thread-589): sending response (<Response 2074 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:43:01.397965 (ThreadPoolExecutor-4_0): 15:43:01  Acquiring new snowflake connection "list_BILLONG_land"
+2022-12-14 15:43:01.400027 (ThreadPoolExecutor-4_1): 15:43:01  Acquiring new snowflake connection "list_BILLONG_staging"
+2022-12-14 15:43:01.407986 (ThreadPoolExecutor-4_1): 15:43:01  Using snowflake connection "list_BILLONG_staging"
+2022-12-14 15:43:01.408131 (ThreadPoolExecutor-4_1): 15:43:01  On list_BILLONG_staging: /* {"app": "dbt", "dbt_version": "1.3.1", "profile_name": "user", "target_name": "default", "connection_name": "list_BILLONG_staging"} */
+show terse objects in BILLONG.staging
+2022-12-14 15:43:01.408229 (ThreadPoolExecutor-4_1): 15:43:01  Opening a new connection, currently in state closed
+2022-12-14 15:43:01.411775 (ThreadPoolExecutor-4_0): 15:43:01  Using snowflake connection "list_BILLONG_land"
+2022-12-14 15:43:01.411925 (ThreadPoolExecutor-4_0): 15:43:01  On list_BILLONG_land: /* {"app": "dbt", "dbt_version": "1.3.1", "profile_name": "user", "target_name": "default", "connection_name": "list_BILLONG_land"} */
+show terse objects in BILLONG.land
+2022-12-14 15:43:01.412009 (ThreadPoolExecutor-4_0): 15:43:01  Opening a new connection, currently in state closed
+2022-12-14 15:43:01.413209 (ThreadPoolExecutor-4_2): 15:43:01  Acquiring new snowflake connection "list_BILLONG_dbt_mivarsson"
+2022-12-14 15:43:01.416984 (ThreadPoolExecutor-4_2): 15:43:01  Using snowflake connection "list_BILLONG_dbt_mivarsson"
+2022-12-14 15:43:01.417102 (ThreadPoolExecutor-4_2): 15:43:01  On list_BILLONG_dbt_mivarsson: /* {"app": "dbt", "dbt_version": "1.3.1", "profile_name": "user", "target_name": "default", "connection_name": "list_BILLONG_dbt_mivarsson"} */
+show terse objects in BILLONG.dbt_mivarsson
+2022-12-14 15:43:01.417182 (ThreadPoolExecutor-4_2): 15:43:01  Opening a new connection, currently in state closed
+2022-12-14 15:43:02.295644 (ThreadPoolExecutor-4_2): 15:43:02  SQL status: SUCCESS 3 in 0.88 seconds
+2022-12-14 15:43:02.297139 (ThreadPoolExecutor-4_2): 15:43:02  On list_BILLONG_dbt_mivarsson: Close
+2022-12-14 15:43:02.524931 (Thread-590): handling poll request
+2022-12-14 15:43:02.525357 (Thread-590): 15:43:02  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe839632b0>]}
+2022-12-14 15:43:02.525985 (Thread-590): sending response (<Response 5259 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:43:02.563471 (ThreadPoolExecutor-4_0): 15:43:02  SQL status: SUCCESS 5 in 1.15 seconds
+2022-12-14 15:43:02.565040 (ThreadPoolExecutor-4_0): 15:43:02  On list_BILLONG_land: Close
+2022-12-14 15:43:02.683413 (ThreadPoolExecutor-4_1): 15:43:02  SQL status: SUCCESS 8 in 1.28 seconds
+2022-12-14 15:43:02.684937 (ThreadPoolExecutor-4_1): 15:43:02  On list_BILLONG_staging: Close
+2022-12-14 15:43:02.908288 (MainThread): 15:43:02  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f3161013-812a-4e87-a6cc-5f8059a4e1d9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcfc6091f10>]}
+2022-12-14 15:43:02.909081 (MainThread): 15:43:02  Concurrency: 4 threads (target='default')
+2022-12-14 15:43:02.909220 (MainThread): 15:43:02  
+2022-12-14 15:43:02.912011 (Thread-1): 15:43:02  Began running node model.billong.land_england_2019_2022
+2022-12-14 15:43:02.912338 (Thread-1): 15:43:02  1 of 16 START sql view model land.land_england_2019_2022 ....................... [RUN]
+2022-12-14 15:43:02.912777 (Thread-1): 15:43:02  Acquiring new snowflake connection "model.billong.land_england_2019_2022"
+2022-12-14 15:43:02.912890 (Thread-1): 15:43:02  Began compiling node model.billong.land_england_2019_2022
+2022-12-14 15:43:02.913007 (Thread-1): 15:43:02  Compiling model.billong.land_england_2019_2022
+2022-12-14 15:43:02.914134 (Thread-2): 15:43:02  Began running node model.billong.land_france_2019_2022
+2022-12-14 15:43:02.914411 (Thread-2): 15:43:02  2 of 16 START sql view model land.land_france_2019_2022 ........................ [RUN]
+2022-12-14 15:43:02.914839 (Thread-2): 15:43:02  Acquiring new snowflake connection "model.billong.land_france_2019_2022"
+2022-12-14 15:43:02.914940 (Thread-2): 15:43:02  Began compiling node model.billong.land_france_2019_2022
+2022-12-14 15:43:02.915020 (Thread-2): 15:43:02  Compiling model.billong.land_france_2019_2022
+2022-12-14 15:43:02.918516 (Thread-2): 15:43:02  Writing injected SQL for node "model.billong.land_france_2019_2022"
+2022-12-14 15:43:02.918851 (Thread-3): 15:43:02  Began running node model.billong.land_germany_2019_2022
+2022-12-14 15:43:02.919132 (Thread-3): 15:43:02  3 of 16 START sql view model land.land_germany_2019_2022 ....................... [RUN]
+2022-12-14 15:43:02.919536 (Thread-3): 15:43:02  Acquiring new snowflake connection "model.billong.land_germany_2019_2022"
+2022-12-14 15:43:02.919634 (Thread-3): 15:43:02  Began compiling node model.billong.land_germany_2019_2022
+2022-12-14 15:43:02.919714 (Thread-3): 15:43:02  Compiling model.billong.land_germany_2019_2022
+2022-12-14 15:43:02.923160 (Thread-3): 15:43:02  Writing injected SQL for node "model.billong.land_germany_2019_2022"
+2022-12-14 15:43:02.923462 (Thread-4): 15:43:02  Began running node model.billong.land_italy_2019_2022
+2022-12-14 15:43:02.923715 (Thread-4): 15:43:02  4 of 16 START sql view model land.land_italy_2019_2022 ......................... [RUN]
+2022-12-14 15:43:02.924173 (Thread-4): 15:43:02  Acquiring new snowflake connection "model.billong.land_italy_2019_2022"
+2022-12-14 15:43:02.924275 (Thread-4): 15:43:02  Began compiling node model.billong.land_italy_2019_2022
+2022-12-14 15:43:02.924357 (Thread-4): 15:43:02  Compiling model.billong.land_italy_2019_2022
+2022-12-14 15:43:02.927666 (Thread-4): 15:43:02  Writing injected SQL for node "model.billong.land_italy_2019_2022"
+2022-12-14 15:43:02.931531 (Thread-1): 15:43:02  Writing injected SQL for node "model.billong.land_england_2019_2022"
+2022-12-14 15:43:03.030503 (Thread-591): handling ps request
+2022-12-14 15:43:03.030934 (Thread-591): 15:43:03  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe838f4c10>]}
+2022-12-14 15:43:03.032082 (Thread-591): sending response (<Response 10199 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:43:02.937008 (Thread-2): 15:43:02  finished collecting timing info
+2022-12-14 15:43:02.937205 (Thread-2): 15:43:02  Began executing node model.billong.land_france_2019_2022
+2022-12-14 15:43:02.942357 (Thread-3): 15:43:02  finished collecting timing info
+2022-12-14 15:43:02.942530 (Thread-3): 15:43:02  Began executing node model.billong.land_germany_2019_2022
+2022-12-14 15:43:02.952510 (Thread-4): 15:43:02  finished collecting timing info
+2022-12-14 15:43:02.952685 (Thread-4): 15:43:02  Began executing node model.billong.land_italy_2019_2022
+2022-12-14 15:43:03.095543 (Thread-2): 15:43:03  Writing runtime sql for node "model.billong.land_france_2019_2022"
+2022-12-14 15:43:03.095833 (Thread-1): 15:43:03  finished collecting timing info
+2022-12-14 15:43:03.096017 (Thread-1): 15:43:03  Began executing node model.billong.land_england_2019_2022
+2022-12-14 15:43:03.099278 (Thread-1): 15:43:03  Writing runtime sql for node "model.billong.land_england_2019_2022"
+2022-12-14 15:43:03.099946 (Thread-4): 15:43:03  Writing runtime sql for node "model.billong.land_italy_2019_2022"
+2022-12-14 15:43:03.100428 (Thread-3): 15:43:03  Writing runtime sql for node "model.billong.land_germany_2019_2022"
+2022-12-14 15:43:03.116283 (Thread-3): 15:43:03  Using snowflake connection "model.billong.land_germany_2019_2022"
+2022-12-14 15:43:03.116436 (Thread-3): 15:43:03  On model.billong.land_germany_2019_2022: /* {"app": "dbt", "dbt_version": "1.3.1", "profile_name": "user", "target_name": "default", "node_id": "model.billong.land_germany_2019_2022"} */
+create or replace  view BILLONG.land.land_germany_2019_2022
+  
+   as (
+    
+
+    SELECT
+        CONCAT("date","HomeTeam","AwayTeam") AS match_key
+        ,"date"       AS match_date
+        ,"Time"		AS match_time
+        ,CASE   WHEN "date" BETWEEN '2021-08-01' AND '2022-06-01' THEN '2021/2022'
+                WHEN "date" BETWEEN '2020-08-01' AND '2021-06-01' THEN '2020/2021'
+                WHEN "date" BETWEEN '2019-08-01' AND '2020-07-31' THEN '2019/2020' END AS season
+        ,'Germany'			AS country
+        ,'Bundesliga'       AS league
+        ,1					AS division
+        ,"HomeTeam"			AS team_home
+        ,"AwayTeam"			AS team_away
+        ,NULL               AS referee
+        ,FTR				AS result_full_time
+        ,HTR				AS result_half_time
+        ,FTHG				AS goals_home
+        ,FTAG				AS goals_away
+        ,HTHG				AS goals_half_time_home
+        ,HTAG				AS goals_half_time_away
+        ,HS					AS shots_home
+        ,"AS"				AS shots_away
+        ,HST				AS shots_target_home
+        ,AST				AS shots_target_away
+        ,HF					AS fouls_home
+        ,AF					AS fouls_away
+        ,HC					AS corners_home
+        ,AC					AS corners_away
+        ,HY					AS yellow_home
+        ,AY					AS yellow_away
+        ,HR					AS red_home
+        ,AR					AS red_away
+    FROM
+        BILLONG_LAND.FOOTBALL."germany_2019_2022"
+  );
+2022-12-14 15:43:03.116527 (Thread-3): 15:43:03  Opening a new connection, currently in state closed
+2022-12-14 15:43:03.118010 (Thread-4): 15:43:03  Using snowflake connection "model.billong.land_italy_2019_2022"
+2022-12-14 15:43:03.118132 (Thread-4): 15:43:03  On model.billong.land_italy_2019_2022: /* {"app": "dbt", "dbt_version": "1.3.1", "profile_name": "user", "target_name": "default", "node_id": "model.billong.land_italy_2019_2022"} */
+create or replace  view BILLONG.land.land_italy_2019_2022
+  
+   as (
+    
+
+    SELECT
+        CONCAT("date","HomeTeam","AwayTeam") AS match_key
+        ,"date"       AS match_date
+        ,"Time"		AS match_time
+        ,CASE   WHEN "date" BETWEEN '2021-08-01' AND '2022-06-01' THEN '2021/2022'
+                WHEN "date" BETWEEN '2020-08-01' AND '2021-06-01' THEN '2020/2021'
+                WHEN "date" BETWEEN '2019-08-01' AND '2020-07-31' THEN '2019/2020' END AS season
+        ,'Italy'			AS country
+        ,'Serie A'          AS league
+        ,1					AS division
+        ,"HomeTeam"			AS team_home
+        ,"AwayTeam"			AS team_away
+        ,NULL               AS referee
+        ,FTR				AS result_full_time
+        ,HTR				AS result_half_time
+        ,FTHG				AS goals_home
+        ,FTAG				AS goals_away
+        ,HTHG				AS goals_half_time_home
+        ,HTAG				AS goals_half_time_away
+        ,HS					AS shots_home
+        ,"AS"				AS shots_away
+        ,HST				AS shots_target_home
+        ,AST				AS shots_target_away
+        ,HF					AS fouls_home
+        ,AF					AS fouls_away
+        ,HC					AS corners_home
+        ,AC					AS corners_away
+        ,HY					AS yellow_home
+        ,AY					AS yellow_away
+        ,HR					AS red_home
+        ,AR					AS red_away
+    FROM
+        BILLONG_LAND.FOOTBALL."italy_2019_2022"
+  );
+2022-12-14 15:43:03.118211 (Thread-4): 15:43:03  Opening a new connection, currently in state init
+2022-12-14 15:43:03.120879 (Thread-1): 15:43:03  Using snowflake connection "model.billong.land_england_2019_2022"
+2022-12-14 15:43:03.120991 (Thread-1): 15:43:03  On model.billong.land_england_2019_2022: /* {"app": "dbt", "dbt_version": "1.3.1", "profile_name": "user", "target_name": "default", "node_id": "model.billong.land_england_2019_2022"} */
+create or replace  view BILLONG.land.land_england_2019_2022
+  
+   as (
+    
+
+    SELECT
+        CONCAT("date","HomeTeam","AwayTeam") AS match_key
+        ,"date"       AS match_date
+        ,"Time"		AS match_time
+        ,CASE   WHEN "date" BETWEEN '2021-08-01' AND '2022-06-01' THEN '2021/2022'
+                WHEN "date" BETWEEN '2020-08-01' AND '2021-06-01' THEN '2020/2021'
+                WHEN "date" BETWEEN '2019-08-01' AND '2020-07-31' THEN '2019/2020' END AS season
+        ,'England'			AS country
+        ,'Premier League'	AS league
+        ,1					AS division
+        ,"HomeTeam"			AS team_home
+        ,"AwayTeam"			AS team_away
+        ,"Referee"          AS referee
+        ,FTR				AS result_full_time
+        ,HTR				AS result_half_time
+        ,FTHG				AS goals_home
+        ,FTAG				AS goals_away
+        ,HTHG				AS goals_half_time_home
+        ,HTAG				AS goals_half_time_away
+        ,HS					AS shots_home
+        ,"AS"				AS shots_away
+        ,HST				AS shots_target_home
+        ,AST				AS shots_target_away
+        ,HF					AS fouls_home
+        ,AF					AS fouls_away
+        ,HC					AS corners_home
+        ,AC					AS corners_away
+        ,HY					AS yellow_home
+        ,AY					AS yellow_away
+        ,HR					AS red_home
+        ,AR					AS red_away
+    FROM
+        BILLONG_LAND.FOOTBALL."england_2019_2022"
+  );
+2022-12-14 15:43:03.121068 (Thread-1): 15:43:03  Opening a new connection, currently in state closed
+2022-12-14 15:43:03.123549 (Thread-2): 15:43:03  Using snowflake connection "model.billong.land_france_2019_2022"
+2022-12-14 15:43:03.123654 (Thread-2): 15:43:03  On model.billong.land_france_2019_2022: /* {"app": "dbt", "dbt_version": "1.3.1", "profile_name": "user", "target_name": "default", "node_id": "model.billong.land_france_2019_2022"} */
+create or replace  view BILLONG.land.land_france_2019_2022
+  
+   as (
+    
+
+    SELECT
+        CONCAT("date","HomeTeam","AwayTeam") AS match_key
+        ,"date"       AS match_date
+        ,"Time"		AS match_time
+        ,CASE   WHEN "date" BETWEEN '2021-08-01' AND '2022-06-01' THEN '2021/2022'
+                WHEN "date" BETWEEN '2020-08-01' AND '2021-06-01' THEN '2020/2021'
+                WHEN "date" BETWEEN '2019-08-01' AND '2020-07-31' THEN '2019/2020' END AS season
+        ,'France'			AS country
+        ,'Ligue 1'          AS league
+        ,1					AS division
+        ,"HomeTeam"			AS team_home
+        ,"AwayTeam"			AS team_away
+        ,NULL               AS referee
+        ,FTR				AS result_full_time
+        ,HTR				AS result_half_time
+        ,FTHG				AS goals_home
+        ,FTAG				AS goals_away
+        ,HTHG				AS goals_half_time_home
+        ,HTAG				AS goals_half_time_away
+        ,HS					AS shots_home
+        ,"AS"				AS shots_away
+        ,HST				AS shots_target_home
+        ,AST				AS shots_target_away
+        ,HF					AS fouls_home
+        ,AF					AS fouls_away
+        ,HC					AS corners_home
+        ,AC					AS corners_away
+        ,HY					AS yellow_home
+        ,AY					AS yellow_away
+        ,HR					AS red_home
+        ,AR					AS red_away
+    FROM
+        BILLONG_LAND.FOOTBALL."france_2019_2022"
+  );
+2022-12-14 15:43:03.123730 (Thread-2): 15:43:03  Opening a new connection, currently in state closed
+2022-12-14 15:43:03.350755 (Thread-592): handling status request
+2022-12-14 15:43:03.351166 (Thread-592): 15:43:03  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe86130730>]}
+2022-12-14 15:43:03.355142 (Thread-592): sending response (<Response 70326 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:43:03.867519 (Thread-593): handling poll request
+2022-12-14 15:43:03.867933 (Thread-593): 15:43:03  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe8615b850>]}
+2022-12-14 15:43:03.869081 (Thread-593): sending response (<Response 28407 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:43:04.203314 (Thread-4): 15:43:04  SQL status: SUCCESS 1 in 1.09 seconds
+2022-12-14 15:43:04.222647 (Thread-4): 15:43:04  finished collecting timing info
+2022-12-14 15:43:04.222859 (Thread-4): 15:43:04  On model.billong.land_italy_2019_2022: Close
+2022-12-14 15:43:04.224660 (Thread-2): 15:43:04  SQL status: SUCCESS 1 in 1.1 seconds
+2022-12-14 15:43:04.227363 (Thread-2): 15:43:04  finished collecting timing info
+2022-12-14 15:43:04.227581 (Thread-2): 15:43:04  On model.billong.land_france_2019_2022: Close
+2022-12-14 15:43:04.452121 (Thread-2): 15:43:04  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f3161013-812a-4e87-a6cc-5f8059a4e1d9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd0251b2c70>]}
+2022-12-14 15:43:04.452757 (Thread-2): 15:43:04  2 of 16 OK created sql view model land.land_france_2019_2022 ................... [SUCCESS 1 in 1.54s]
+2022-12-14 15:43:04.453019 (Thread-2): 15:43:04  Finished running node model.billong.land_france_2019_2022
+2022-12-14 15:43:04.453176 (Thread-2): 15:43:04  Began running node model.billong.land_spain_2019_2022
+2022-12-14 15:43:04.453368 (Thread-2): 15:43:04  5 of 16 START sql view model land.land_spain_2019_2022 ......................... [RUN]
+2022-12-14 15:43:04.453776 (Thread-2): 15:43:04  Acquiring new snowflake connection "model.billong.land_spain_2019_2022"
+2022-12-14 15:43:04.453879 (Thread-2): 15:43:04  Began compiling node model.billong.land_spain_2019_2022
+2022-12-14 15:43:04.453967 (Thread-2): 15:43:04  Compiling model.billong.land_spain_2019_2022
+2022-12-14 15:43:04.458857 (Thread-2): 15:43:04  Writing injected SQL for node "model.billong.land_spain_2019_2022"
+2022-12-14 15:43:04.471771 (Thread-2): 15:43:04  finished collecting timing info
+2022-12-14 15:43:04.471984 (Thread-2): 15:43:04  Began executing node model.billong.land_spain_2019_2022
+2022-12-14 15:43:04.475326 (Thread-2): 15:43:04  Writing runtime sql for node "model.billong.land_spain_2019_2022"
+2022-12-14 15:43:04.482304 (Thread-4): 15:43:04  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f3161013-812a-4e87-a6cc-5f8059a4e1d9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd02528d460>]}
+2022-12-14 15:43:04.482739 (Thread-4): 15:43:04  4 of 16 OK created sql view model land.land_italy_2019_2022 .................... [SUCCESS 1 in 1.56s]
+2022-12-14 15:43:04.482974 (Thread-4): 15:43:04  Finished running node model.billong.land_italy_2019_2022
+2022-12-14 15:43:04.483130 (Thread-4): 15:43:04  Began running node model.billong.results_france_stg
+2022-12-14 15:43:04.483317 (Thread-4): 15:43:04  6 of 16 START sql view model staging.results_france_stg ........................ [RUN]
+2022-12-14 15:43:04.483719 (Thread-4): 15:43:04  Acquiring new snowflake connection "model.billong.results_france_stg"
+2022-12-14 15:43:04.483818 (Thread-4): 15:43:04  Began compiling node model.billong.results_france_stg
+2022-12-14 15:43:04.483906 (Thread-4): 15:43:04  Compiling model.billong.results_france_stg
+2022-12-14 15:43:04.488774 (Thread-4): 15:43:04  Writing injected SQL for node "model.billong.results_france_stg"
+2022-12-14 15:43:04.496315 (Thread-2): 15:43:04  Using snowflake connection "model.billong.land_spain_2019_2022"
+2022-12-14 15:43:04.496465 (Thread-2): 15:43:04  On model.billong.land_spain_2019_2022: /* {"app": "dbt", "dbt_version": "1.3.1", "profile_name": "user", "target_name": "default", "node_id": "model.billong.land_spain_2019_2022"} */
+create or replace  view BILLONG.land.land_spain_2019_2022
+  
+   as (
+    
+
+    SELECT
+        CONCAT("date","HomeTeam","AwayTeam") AS match_key
+        ,"date"       AS match_date
+        ,"Time"		AS match_time
+        ,CASE   WHEN "date" BETWEEN '2021-08-01' AND '2022-06-01' THEN '2021/2022'
+                WHEN "date" BETWEEN '2020-08-01' AND '2021-06-01' THEN '2020/2021'
+                WHEN "date" BETWEEN '2019-08-01' AND '2020-07-31' THEN '2019/2020' END AS season
+        ,'Spain'			AS country
+        ,'La Liga'          AS league
+        ,1					AS division
+        ,"HomeTeam"			AS team_home
+        ,"AwayTeam"			AS team_away
+        ,NULL               AS referee
+        ,FTR				AS result_full_time
+        ,HTR				AS result_half_time
+        ,FTHG				AS goals_home
+        ,FTAG				AS goals_away
+        ,HTHG				AS goals_half_time_home
+        ,HTAG				AS goals_half_time_away
+        ,HS					AS shots_home
+        ,"AS"				AS shots_away
+        ,HST				AS shots_target_home
+        ,AST				AS shots_target_away
+        ,HF					AS fouls_home
+        ,AF					AS fouls_away
+        ,HC					AS corners_home
+        ,AC					AS corners_away
+        ,HY					AS yellow_home
+        ,AY					AS yellow_away
+        ,HR					AS red_home
+        ,AR					AS red_away
+    FROM
+        BILLONG_LAND.FOOTBALL."spain_2019_2022"
+  );
+2022-12-14 15:43:04.496555 (Thread-2): 15:43:04  Opening a new connection, currently in state closed
+2022-12-14 15:43:04.504205 (Thread-4): 15:43:04  finished collecting timing info
+2022-12-14 15:43:04.504405 (Thread-4): 15:43:04  Began executing node model.billong.results_france_stg
+2022-12-14 15:43:04.507791 (Thread-4): 15:43:04  Writing runtime sql for node "model.billong.results_france_stg"
+2022-12-14 15:43:04.523597 (Thread-4): 15:43:04  Using snowflake connection "model.billong.results_france_stg"
+2022-12-14 15:43:04.523763 (Thread-4): 15:43:04  On model.billong.results_france_stg: /* {"app": "dbt", "dbt_version": "1.3.1", "profile_name": "user", "target_name": "default", "node_id": "model.billong.results_france_stg"} */
+create or replace  view BILLONG.staging.results_france_stg
+  
+   as (
+    
+
+
+WITH france_union AS (
+
+	SELECT
+ 		match_key
+ 		,ROW_NUMBER() OVER(PARTITION BY season ORDER BY match_date,match_time,team_home) AS match_no
+		,NULL AS match_week
+		,match_date
+		,season
+		,country
+		,league
+		,division
+		,team_home
+		,team_away
+		,referee
+		,result_full_time
+		,result_half_time
+		,goals_home
+		,goals_away
+		,goals_half_time_home
+		,goals_half_time_away
+		,shots_home
+		,shots_away
+		,shots_target_home
+		,shots_target_away
+		,fouls_home
+		,fouls_away
+		,corners_home
+		,corners_away
+		,yellow_home
+		,yellow_away
+		,red_home
+		,red_away
+    FROM
+        BILLONG.land.land_france_2019_2022
+)
+
+    SELECT
+		HASH(match_key)  AS match_key
+		,match_no
+		,match_week
+		,match_date
+		,season
+		,country
+		,league
+		,division
+		,team_home
+		,team_away
+		,referee
+		,result_full_time
+		,result_half_time
+		,goals_home
+		,goals_away
+		,goals_half_time_home
+		,goals_half_time_away
+		,CASE	WHEN result_full_time = 'H' THEN 3
+				WHEN result_full_time = 'D' THEN 1
+				WHEN result_full_time = 'A' THEN 0 END    AS points_home
+		,CASE	WHEN result_full_time = 'A' THEN 3
+				WHEN result_full_time = 'D' THEN 1
+				WHEN result_full_time = 'H' THEN 0 END    AS points_away
+		,CASE	WHEN result_half_time = 'H' THEN 3
+				WHEN result_half_time = 'D' THEN 1
+				WHEN result_half_time = 'A' THEN 0 END    AS points_half_time_home
+		,CASE	WHEN result_half_time = 'A' THEN 3
+				WHEN result_half_time = 'D' THEN 1
+				WHEN result_half_time = 'H' THEN 0 END    AS points_half_time_away
+		,shots_home
+		,shots_away
+		,shots_target_home
+		,shots_target_away
+		,fouls_home
+		,fouls_away
+		,corners_home
+		,corners_away
+		,yellow_home
+		,yellow_away
+		,red_home
+		,red_away
+	FROM
+	    france_union
+  );
+2022-12-14 15:43:04.523849 (Thread-4): 15:43:04  Opening a new connection, currently in state closed
+2022-12-14 15:43:04.549802 (Thread-3): 15:43:04  SQL status: SUCCESS 1 in 1.43 seconds
+2022-12-14 15:43:04.551765 (Thread-3): 15:43:04  finished collecting timing info
+2022-12-14 15:43:04.551932 (Thread-3): 15:43:04  On model.billong.land_germany_2019_2022: Close
+2022-12-14 15:43:04.626562 (Thread-1): 15:43:04  SQL status: SUCCESS 1 in 1.51 seconds
+2022-12-14 15:43:04.628899 (Thread-1): 15:43:04  finished collecting timing info
+2022-12-14 15:43:04.629071 (Thread-1): 15:43:04  On model.billong.land_england_2019_2022: Close
+2022-12-14 15:43:04.867469 (Thread-3): 15:43:04  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f3161013-812a-4e87-a6cc-5f8059a4e1d9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd025163f70>]}
+2022-12-14 15:43:04.867926 (Thread-3): 15:43:04  3 of 16 OK created sql view model land.land_germany_2019_2022 .................. [SUCCESS 1 in 1.95s]
+2022-12-14 15:43:04.868232 (Thread-3): 15:43:04  Finished running node model.billong.land_germany_2019_2022
+2022-12-14 15:43:04.868432 (Thread-3): 15:43:04  Began running node model.billong.results_italy_stg
+2022-12-14 15:43:04.868635 (Thread-3): 15:43:04  7 of 16 START sql view model staging.results_italy_stg ......................... [RUN]
+2022-12-14 15:43:04.869060 (Thread-3): 15:43:04  Acquiring new snowflake connection "model.billong.results_italy_stg"
+2022-12-14 15:43:04.869163 (Thread-3): 15:43:04  Began compiling node model.billong.results_italy_stg
+2022-12-14 15:43:04.869250 (Thread-3): 15:43:04  Compiling model.billong.results_italy_stg
+2022-12-14 15:43:04.878598 (Thread-3): 15:43:04  Writing injected SQL for node "model.billong.results_italy_stg"
+2022-12-14 15:43:04.931630 (Thread-1): 15:43:04  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f3161013-812a-4e87-a6cc-5f8059a4e1d9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd02517f0a0>]}
+2022-12-14 15:43:04.936968 (Thread-3): 15:43:04  finished collecting timing info
+2022-12-14 15:43:04.937156 (Thread-3): 15:43:04  Began executing node model.billong.results_italy_stg
+2022-12-14 15:43:04.947067 (Thread-3): 15:43:04  Writing runtime sql for node "model.billong.results_italy_stg"
+2022-12-14 15:43:04.952687 (Thread-1): 15:43:04  1 of 16 OK created sql view model land.land_england_2019_2022 .................. [SUCCESS 1 in 2.02s]
+2022-12-14 15:43:04.952957 (Thread-1): 15:43:04  Finished running node model.billong.land_england_2019_2022
+2022-12-14 15:43:04.953116 (Thread-1): 15:43:04  Began running node model.billong.results_germany_stg
+2022-12-14 15:43:04.953319 (Thread-1): 15:43:04  8 of 16 START sql view model staging.results_germany_stg ....................... [RUN]
+2022-12-14 15:43:04.954004 (Thread-1): 15:43:04  Acquiring new snowflake connection "model.billong.results_germany_stg"
+2022-12-14 15:43:04.954116 (Thread-1): 15:43:04  Began compiling node model.billong.results_germany_stg
+2022-12-14 15:43:04.954204 (Thread-1): 15:43:04  Compiling model.billong.results_germany_stg
+2022-12-14 15:43:04.957882 (Thread-1): 15:43:04  Writing injected SQL for node "model.billong.results_germany_stg"
+2022-12-14 15:43:04.975799 (Thread-3): 15:43:04  Using snowflake connection "model.billong.results_italy_stg"
+2022-12-14 15:43:04.975938 (Thread-3): 15:43:04  On model.billong.results_italy_stg: /* {"app": "dbt", "dbt_version": "1.3.1", "profile_name": "user", "target_name": "default", "node_id": "model.billong.results_italy_stg"} */
+create or replace  view BILLONG.staging.results_italy_stg
+  
+   as (
+    
+
+
+WITH italy_union AS (
+
+	SELECT
+ 		match_key
+ 		,ROW_NUMBER() OVER(PARTITION BY season ORDER BY match_date,match_time,team_home ) AS match_no
+		,NULL AS match_week
+		,match_date
+		,season
+		,country
+		,league
+		,division
+		,team_home
+		,team_away
+		,referee
+		,result_full_time
+		,result_half_time
+		,goals_home
+		,goals_away
+		,goals_half_time_home
+		,goals_half_time_away
+		,shots_home
+		,shots_away
+		,shots_target_home
+		,shots_target_away
+		,fouls_home
+		,fouls_away
+		,corners_home
+		,corners_away
+		,yellow_home
+		,yellow_away
+		,red_home
+		,red_away
+    FROM
+        BILLONG.land.land_italy_2019_2022
+)
+
+    SELECT
+		HASH(match_key)  AS match_key
+		,match_no
+		,match_week
+		,match_date
+		,season
+		,country
+		,league
+		,division
+		,team_home
+		,team_away
+		,referee
+		,result_full_time
+		,result_half_time
+		,goals_home
+		,goals_away
+		,goals_half_time_home
+		,goals_half_time_away
+		,CASE	WHEN result_full_time = 'H' THEN 3
+				WHEN result_full_time = 'D' THEN 1
+				WHEN result_full_time = 'A' THEN 0 END    AS points_home
+		,CASE	WHEN result_full_time = 'A' THEN 3
+				WHEN result_full_time = 'D' THEN 1
+				WHEN result_full_time = 'H' THEN 0 END    AS points_away
+		,CASE	WHEN result_half_time = 'H' THEN 3
+				WHEN result_half_time = 'D' THEN 1
+				WHEN result_half_time = 'A' THEN 0 END    AS points_half_time_home
+		,CASE	WHEN result_half_time = 'A' THEN 3
+				WHEN result_half_time = 'D' THEN 1
+				WHEN result_half_time = 'H' THEN 0 END    AS points_half_time_away
+		,shots_home
+		,shots_away
+		,shots_target_home
+		,shots_target_away
+		,fouls_home
+		,fouls_away
+		,corners_home
+		,corners_away
+		,yellow_home
+		,yellow_away
+		,red_home
+		,red_away
+	FROM
+	   italy_union
+  );
+2022-12-14 15:43:04.976023 (Thread-3): 15:43:04  Opening a new connection, currently in state closed
+2022-12-14 15:43:05.024686 (Thread-1): 15:43:05  finished collecting timing info
+2022-12-14 15:43:05.024914 (Thread-1): 15:43:05  Began executing node model.billong.results_germany_stg
+2022-12-14 15:43:05.028583 (Thread-1): 15:43:05  Writing runtime sql for node "model.billong.results_germany_stg"
+2022-12-14 15:43:05.069877 (Thread-1): 15:43:05  Using snowflake connection "model.billong.results_germany_stg"
+2022-12-14 15:43:05.070058 (Thread-1): 15:43:05  On model.billong.results_germany_stg: /* {"app": "dbt", "dbt_version": "1.3.1", "profile_name": "user", "target_name": "default", "node_id": "model.billong.results_germany_stg"} */
+create or replace  view BILLONG.staging.results_germany_stg
+  
+   as (
+    
+
+
+WITH germany_union AS (
+	SELECT
+ 		match_key
+ 		,ROW_NUMBER() OVER(PARTITION BY season ORDER BY match_date,match_time,team_home ) AS match_no
+		,NULL AS match_week
+		,match_date
+		,season
+		,country
+		,league
+		,division
+		,team_home
+		,team_away
+		,referee
+		,result_full_time
+		,result_half_time
+		,goals_home
+		,goals_away
+		,goals_half_time_home
+		,goals_half_time_away
+		,shots_home
+		,shots_away
+		,shots_target_home
+		,shots_target_away
+		,fouls_home
+		,fouls_away
+		,corners_home
+		,corners_away
+		,yellow_home
+		,yellow_away
+		,red_home
+		,red_away
+    FROM
+        BILLONG.land.land_germany_2019_2022
+)
+
+
+    SELECT
+		HASH(match_key)  AS match_key
+		,match_no
+		,match_week
+		,match_date
+		,season
+		,country
+		,league
+		,division
+		,team_home
+		,team_away
+		,referee
+		,result_full_time
+		,result_half_time
+		,goals_home
+		,goals_away
+		,goals_half_time_home
+		,goals_half_time_away
+		,CASE	WHEN result_full_time = 'H' THEN 3
+				WHEN result_full_time = 'D' THEN 1
+				WHEN result_full_time = 'A' THEN 0 END    AS points_home
+		,CASE	WHEN result_full_time = 'A' THEN 3
+				WHEN result_full_time = 'D' THEN 1
+				WHEN result_full_time = 'H' THEN 0 END    AS points_away
+		,CASE	WHEN result_half_time = 'H' THEN 3
+				WHEN result_half_time = 'D' THEN 1
+				WHEN result_half_time = 'A' THEN 0 END    AS points_half_time_home
+		,CASE	WHEN result_half_time = 'A' THEN 3
+				WHEN result_half_time = 'D' THEN 1
+				WHEN result_half_time = 'H' THEN 0 END    AS points_half_time_away
+		,shots_home
+		,shots_away
+		,shots_target_home
+		,shots_target_away
+		,fouls_home
+		,fouls_away
+		,corners_home
+		,corners_away
+		,yellow_home
+		,yellow_away
+		,red_home
+		,red_away
+	FROM
+	    germany_union
+  );
+2022-12-14 15:43:05.070151 (Thread-1): 15:43:05  Opening a new connection, currently in state closed
+2022-12-14 15:43:05.204546 (Thread-594): handling poll request
+2022-12-14 15:43:05.204965 (Thread-594): 15:43:05  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe83870d30>]}
+2022-12-14 15:43:05.206266 (Thread-594): sending response (<Response 37715 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:43:05.372698 (Thread-595): handling ps request
+2022-12-14 15:43:05.373144 (Thread-595): 15:43:05  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe83870760>]}
+2022-12-14 15:43:05.374262 (Thread-595): sending response (<Response 10200 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:43:05.577464 (Thread-2): 15:43:05  SQL status: SUCCESS 1 in 1.08 seconds
+2022-12-14 15:43:05.579639 (Thread-2): 15:43:05  finished collecting timing info
+2022-12-14 15:43:05.579818 (Thread-2): 15:43:05  On model.billong.land_spain_2019_2022: Close
+2022-12-14 15:43:05.612731 (Thread-4): 15:43:05  SQL status: SUCCESS 1 in 1.09 seconds
+2022-12-14 15:43:05.615118 (Thread-4): 15:43:05  finished collecting timing info
+2022-12-14 15:43:05.615297 (Thread-4): 15:43:05  On model.billong.results_france_stg: Close
+2022-12-14 15:43:05.693578 (Thread-596): handling status request
+2022-12-14 15:43:05.693984 (Thread-596): 15:43:05  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe83870c70>]}
+2022-12-14 15:43:05.696732 (Thread-596): sending response (<Response 70326 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:43:05.826233 (Thread-2): 15:43:05  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f3161013-812a-4e87-a6cc-5f8059a4e1d9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcfc61d4820>]}
+2022-12-14 15:43:05.826908 (Thread-2): 15:43:05  5 of 16 OK created sql view model land.land_spain_2019_2022 .................... [SUCCESS 1 in 1.37s]
+2022-12-14 15:43:05.827170 (Thread-2): 15:43:05  Finished running node model.billong.land_spain_2019_2022
+2022-12-14 15:43:05.827326 (Thread-2): 15:43:05  Began running node model.billong.results_england_stg
+2022-12-14 15:43:05.827512 (Thread-2): 15:43:05  9 of 16 START sql view model staging.results_england_stg ....................... [RUN]
+2022-12-14 15:43:05.827914 (Thread-2): 15:43:05  Acquiring new snowflake connection "model.billong.results_england_stg"
+2022-12-14 15:43:05.828012 (Thread-2): 15:43:05  Began compiling node model.billong.results_england_stg
+2022-12-14 15:43:05.828099 (Thread-2): 15:43:05  Compiling model.billong.results_england_stg
+2022-12-14 15:43:05.832113 (Thread-2): 15:43:05  Writing injected SQL for node "model.billong.results_england_stg"
+2022-12-14 15:43:05.847887 (Thread-2): 15:43:05  finished collecting timing info
+2022-12-14 15:43:05.848121 (Thread-2): 15:43:05  Began executing node model.billong.results_england_stg
+2022-12-14 15:43:05.851513 (Thread-2): 15:43:05  Writing runtime sql for node "model.billong.results_england_stg"
+2022-12-14 15:43:05.854036 (Thread-4): 15:43:05  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f3161013-812a-4e87-a6cc-5f8059a4e1d9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcfc61c5730>]}
+2022-12-14 15:43:05.854433 (Thread-4): 15:43:05  6 of 16 OK created sql view model staging.results_france_stg ................... [SUCCESS 1 in 1.37s]
+2022-12-14 15:43:05.854668 (Thread-4): 15:43:05  Finished running node model.billong.results_france_stg
+2022-12-14 15:43:05.854822 (Thread-4): 15:43:05  Began running node model.billong.results_spain_stg
+2022-12-14 15:43:05.855008 (Thread-4): 15:43:05  10 of 16 START sql view model staging.results_spain_stg ........................ [RUN]
+2022-12-14 15:43:05.855394 (Thread-4): 15:43:05  Acquiring new snowflake connection "model.billong.results_spain_stg"
+2022-12-14 15:43:05.855494 (Thread-4): 15:43:05  Began compiling node model.billong.results_spain_stg
+2022-12-14 15:43:05.855577 (Thread-4): 15:43:05  Compiling model.billong.results_spain_stg
+2022-12-14 15:43:05.860885 (Thread-4): 15:43:05  Writing injected SQL for node "model.billong.results_spain_stg"
+2022-12-14 15:43:05.867776 (Thread-2): 15:43:05  Using snowflake connection "model.billong.results_england_stg"
+2022-12-14 15:43:05.867909 (Thread-2): 15:43:05  On model.billong.results_england_stg: /* {"app": "dbt", "dbt_version": "1.3.1", "profile_name": "user", "target_name": "default", "node_id": "model.billong.results_england_stg"} */
+create or replace  view BILLONG.staging.results_england_stg
+  
+   as (
+    
+
+
+WITH england_union AS (
+
+	SELECT
+ 		match_key
+ 		,ROW_NUMBER() OVER(PARTITION BY season ORDER BY match_date,match_time,team_home ) AS match_no
+		,NULL AS match_week
+		,match_date
+		,season
+		,country
+		,league
+		,division
+		,team_home
+		,team_away
+		,referee
+		,result_full_time
+		,result_half_time
+		,goals_home
+		,goals_away
+		,goals_half_time_home
+		,goals_half_time_away
+		,shots_home
+		,shots_away
+		,shots_target_home
+		,shots_target_away
+		,fouls_home
+		,fouls_away
+		,corners_home
+		,corners_away
+		,yellow_home
+		,yellow_away
+		,red_home
+		,red_away
+    FROM
+        BILLONG.land.land_england_2019_2022
+)
+
+    SELECT
+		HASH(match_key)  AS match_key
+		,match_no
+		,match_week
+		,match_date
+		,season
+		,country
+		,league
+		,division
+		,team_home
+		,team_away
+		,referee
+		,result_full_time
+		,result_half_time
+		,goals_home
+		,goals_away
+		,goals_half_time_home
+		,goals_half_time_away
+		,CASE	WHEN result_full_time = 'H' THEN 3
+				WHEN result_full_time = 'D' THEN 1
+				WHEN result_full_time = 'A' THEN 0 END    AS points_home
+		,CASE	WHEN result_full_time = 'A' THEN 3
+				WHEN result_full_time = 'D' THEN 1
+				WHEN result_full_time = 'H' THEN 0 END    AS points_away
+		,CASE	WHEN result_half_time = 'H' THEN 3
+				WHEN result_half_time = 'D' THEN 1
+				WHEN result_half_time = 'A' THEN 0 END    AS points_half_time_home
+		,CASE	WHEN result_half_time = 'A' THEN 3
+				WHEN result_half_time = 'D' THEN 1
+				WHEN result_half_time = 'H' THEN 0 END    AS points_half_time_away
+		,shots_home
+		,shots_away
+		,shots_target_home
+		,shots_target_away
+		,fouls_home
+		,fouls_away
+		,corners_home
+		,corners_away
+		,yellow_home
+		,yellow_away
+		,red_home
+		,red_away
+	FROM
+	    england_union
+  );
+2022-12-14 15:43:05.867994 (Thread-2): 15:43:05  Opening a new connection, currently in state closed
+2022-12-14 15:43:05.875037 (Thread-4): 15:43:05  finished collecting timing info
+2022-12-14 15:43:05.875230 (Thread-4): 15:43:05  Began executing node model.billong.results_spain_stg
+2022-12-14 15:43:05.878624 (Thread-4): 15:43:05  Writing runtime sql for node "model.billong.results_spain_stg"
+2022-12-14 15:43:05.893082 (Thread-4): 15:43:05  Using snowflake connection "model.billong.results_spain_stg"
+2022-12-14 15:43:05.893247 (Thread-4): 15:43:05  On model.billong.results_spain_stg: /* {"app": "dbt", "dbt_version": "1.3.1", "profile_name": "user", "target_name": "default", "node_id": "model.billong.results_spain_stg"} */
+create or replace  view BILLONG.staging.results_spain_stg
+  
+   as (
+    
+
+
+WITH spain_union AS (
+
+	SELECT
+ 		match_key
+ 		,ROW_NUMBER() OVER(PARTITION BY season ORDER BY match_date,match_time,team_home ) AS match_no
+		,NULL AS match_week
+		,match_date
+		,season
+		,country
+		,league
+		,division
+		,team_home
+		,team_away
+		,referee
+		,result_full_time
+		,result_half_time
+		,goals_home
+		,goals_away
+		,goals_half_time_home
+		,goals_half_time_away
+		,shots_home
+		,shots_away
+		,shots_target_home
+		,shots_target_away
+		,fouls_home
+		,fouls_away
+		,corners_home
+		,corners_away
+		,yellow_home
+		,yellow_away
+		,red_home
+		,red_away
+    FROM
+        BILLONG.land.land_spain_2019_2022
+)
+
+    SELECT
+		HASH(match_key)  AS match_key
+		,match_no
+		,match_week
+		,match_date
+		,season
+		,country
+		,league
+		,division
+		,team_home
+		,team_away
+		,referee
+		,result_full_time
+		,result_half_time
+		,goals_home
+		,goals_away
+		,goals_half_time_home
+		,goals_half_time_away
+		,CASE	WHEN result_full_time = 'H' THEN 3
+				WHEN result_full_time = 'D' THEN 1
+				WHEN result_full_time = 'A' THEN 0 END    AS points_home
+		,CASE	WHEN result_full_time = 'A' THEN 3
+				WHEN result_full_time = 'D' THEN 1
+				WHEN result_full_time = 'H' THEN 0 END    AS points_away
+		,CASE	WHEN result_half_time = 'H' THEN 3
+				WHEN result_half_time = 'D' THEN 1
+				WHEN result_half_time = 'A' THEN 0 END    AS points_half_time_home
+		,CASE	WHEN result_half_time = 'A' THEN 3
+				WHEN result_half_time = 'D' THEN 1
+				WHEN result_half_time = 'H' THEN 0 END    AS points_half_time_away
+		,shots_home
+		,shots_away
+		,shots_target_home
+		,shots_target_away
+		,fouls_home
+		,fouls_away
+		,corners_home
+		,corners_away
+		,yellow_home
+		,yellow_away
+		,red_home
+		,red_away
+	FROM
+	   spain_union
+  );
+2022-12-14 15:43:05.893334 (Thread-4): 15:43:05  Opening a new connection, currently in state closed
+2022-12-14 15:43:06.089036 (Thread-3): 15:43:06  SQL status: SUCCESS 1 in 1.11 seconds
+2022-12-14 15:43:06.091089 (Thread-3): 15:43:06  finished collecting timing info
+2022-12-14 15:43:06.091275 (Thread-3): 15:43:06  On model.billong.results_italy_stg: Close
+2022-12-14 15:43:06.104126 (Thread-1): 15:43:06  SQL status: SUCCESS 1 in 1.03 seconds
+2022-12-14 15:43:06.106512 (Thread-1): 15:43:06  finished collecting timing info
+2022-12-14 15:43:06.106690 (Thread-1): 15:43:06  On model.billong.results_germany_stg: Close
+2022-12-14 15:43:06.394639 (Thread-3): 15:43:06  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f3161013-812a-4e87-a6cc-5f8059a4e1d9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd025163be0>]}
+2022-12-14 15:43:06.395111 (Thread-3): 15:43:06  7 of 16 OK created sql view model staging.results_italy_stg .................... [SUCCESS 1 in 1.53s]
+2022-12-14 15:43:06.395361 (Thread-3): 15:43:06  Finished running node model.billong.results_italy_stg
+2022-12-14 15:43:06.423499 (Thread-1): 15:43:06  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f3161013-812a-4e87-a6cc-5f8059a4e1d9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcfc4091910>]}
+2022-12-14 15:43:06.423934 (Thread-1): 15:43:06  8 of 16 OK created sql view model staging.results_germany_stg .................. [SUCCESS 1 in 1.47s]
+2022-12-14 15:43:06.424169 (Thread-1): 15:43:06  Finished running node model.billong.results_germany_stg
+2022-12-14 15:43:06.539689 (Thread-597): handling poll request
+2022-12-14 15:43:06.540071 (Thread-597): 15:43:06  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe7e9c9b80>]}
+2022-12-14 15:43:06.541087 (Thread-597): sending response (<Response 24244 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:43:06.999068 (Thread-4): 15:43:06  SQL status: SUCCESS 1 in 1.11 seconds
+2022-12-14 15:43:07.001004 (Thread-4): 15:43:07  finished collecting timing info
+2022-12-14 15:43:07.001177 (Thread-4): 15:43:07  On model.billong.results_spain_stg: Close
+2022-12-14 15:43:07.017941 (Thread-2): 15:43:07  SQL status: SUCCESS 1 in 1.15 seconds
+2022-12-14 15:43:07.019891 (Thread-2): 15:43:07  finished collecting timing info
+2022-12-14 15:43:07.020053 (Thread-2): 15:43:07  On model.billong.results_england_stg: Close
+2022-12-14 15:43:07.331985 (Thread-2): 15:43:07  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f3161013-812a-4e87-a6cc-5f8059a4e1d9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd0251806d0>]}
+2022-12-14 15:43:07.332446 (Thread-2): 15:43:07  9 of 16 OK created sql view model staging.results_england_stg .................. [SUCCESS 1 in 1.50s]
+2022-12-14 15:43:07.332698 (Thread-2): 15:43:07  Finished running node model.billong.results_england_stg
+2022-12-14 15:43:07.337763 (Thread-4): 15:43:07  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f3161013-812a-4e87-a6cc-5f8059a4e1d9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcfc40350a0>]}
+2022-12-14 15:43:07.338159 (Thread-4): 15:43:07  10 of 16 OK created sql view model staging.results_spain_stg ................... [SUCCESS 1 in 1.48s]
+2022-12-14 15:43:07.338414 (Thread-4): 15:43:07  Finished running node model.billong.results_spain_stg
+2022-12-14 15:43:07.339364 (Thread-3): 15:43:07  Began running node model.billong.f_results_match_stg
+2022-12-14 15:43:07.339642 (Thread-3): 15:43:07  11 of 16 START sql view model staging.f_results_match_stg ...................... [RUN]
+2022-12-14 15:43:07.340083 (Thread-3): 15:43:07  Acquiring new snowflake connection "model.billong.f_results_match_stg"
+2022-12-14 15:43:07.340190 (Thread-3): 15:43:07  Began compiling node model.billong.f_results_match_stg
+2022-12-14 15:43:07.340280 (Thread-3): 15:43:07  Compiling model.billong.f_results_match_stg
+2022-12-14 15:43:07.347263 (Thread-3): 15:43:07  Writing injected SQL for node "model.billong.f_results_match_stg"
+2022-12-14 15:43:07.360672 (Thread-3): 15:43:07  finished collecting timing info
+2022-12-14 15:43:07.360894 (Thread-3): 15:43:07  Began executing node model.billong.f_results_match_stg
+2022-12-14 15:43:07.364396 (Thread-3): 15:43:07  Writing runtime sql for node "model.billong.f_results_match_stg"
+2022-12-14 15:43:07.380034 (Thread-3): 15:43:07  Using snowflake connection "model.billong.f_results_match_stg"
+2022-12-14 15:43:07.380198 (Thread-3): 15:43:07  On model.billong.f_results_match_stg: /* {"app": "dbt", "dbt_version": "1.3.1", "profile_name": "user", "target_name": "default", "node_id": "model.billong.f_results_match_stg"} */
+create or replace  view BILLONG.staging.f_results_match_stg
+  
+   as (
+    
+
+
+WITH union_all AS (
+            SELECT * FROM BILLONG.staging.results_england_stg
+UNION ALL   SELECT * FROM BILLONG.staging.results_france_stg
+UNION ALL   SELECT * FROM BILLONG.staging.results_germany_stg
+UNION ALL   SELECT * FROM BILLONG.staging.results_italy_stg
+UNION ALL   SELECT * FROM BILLONG.staging.results_spain_stg
+)
+
+    SELECT
+
+        HASH(CONCAT(country,league))   AS league_key
+        ,HASH(team_home)                AS team_home_key
+        ,HASH(team_away)                AS team_away_key
+        ,*
+    FROM
+        union_all
+  );
+2022-12-14 15:43:07.380288 (Thread-3): 15:43:07  Opening a new connection, currently in state closed
+2022-12-14 15:43:07.700318 (Thread-598): handling ps request
+2022-12-14 15:43:07.700744 (Thread-598): 15:43:07  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe861305e0>]}
+2022-12-14 15:43:07.701846 (Thread-598): sending response (<Response 10199 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:43:07.874939 (Thread-599): handling poll request
+2022-12-14 15:43:07.875342 (Thread-599): 15:43:07  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe7c1bea60>]}
+2022-12-14 15:43:07.876098 (Thread-599): sending response (<Response 11059 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:43:08.028521 (Thread-600): handling status request
+2022-12-14 15:43:08.028954 (Thread-600): 15:43:08  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe86100460>]}
+2022-12-14 15:43:08.031337 (Thread-600): sending response (<Response 70326 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:43:08.637225 (Thread-3): 15:43:08  SQL status: SUCCESS 1 in 1.26 seconds
+2022-12-14 15:43:08.639419 (Thread-3): 15:43:08  finished collecting timing info
+2022-12-14 15:43:08.639597 (Thread-3): 15:43:08  On model.billong.f_results_match_stg: Close
+2022-12-14 15:43:08.876737 (Thread-3): 15:43:08  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f3161013-812a-4e87-a6cc-5f8059a4e1d9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd025163d60>]}
+2022-12-14 15:43:08.877183 (Thread-3): 15:43:08  11 of 16 OK created sql view model staging.f_results_match_stg ................. [SUCCESS 1 in 1.54s]
+2022-12-14 15:43:08.877427 (Thread-3): 15:43:08  Finished running node model.billong.f_results_match_stg
+2022-12-14 15:43:08.878559 (Thread-2): 15:43:08  Began running node model.billong.d_league
+2022-12-14 15:43:08.878968 (Thread-2): 15:43:08  12 of 16 START sql table model dbt_mivarsson.d_league .......................... [RUN]
+2022-12-14 15:43:08.879682 (Thread-2): 15:43:08  Acquiring new snowflake connection "model.billong.d_league"
+2022-12-14 15:43:08.879853 (Thread-2): 15:43:08  Began compiling node model.billong.d_league
+2022-12-14 15:43:08.880000 (Thread-2): 15:43:08  Compiling model.billong.d_league
+2022-12-14 15:43:08.881337 (Thread-4): 15:43:08  Began running node model.billong.d_season_stg
+2022-12-14 15:43:08.881561 (Thread-4): 15:43:08  13 of 16 START sql view model staging.d_season_stg ............................. [RUN]
+2022-12-14 15:43:08.881967 (Thread-4): 15:43:08  Acquiring new snowflake connection "model.billong.d_season_stg"
+2022-12-14 15:43:08.882063 (Thread-4): 15:43:08  Began compiling node model.billong.d_season_stg
+2022-12-14 15:43:08.882145 (Thread-4): 15:43:08  Compiling model.billong.d_season_stg
+2022-12-14 15:43:08.885533 (Thread-4): 15:43:08  Writing injected SQL for node "model.billong.d_season_stg"
+2022-12-14 15:43:08.885778 (Thread-1): 15:43:08  Began running node model.billong.d_team
+2022-12-14 15:43:08.886028 (Thread-1): 15:43:08  14 of 16 START sql table model dbt_mivarsson.d_team ............................ [RUN]
+2022-12-14 15:43:08.886480 (Thread-1): 15:43:08  Acquiring new snowflake connection "model.billong.d_team"
+2022-12-14 15:43:08.886593 (Thread-1): 15:43:08  Began compiling node model.billong.d_team
+2022-12-14 15:43:08.886684 (Thread-1): 15:43:08  Compiling model.billong.d_team
+2022-12-14 15:43:08.890359 (Thread-1): 15:43:08  Writing injected SQL for node "model.billong.d_team"
+2022-12-14 15:43:08.890604 (Thread-3): 15:43:08  Began running node model.billong.f_results_team_stg
+2022-12-14 15:43:08.890829 (Thread-3): 15:43:08  15 of 16 START sql table model staging.f_results_team_stg ...................... [RUN]
+2022-12-14 15:43:08.891229 (Thread-3): 15:43:08  Acquiring new snowflake connection "model.billong.f_results_team_stg"
+2022-12-14 15:43:08.891326 (Thread-3): 15:43:08  Began compiling node model.billong.f_results_team_stg
+2022-12-14 15:43:08.891420 (Thread-3): 15:43:08  Compiling model.billong.f_results_team_stg
+2022-12-14 15:43:08.895028 (Thread-3): 15:43:08  Writing injected SQL for node "model.billong.f_results_team_stg"
+2022-12-14 15:43:08.903085 (Thread-2): 15:43:08  Writing injected SQL for node "model.billong.d_league"
+2022-12-14 15:43:08.908823 (Thread-1): 15:43:08  finished collecting timing info
+2022-12-14 15:43:08.909006 (Thread-1): 15:43:08  Began executing node model.billong.d_team
+2022-12-14 15:43:08.913931 (Thread-4): 15:43:08  finished collecting timing info
+2022-12-14 15:43:08.914089 (Thread-4): 15:43:08  Began executing node model.billong.d_season_stg
+2022-12-14 15:43:08.917122 (Thread-4): 15:43:08  Writing runtime sql for node "model.billong.d_season_stg"
+2022-12-14 15:43:08.944466 (Thread-2): 15:43:08  finished collecting timing info
+2022-12-14 15:43:08.944672 (Thread-2): 15:43:08  Began executing node model.billong.d_league
+2022-12-14 15:43:08.954142 (Thread-3): 15:43:08  finished collecting timing info
+2022-12-14 15:43:08.954360 (Thread-3): 15:43:08  Began executing node model.billong.f_results_team_stg
+2022-12-14 15:43:08.961808 (Thread-2): 15:43:08  Writing runtime sql for node "model.billong.d_league"
+2022-12-14 15:43:08.967640 (Thread-4): 15:43:08  Using snowflake connection "model.billong.d_season_stg"
+2022-12-14 15:43:08.967767 (Thread-4): 15:43:08  On model.billong.d_season_stg: /* {"app": "dbt", "dbt_version": "1.3.1", "profile_name": "user", "target_name": "default", "node_id": "model.billong.d_season_stg"} */
+create or replace  view BILLONG.staging.d_season_stg
+  
+   as (
+    
+
+    SELECT
+        MIN(match_date) AS from_date
+        ,MAX(match_date) AS to_date
+        ,season
+    FROM
+        BILLONG.staging.f_results_match_stg
+    GROUP BY
+        season
+  );
+2022-12-14 15:43:08.967851 (Thread-4): 15:43:08  Opening a new connection, currently in state closed
+2022-12-14 15:43:08.969169 (Thread-1): 15:43:08  Writing runtime sql for node "model.billong.d_team"
+2022-12-14 15:43:08.971233 (Thread-3): 15:43:08  Writing runtime sql for node "model.billong.f_results_team_stg"
+2022-12-14 15:43:08.981178 (Thread-2): 15:43:08  Using snowflake connection "model.billong.d_league"
+2022-12-14 15:43:08.981310 (Thread-2): 15:43:08  On model.billong.d_league: /* {"app": "dbt", "dbt_version": "1.3.1", "profile_name": "user", "target_name": "default", "node_id": "model.billong.d_league"} */
+create or replace transient table BILLONG.dbt_mivarsson.d_league  as
+        (
+
+
+---- JOIN ON COUNTRY DATA AND LEAGUE DATA, OR SOLIT UP TO D_COUNTRY AND D_LEAGUE.
+--have more specific attributes per leage and country
+-- league
+-- how many teams
+-- average attendence
+-- average salary etc
+
+--Population
+-- etc
+
+    SELECT DISTINCT
+        league_key
+        ,league
+        ,country
+        ,CASE WHEN league IN  ('Premier League'
+                                ,'Serie A'
+                                ,'Ligue 1'
+                                ,'La Liga'
+                                ,'Bundesliga') THEN 1 ELSE 0 END AS big_five
+    FROM
+        BILLONG.staging.f_results_match_stg
+        );
+2022-12-14 15:43:08.981393 (Thread-2): 15:43:08  Opening a new connection, currently in state closed
+2022-12-14 15:43:08.985794 (Thread-1): 15:43:08  Using snowflake connection "model.billong.d_team"
+2022-12-14 15:43:08.985993 (Thread-1): 15:43:08  On model.billong.d_team: /* {"app": "dbt", "dbt_version": "1.3.1", "profile_name": "user", "target_name": "default", "node_id": "model.billong.d_team"} */
+create or replace transient table BILLONG.dbt_mivarsson.d_team  as
+        (
+
+---- JOIN ON TEAM DATA
+-- Stadium
+-- Capacity
+-- City
+-- Region
+-- Shirt Color
+-- Website
+-- Nicknames
+
+
+WITH team_step1 AS (
+    SELECT DISTINCT
+        team_home_key   AS team_key
+        ,team_home      AS team
+        ,country
+        ,league
+    FROM
+        BILLONG.staging.f_results_match_stg
+
+UNION ALL
+    SELECT DISTINCT
+        team_away_key   AS team_key
+        ,team_away      AS team
+        ,country
+        ,league
+    FROM
+        BILLONG.staging.f_results_match_stg
+)
+
+    SELECT DISTINCT
+         team_key
+        ,team
+        ,country
+        ,league
+        ,CASE WHEN league IN  ('Premier League'
+                                ,'Serie A'
+                                ,'Ligue 1'
+                                ,'La Liga'
+                                ,'Bundesliga') THEN 1 ELSE 0 END AS big_five
+    FROM
+        team_step1
+        );
+2022-12-14 15:43:08.986134 (Thread-1): 15:43:08  Opening a new connection, currently in state closed
+2022-12-14 15:43:08.989905 (Thread-3): 15:43:08  Using snowflake connection "model.billong.f_results_team_stg"
+2022-12-14 15:43:08.990028 (Thread-3): 15:43:08  On model.billong.f_results_team_stg: /* {"app": "dbt", "dbt_version": "1.3.1", "profile_name": "user", "target_name": "default", "node_id": "model.billong.f_results_team_stg"} */
+create or replace transient table BILLONG.staging.f_results_team_stg  as
+        (
+
+
+WITH match_union AS (
+
+    SELECT
+        r.match_key
+        ,CONCAT(match_date,team_home,team_away,'Home') AS match_unique_key
+        ,r.league_key
+        ,r.match_date
+        ,'Home'             AS location
+        ,r.team_home_key    AS team_key
+        ,r.team_away_key    AS team_key_opponent
+        ,r.match_no
+        ,r.match_week
+        ,r.season
+        ,r.division
+        ,r.result_full_time         AS result
+        ,r.result_half_time
+        ,r.points_home			    AS points
+        ,r.points_half_time_home	AS points_half_time
+        ,r.goals_home			    AS goals
+        ,r.goals_half_time_home	    AS goals_half_time
+        ,r.shots_home			    AS shots
+        ,r.shots_target_home	    AS shots_target
+        ,r.fouls_home			    AS fouls
+        ,r.corners_home			    AS corners
+        ,r.yellow_home			    AS yellow
+        ,r.red_home				    AS red
+    FROM
+        BILLONG.staging.f_results_match_stg  AS r
+
+UNION ALL
+    SELECT
+        r.match_key
+        ,CONCAT(match_date,team_home,team_away,'Away') AS match_unique_key
+        ,r.league_key
+        ,r.match_date
+        ,'Away'                AS location
+        ,r.team_away_key       AS team_key
+        ,r.team_home_key       AS team_key_opponent
+        ,r.match_no
+        ,r.match_week
+        ,r.season
+        ,r.division
+        ,r.result_full_time         AS result
+        ,r.result_half_time
+        ,r.points_away			    AS points
+        ,r.points_half_time_away    AS points_half_time
+        ,r.goals_away			    AS goals
+        ,r.goals_half_time_away	    AS goals_half_time
+        ,r.shots_away			    AS shots
+        ,r.shots_target_away	    AS shots_target
+        ,r.fouls_away			    AS fouls
+        ,r.corners_away			    AS corners
+        ,r.yellow_away			    AS yellow
+        ,r.red_away				    AS red
+    FROM
+        BILLONG.staging.f_results_match_stg  AS r
+)
+
+    SELECT
+        match_key
+        ,HASH(match_unique_key) AS match_unique_key
+        ,league_key
+        ,match_date
+        ,location
+        ,team_key
+        ,team_key_opponent
+        ,match_no
+        ,match_week
+        ,season
+        ,division
+        ,result
+        ,result_half_time
+        ,points
+        ,points_half_time
+        ,goals
+        ,goals_half_time
+        ,shots
+        ,shots_target
+        ,fouls
+        ,corners
+        ,yellow
+        ,red
+    FROM
+        match_union
+        );
+2022-12-14 15:43:08.990109 (Thread-3): 15:43:08  Opening a new connection, currently in state closed
+2022-12-14 15:43:09.328242 (Thread-601): handling poll request
+2022-12-14 15:43:09.328723 (Thread-601): 15:43:09  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe810aa700>]}
+2022-12-14 15:43:09.351966 (Thread-601): sending response (<Response 26521 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:43:10.093438 (Thread-602): handling ps request
+2022-12-14 15:43:10.093860 (Thread-602): 15:43:10  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe810aab50>]}
+2022-12-14 15:43:10.095063 (Thread-602): sending response (<Response 10200 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:43:10.406483 (Thread-603): handling status request
+2022-12-14 15:43:10.406912 (Thread-603): 15:43:10  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe810aa970>]}
+2022-12-14 15:43:10.409144 (Thread-603): sending response (<Response 70326 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:43:10.488192 (Thread-4): 15:43:10  SQL status: SUCCESS 1 in 1.52 seconds
+2022-12-14 15:43:10.490164 (Thread-4): 15:43:10  finished collecting timing info
+2022-12-14 15:43:10.490411 (Thread-4): 15:43:10  On model.billong.d_season_stg: Close
+2022-12-14 15:43:10.725887 (Thread-604): handling poll request
+2022-12-14 15:43:10.726310 (Thread-604): 15:43:10  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe810aadf0>]}
+2022-12-14 15:43:10.726899 (Thread-604): sending response (<Response 1435 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:43:10.739245 (Thread-4): 15:43:10  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f3161013-812a-4e87-a6cc-5f8059a4e1d9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcfc5fc7ac0>]}
+2022-12-14 15:43:10.739711 (Thread-4): 15:43:10  13 of 16 OK created sql view model staging.d_season_stg ........................ [SUCCESS 1 in 1.86s]
+2022-12-14 15:43:10.739971 (Thread-4): 15:43:10  Finished running node model.billong.d_season_stg
+2022-12-14 15:43:12.197748 (Thread-605): handling poll request
+2022-12-14 15:43:12.198152 (Thread-605): 15:43:12  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe81104190>]}
+2022-12-14 15:43:12.198708 (Thread-605): sending response (<Response 1625 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:43:12.224869 (Thread-2): 15:43:12  SQL status: SUCCESS 1 in 3.24 seconds
+2022-12-14 15:43:12.231614 (Thread-2): 15:43:12  finished collecting timing info
+2022-12-14 15:43:12.231791 (Thread-2): 15:43:12  On model.billong.d_league: Close
+2022-12-14 15:43:12.422651 (Thread-1): 15:43:12  SQL status: SUCCESS 1 in 3.44 seconds
+2022-12-14 15:43:12.424744 (Thread-1): 15:43:12  finished collecting timing info
+2022-12-14 15:43:12.424910 (Thread-1): 15:43:12  On model.billong.d_team: Close
+2022-12-14 15:43:12.464947 (Thread-606): handling ps request
+2022-12-14 15:43:12.465329 (Thread-606): 15:43:12  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe81104370>]}
+2022-12-14 15:43:12.466470 (Thread-606): sending response (<Response 10200 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:43:12.475458 (Thread-2): 15:43:12  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f3161013-812a-4e87-a6cc-5f8059a4e1d9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcfc41a2e20>]}
+2022-12-14 15:43:12.475891 (Thread-2): 15:43:12  12 of 16 OK created sql table model dbt_mivarsson.d_league ..................... [SUCCESS 1 in 3.60s]
+2022-12-14 15:43:12.476133 (Thread-2): 15:43:12  Finished running node model.billong.d_league
+2022-12-14 15:43:12.564787 (Thread-3): 15:43:12  SQL status: SUCCESS 1 in 3.57 seconds
+2022-12-14 15:43:12.566773 (Thread-3): 15:43:12  finished collecting timing info
+2022-12-14 15:43:12.566936 (Thread-3): 15:43:12  On model.billong.f_results_team_stg: Close
+2022-12-14 15:43:12.660719 (Thread-1): 15:43:12  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f3161013-812a-4e87-a6cc-5f8059a4e1d9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcfc418c1c0>]}
+2022-12-14 15:43:12.661166 (Thread-1): 15:43:12  14 of 16 OK created sql table model dbt_mivarsson.d_team ....................... [SUCCESS 1 in 3.77s]
+2022-12-14 15:43:12.661406 (Thread-1): 15:43:12  Finished running node model.billong.d_team
+2022-12-14 15:43:12.826071 (Thread-3): 15:43:12  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f3161013-812a-4e87-a6cc-5f8059a4e1d9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcfc5fc7df0>]}
+2022-12-14 15:43:12.826535 (Thread-3): 15:43:12  15 of 16 OK created sql table model staging.f_results_team_stg ................. [SUCCESS 1 in 3.93s]
+2022-12-14 15:43:12.826791 (Thread-3): 15:43:12  Finished running node model.billong.f_results_team_stg
+2022-12-14 15:43:12.827840 (Thread-4): 15:43:12  Began running node model.billong.f_results_team
+2022-12-14 15:43:12.828112 (Thread-4): 15:43:12  16 of 16 START sql table model dbt_mivarsson.f_results_team .................... [RUN]
+2022-12-14 15:43:12.828565 (Thread-4): 15:43:12  Acquiring new snowflake connection "model.billong.f_results_team"
+2022-12-14 15:43:12.828672 (Thread-4): 15:43:12  Began compiling node model.billong.f_results_team
+2022-12-14 15:43:12.828762 (Thread-4): 15:43:12  Compiling model.billong.f_results_team
+2022-12-14 15:43:12.833911 (Thread-4): 15:43:12  Writing injected SQL for node "model.billong.f_results_team"
+2022-12-14 15:43:12.835895 (Thread-607): handling status request
+2022-12-14 15:43:12.836285 (Thread-607): 15:43:12  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe8394c9d0>]}
+2022-12-14 15:43:12.838731 (Thread-607): sending response (<Response 70326 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:43:12.846893 (Thread-4): 15:43:12  finished collecting timing info
+2022-12-14 15:43:12.847133 (Thread-4): 15:43:12  Began executing node model.billong.f_results_team
+2022-12-14 15:43:12.850527 (Thread-4): 15:43:12  Writing runtime sql for node "model.billong.f_results_team"
+2022-12-14 15:43:12.866719 (Thread-4): 15:43:12  Using snowflake connection "model.billong.f_results_team"
+2022-12-14 15:43:12.866887 (Thread-4): 15:43:12  On model.billong.f_results_team: /* {"app": "dbt", "dbt_version": "1.3.1", "profile_name": "user", "target_name": "default", "node_id": "model.billong.f_results_team"} */
+create or replace transient table BILLONG.dbt_mivarsson.f_results_team  as
+        (
+
+    SELECT
+        match_key
+        ,match_unique_key
+        ,league_key
+        ,match_date
+        ,location
+        ,team_key
+        ,team_key_opponent
+        ,match_no
+        ,match_week
+        ,season
+        ,division
+        ,result
+        ,result_half_time
+        ,points
+        ,points_half_time
+        ,goals
+        ,goals_half_time
+        ,shots
+        ,shots_target
+        ,fouls
+        ,corners
+        ,yellow
+        ,red
+    FROM
+        BILLONG.staging.f_results_team_stg
+        );
+2022-12-14 15:43:12.866977 (Thread-4): 15:43:12  Opening a new connection, currently in state closed
+2022-12-14 15:43:13.617574 (Thread-608): handling poll request
+2022-12-14 15:43:13.618003 (Thread-608): 15:43:13  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe8394cb80>]}
+2022-12-14 15:43:13.618895 (Thread-608): sending response (<Response 13101 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:43:14.804839 (Thread-609): handling ps request
+2022-12-14 15:43:14.805292 (Thread-609): 15:43:14  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe810aa340>]}
+2022-12-14 15:43:14.806411 (Thread-609): sending response (<Response 10200 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:43:14.948607 (Thread-4): 15:43:14  SQL status: SUCCESS 1 in 2.08 seconds
+2022-12-14 15:43:14.950700 (Thread-4): 15:43:14  finished collecting timing info
+2022-12-14 15:43:14.950915 (Thread-4): 15:43:14  On model.billong.f_results_team: Close
+2022-12-14 15:43:15.019095 (Thread-610): handling poll request
+2022-12-14 15:43:15.019498 (Thread-610): 15:43:15  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe8394c4c0>]}
+2022-12-14 15:43:15.020025 (Thread-610): sending response (<Response 1443 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:43:15.119747 (Thread-611): handling status request
+2022-12-14 15:43:15.120181 (Thread-611): 15:43:15  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe8394c4f0>]}
+2022-12-14 15:43:15.122373 (Thread-611): sending response (<Response 70326 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:43:15.180832 (Thread-4): 15:43:15  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f3161013-812a-4e87-a6cc-5f8059a4e1d9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcfc418b700>]}
+2022-12-14 15:43:15.181272 (Thread-4): 15:43:15  16 of 16 OK created sql table model dbt_mivarsson.f_results_team ............... [SUCCESS 1 in 2.35s]
+2022-12-14 15:43:15.181534 (Thread-4): 15:43:15  Finished running node model.billong.f_results_team
+2022-12-14 15:43:15.183474 (MainThread): 15:43:15  Acquiring new snowflake connection "master"
+2022-12-14 15:43:15.184020 (MainThread): 15:43:15  
+2022-12-14 15:43:15.184123 (MainThread): 15:43:15  Finished running 12 view models, 4 table models in 0 hours 0 minutes and 15.38 seconds (15.38s).
+2022-12-14 15:43:15.184205 (MainThread): 15:43:15  Connection 'master' was properly closed.
+2022-12-14 15:43:15.184269 (MainThread): 15:43:15  Connection 'model.billong.d_league' was properly closed.
+2022-12-14 15:43:15.184328 (MainThread): 15:43:15  Connection 'model.billong.f_results_team_stg' was properly closed.
+2022-12-14 15:43:15.184385 (MainThread): 15:43:15  Connection 'model.billong.d_team' was properly closed.
+2022-12-14 15:43:15.184441 (MainThread): 15:43:15  Connection 'model.billong.f_results_team' was properly closed.
+2022-12-14 15:43:15.262942 (MainThread): 15:43:15  
+2022-12-14 15:43:15.263166 (MainThread): 15:43:15  Completed successfully
+2022-12-14 15:43:15.263280 (MainThread): 15:43:15  
+2022-12-14 15:43:15.263373 (MainThread): 15:43:15  Done. PASS=16 WARN=0 ERROR=0 SKIP=0 TOTAL=16
+2022-12-14 15:43:16.336722 (Thread-612): handling poll request
+2022-12-14 15:43:16.337136 (Thread-612): 15:43:16  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe86188be0>]}
+2022-12-14 15:43:16.339538 (Thread-612): sending response (<Response 89525 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:43:16.835528 (Thread-613): handling status request
+2022-12-14 15:43:16.835947 (Thread-613): 15:43:16  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe860711f0>]}
+2022-12-14 15:43:16.838160 (Thread-613): sending response (<Response 70309 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:43:16.844268 (Thread-614): handling list request
+2022-12-14 15:43:16.844602 (Thread-614): 15:43:16  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe86071f70>]}
+2022-12-14 15:43:16.876159 (Thread-614): 15:43:16  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe7e871910>]}
+2022-12-14 15:43:16.876798 (Thread-614): 15:43:16  Found 16 models, 4 tests, 0 snapshots, 0 analyses, 496 macros, 0 operations, 0 seed files, 13 sources, 0 exposures, 0 metrics
+2022-12-14 15:43:16.877138 (Thread-614): 15:43:16  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe83942190>]}
+2022-12-14 15:43:16.881767 (Thread-614): sending response (<Response 15008 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:43:17.144124 (Thread-615): handling ps request
+2022-12-14 15:43:17.144559 (Thread-615): 15:43:17  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe81089fa0>]}
+2022-12-14 15:43:17.145680 (Thread-615): sending response (<Response 10517 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:43:17.615425 (Thread-616): handling poll request
+2022-12-14 15:43:17.615851 (Thread-616): 15:43:17  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe810899d0>]}
+2022-12-14 15:43:17.616950 (Thread-616): sending response (<Response 30250 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:43:17.650388 (Thread-617): handling status request
+2022-12-14 15:43:17.650819 (Thread-617): 15:43:17  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe810b7df0>]}
+2022-12-14 15:43:17.653025 (Thread-617): sending response (<Response 70326 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:43:17.918959 (Thread-618): handling status request
+2022-12-14 15:43:17.919382 (Thread-618): 15:43:17  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe810b73a0>]}
+2022-12-14 15:43:17.921630 (Thread-618): sending response (<Response 70309 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:43:17.927709 (Thread-619): handling list request
+2022-12-14 15:43:17.928035 (Thread-619): 15:43:17  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe8394cb80>]}
+2022-12-14 15:43:17.958243 (Thread-619): 15:43:17  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe810b7be0>]}
+2022-12-14 15:43:17.958934 (Thread-619): 15:43:17  Found 16 models, 4 tests, 0 snapshots, 0 analyses, 496 macros, 0 operations, 0 seed files, 13 sources, 0 exposures, 0 metrics
+2022-12-14 15:43:17.959258 (Thread-619): 15:43:17  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe81089430>]}
+2022-12-14 15:43:17.963709 (Thread-619): sending response (<Response 15008 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 15:44:42.093210 (Thread-620): handling status request
+2022-12-14 15:44:42.094907 (Thread-620): 15:44:42  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe7e957310>]}
+2022-12-14 15:44:42.097072 (Thread-620): sending response (<Response 70326 bytes [200 OK]>) to 10.0.195.122
