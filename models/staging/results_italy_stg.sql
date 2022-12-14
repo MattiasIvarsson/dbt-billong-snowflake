@@ -38,8 +38,6 @@ WITH italy_union AS (
 )
 
     SELECT
-
-    SELECT
 		HASH(match_key)  AS match_key
 		,match_no
 		,match_week
