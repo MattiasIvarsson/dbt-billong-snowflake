@@ -4,7 +4,7 @@
    as (
     
 
-    SELECT TOP 5
+    SELECT
        -- CONCAT("date",HomeTeam,AwayTeam) AS match_key
         "date"       AS match_date
         ,"Time"		AS match_time
@@ -17,7 +17,7 @@
 
         ,"HomeTeam"			AS team_home
         ,"AwayTeam"			AS team_away
-        ,"Referee"            AS referee
+        ,"Referee"          AS referee
         ,FTR				AS result_full_time
         ,HTR				AS result_half_time
         ,FTHG				AS goals_home
