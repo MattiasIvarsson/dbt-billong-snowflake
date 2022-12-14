@@ -1,8 +1,7 @@
 {{config(   materialized='incremental',
             tags='football',
             schema ='football',
-            alias ='f_result_premier_league',
-            post_hook ="{{ create_nonclustered_index(columns = ['match_key'], includes = ['points']) }}"
+            alias ='f_result_premier_league'
 )}}
 
  --- TEST to have all marts and simalar in another dbt project.
