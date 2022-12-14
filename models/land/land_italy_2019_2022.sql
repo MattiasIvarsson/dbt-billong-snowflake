@@ -10,7 +10,6 @@
         ,'Italy'			AS country
         ,'Serie A'          AS league
         ,1					AS division
-
         ,"HomeTeam"			AS team_home
         ,"AwayTeam"			AS team_away
         ,NULL               AS referee

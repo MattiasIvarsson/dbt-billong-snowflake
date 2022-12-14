@@ -11,7 +11,6 @@
         ,'France'			AS country
         ,'Ligue 1'          AS league
         ,1					AS division
-
         ,"HomeTeam"			AS team_home
         ,"AwayTeam"			AS team_away
         ,NULL               AS referee

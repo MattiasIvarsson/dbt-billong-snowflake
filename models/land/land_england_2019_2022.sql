@@ -10,7 +10,6 @@
         ,'England'			AS country
         ,'Premier League'	AS league
         ,1					AS division
-
         ,"HomeTeam"			AS team_home
         ,"AwayTeam"			AS team_away
         ,"Referee"          AS referee

@@ -10,7 +10,6 @@
         ,'Spain'			AS country
         ,'La Liga'          AS league
         ,1					AS division
-
         ,"HomeTeam"			AS team_home
         ,"AwayTeam"			AS team_away
         ,NULL               AS referee
