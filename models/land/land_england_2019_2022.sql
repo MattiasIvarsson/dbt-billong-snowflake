@@ -32,4 +32,4 @@
         ,HR					AS red_home
         ,AR					AS red_away
     FROM
-        {{source('football_land', 'england_2019_2022')}}
+        BILLONG_LAND.FOOTBALL."england_2019_2022"

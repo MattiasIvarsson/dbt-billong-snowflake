@@ -62,10 +62,6 @@ models:
           materialized: view
           schema: staging
           tags: staging
-      inter:
-          materialized: table
-          schema: inter
-          tags: inter
       marts:
           materialized: table
           schema: marts
