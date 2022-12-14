@@ -483,3 +483,305 @@
 2022-12-14 13:56:06.296390 (Thread-83): handling status request
 2022-12-14 13:56:06.296724 (Thread-83): 13:56:06  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '7e5aad69-6fb7-4b73-a257-3d38fab0a263', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0a04d52130>]}
 2022-12-14 13:56:06.297323 (Thread-83): sending response (<Response 5508 bytes [200 OK]>) to 10.0.42.114
+2022-12-14 14:02:47.112319 (MainThread): Running with dbt=1.3.1
+2022-12-14 14:02:47.730775 (MainThread): running dbt with arguments Namespace(cls=<class 'dbt_rpc.task.server.RPCServerTask'>, debug=None, defer=None, exclude=None, fail_fast=None, host='0.0.0.0', log_cache_events=False, log_format=None, models=None, partial_parse=True, port=8580, printer_width=None, profile='user', profiles_dir='/usr/src/develop/.dbt', project_dir=None, record_timing_info=None, rpc_method=None, send_anonymous_usage_stats=None, single_threaded=False, state=None, static_parser=None, target=None, threads=None, use_colors=None, use_experimental_parser=None, vars='{}', version_check=None, warn_error=None, which='rpc', write_json=None)
+2022-12-14 14:02:47.741211 (MainThread): Tracking: tracking
+2022-12-14 14:02:47.741601 (MainThread): 14:02:47  Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efeb7b106a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe978d2520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe978d8b20>]}
+2022-12-14 14:02:47.741960 (MainThread): Serving RPC server at 0.0.0.0:8580, pid=29
+2022-12-14 14:02:47.742537 (MainThread): Supported methods: ['build', 'cli_args', 'compile', 'compile_sql', 'deps', 'docs.generate', 'gc', 'get-manifest', 'kill', 'list', 'poll', 'ps', 'run', 'run-operation', 'run_sql', 'seed', 'snapshot', 'snapshot-freshness', 'source-freshness', 'status', 'test']
+2022-12-14 14:02:47.747447 (MainThread): Send requests to http://localhost:8580/jsonrpc
+2022-12-14 14:02:47.780377 (Thread-12): 14:02:47  Partial parse save file not found. Starting full parse.
+2022-12-14 14:02:47.780698 (Thread-12): 14:02:47  Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe978f6520>]}
+2022-12-14 14:02:48.242249 (Thread-12): 14:02:48  Parsing macros/get_custom_schema.sql
+2022-12-14 14:02:48.243782 (Thread-12): 14:02:48  Parsing macros/create_stmt_fromfile.sql
+2022-12-14 14:02:48.244362 (Thread-12): 14:02:48  Parsing macros/star_custom.sql
+2022-12-14 14:02:48.247795 (Thread-12): 14:02:48  Parsing macros/star_cast.sql
+2022-12-14 14:02:48.251196 (Thread-12): 14:02:48  Parsing macros/test_unique_where_concat.sql
+2022-12-14 14:02:48.252700 (Thread-12): 14:02:48  Parsing macros/create_initial_tables.sql
+2022-12-14 14:02:48.253447 (Thread-12): 14:02:48  Parsing macros/create_stored_procedures.sql
+2022-12-14 14:02:48.253856 (Thread-12): 14:02:48  Parsing macros/create_udfs.sql
+2022-12-14 14:02:48.255394 (Thread-12): 14:02:48  Parsing macros/procedure_definition_materialization.sql
+2022-12-14 14:02:48.257931 (Thread-12): 14:02:48  Parsing macros/table_insert_only_materialization.sql
+2022-12-14 14:02:48.260200 (Thread-12): 14:02:48  Parsing macros/sql_functions/column_trim_clean_nonprintable_char.sql
+2022-12-14 14:02:48.260751 (Thread-12): 14:02:48  Parsing macros/table/create_table_store_store_test2.sql
+2022-12-14 14:02:48.264877 (Thread-12): 14:02:48  Parsing macros/table/create_table_store_store_test3.sql
+2022-12-14 14:02:48.268930 (Thread-12): 14:02:48  Parsing macros/mapping/birthdate.sql
+2022-12-14 14:02:48.269737 (Thread-12): 14:02:48  Parsing macros/variables/get_variable_list.sql
+2022-12-14 14:02:48.271758 (Thread-12): 14:02:48  Parsing macros/variables/input_variables_list.sql
+2022-12-14 14:02:48.273370 (Thread-12): 14:02:48  Parsing macros/materialization/print_list_item.sql
+2022-12-14 14:02:48.274723 (Thread-12): 14:02:48  Parsing macros/materialization/hash_columns.sql
+2022-12-14 14:02:48.275504 (Thread-12): 14:02:48  Parsing macros/materialization/print_concat_columns.sql
+2022-12-14 14:02:48.277014 (Thread-12): 14:02:48  Parsing macros/materialization/print_columns_dict.sql
+2022-12-14 14:02:48.278139 (Thread-12): 14:02:48  Parsing macros/materialization/insert_only_engine.sql
+2022-12-14 14:02:48.281288 (Thread-12): 14:02:48  Parsing macros/materialization/print_columns.sql
+2022-12-14 14:02:48.282539 (Thread-12): 14:02:48  Parsing macros/udf/dbo_ConvertFirstLetterinCapital.sql
+2022-12-14 14:02:48.283134 (Thread-12): 14:02:48  Parsing macros/udf/udf_dbo_JaccDistance.sql
+2022-12-14 14:02:48.283590 (Thread-12): 14:02:48  Parsing macros/udf/udf_dbo_LevDistance.sql
+2022-12-14 14:02:48.284033 (Thread-12): 14:02:48  Parsing macros/udf/dbo_DelimitedSplit8K.sql
+2022-12-14 14:02:48.284652 (Thread-12): 14:02:48  Parsing macros/udf/dbo_udfGetOnlyNumeric.sql
+2022-12-14 14:02:48.285137 (Thread-12): 14:02:48  Parsing macros/udf/udf_dbo_JaroDistance.sql
+2022-12-14 14:02:48.285587 (Thread-12): 14:02:48  Parsing macros/udf/udf_dbo_LongestDistance.sql
+2022-12-14 14:02:48.286034 (Thread-12): 14:02:48  Parsing macros/udf/udf_dbo_Similarity.sql
+2022-12-14 14:02:48.286537 (Thread-12): 14:02:48  Parsing macros/apply_grants.sql
+2022-12-14 14:02:48.287727 (Thread-12): 14:02:48  Parsing macros/catalog.sql
+2022-12-14 14:02:48.289697 (Thread-12): 14:02:48  Parsing macros/adapters.sql
+2022-12-14 14:02:48.328910 (Thread-12): 14:02:48  Parsing macros/materializations/seed.sql
+2022-12-14 14:02:48.333837 (Thread-12): 14:02:48  Parsing macros/materializations/incremental.sql
+2022-12-14 14:02:48.343797 (Thread-12): 14:02:48  Parsing macros/materializations/test.sql
+2022-12-14 14:02:48.344730 (Thread-12): 14:02:48  Parsing macros/materializations/snapshot.sql
+2022-12-14 14:02:48.345664 (Thread-12): 14:02:48  Parsing macros/materializations/merge.sql
+2022-12-14 14:02:48.349309 (Thread-12): 14:02:48  Parsing macros/materializations/table.sql
+2022-12-14 14:02:48.354688 (Thread-12): 14:02:48  Parsing macros/materializations/view.sql
+2022-12-14 14:02:48.356033 (Thread-12): 14:02:48  Parsing macros/utils/escape_single_quotes.sql
+2022-12-14 14:02:48.356628 (Thread-12): 14:02:48  Parsing macros/utils/safe_cast.sql
+2022-12-14 14:02:48.357176 (Thread-12): 14:02:48  Parsing macros/utils/array_construct.sql
+2022-12-14 14:02:48.357748 (Thread-12): 14:02:48  Parsing macros/utils/timestamps.sql
+2022-12-14 14:02:48.359782 (Thread-12): 14:02:48  Parsing macros/utils/right.sql
+2022-12-14 14:02:48.360451 (Thread-12): 14:02:48  Parsing macros/utils/bool_or.sql
+2022-12-14 14:02:48.360950 (Thread-12): 14:02:48  Parsing macros/etc/statement.sql
+2022-12-14 14:02:48.366013 (Thread-12): 14:02:48  Parsing macros/etc/datetime.sql
+2022-12-14 14:02:48.373859 (Thread-12): 14:02:48  Parsing macros/adapters/apply_grants.sql
+2022-12-14 14:02:48.387068 (Thread-12): 14:02:48  Parsing macros/adapters/freshness.sql
+2022-12-14 14:02:48.388974 (Thread-12): 14:02:48  Parsing macros/adapters/columns.sql
+2022-12-14 14:02:48.398020 (Thread-12): 14:02:48  Parsing macros/adapters/timestamps.sql
+2022-12-14 14:02:48.401369 (Thread-12): 14:02:48  Parsing macros/adapters/relation.sql
+2022-12-14 14:02:48.415334 (Thread-12): 14:02:48  Parsing macros/adapters/schema.sql
+2022-12-14 14:02:48.417451 (Thread-12): 14:02:48  Parsing macros/adapters/persist_docs.sql
+2022-12-14 14:02:48.422226 (Thread-12): 14:02:48  Parsing macros/adapters/metadata.sql
+2022-12-14 14:02:48.429014 (Thread-12): 14:02:48  Parsing macros/adapters/indexes.sql
+2022-12-14 14:02:48.431672 (Thread-12): 14:02:48  Parsing macros/get_custom_name/get_custom_database.sql
+2022-12-14 14:02:48.433195 (Thread-12): 14:02:48  Parsing macros/get_custom_name/get_custom_schema.sql
+2022-12-14 14:02:48.435608 (Thread-12): 14:02:48  Parsing macros/get_custom_name/get_custom_alias.sql
+2022-12-14 14:02:48.437056 (Thread-12): 14:02:48  Parsing macros/python_model/python.sql
+2022-12-14 14:02:48.442921 (Thread-12): 14:02:48  Parsing macros/materializations/hooks.sql
+2022-12-14 14:02:48.446592 (Thread-12): 14:02:48  Parsing macros/materializations/configs.sql
+2022-12-14 14:02:48.448865 (Thread-12): 14:02:48  Parsing macros/materializations/seeds/seed.sql
+2022-12-14 14:02:48.455294 (Thread-12): 14:02:48  Parsing macros/materializations/seeds/helpers.sql
+2022-12-14 14:02:48.472248 (Thread-12): 14:02:48  Parsing macros/materializations/tests/test.sql
+2022-12-14 14:02:48.476387 (Thread-12): 14:02:48  Parsing macros/materializations/tests/helpers.sql
+2022-12-14 14:02:48.478059 (Thread-12): 14:02:48  Parsing macros/materializations/tests/where_subquery.sql
+2022-12-14 14:02:48.479843 (Thread-12): 14:02:48  Parsing macros/materializations/models/view/helpers.sql
+2022-12-14 14:02:48.481126 (Thread-12): 14:02:48  Parsing macros/materializations/models/view/create_or_replace_view.sql
+2022-12-14 14:02:48.484274 (Thread-12): 14:02:48  Parsing macros/materializations/models/view/create_view_as.sql
+2022-12-14 14:02:48.486513 (Thread-12): 14:02:48  Parsing macros/materializations/models/view/view.sql
+2022-12-14 14:02:48.491819 (Thread-12): 14:02:48  Parsing macros/materializations/models/incremental/strategies.sql
+2022-12-14 14:02:48.498342 (Thread-12): 14:02:48  Parsing macros/materializations/models/incremental/column_helpers.sql
+2022-12-14 14:02:48.506030 (Thread-12): 14:02:48  Parsing macros/materializations/models/incremental/incremental.sql
+2022-12-14 14:02:48.515665 (Thread-12): 14:02:48  Parsing macros/materializations/models/incremental/on_schema_change.sql
+2022-12-14 14:02:48.530806 (Thread-12): 14:02:48  Parsing macros/materializations/models/incremental/is_incremental.sql
+2022-12-14 14:02:48.532249 (Thread-12): 14:02:48  Parsing macros/materializations/models/incremental/merge.sql
+2022-12-14 14:02:48.546279 (Thread-12): 14:02:48  Parsing macros/materializations/models/table/create_table_as.sql
+2022-12-14 14:02:48.549654 (Thread-12): 14:02:48  Parsing macros/materializations/models/table/table.sql
+2022-12-14 14:02:48.554857 (Thread-12): 14:02:48  Parsing macros/materializations/snapshots/strategies.sql
+2022-12-14 14:02:48.569786 (Thread-12): 14:02:48  Parsing macros/materializations/snapshots/snapshot_merge.sql
+2022-12-14 14:02:48.571407 (Thread-12): 14:02:48  Parsing macros/materializations/snapshots/snapshot.sql
+2022-12-14 14:02:48.582005 (Thread-12): 14:02:48  Parsing macros/materializations/snapshots/helpers.sql
+2022-12-14 14:02:48.593917 (Thread-12): 14:02:48  Parsing macros/generic_test_sql/not_null.sql
+2022-12-14 14:02:48.594763 (Thread-12): 14:02:48  Parsing macros/generic_test_sql/relationships.sql
+2022-12-14 14:02:48.595673 (Thread-12): 14:02:48  Parsing macros/generic_test_sql/unique.sql
+2022-12-14 14:02:48.596377 (Thread-12): 14:02:48  Parsing macros/generic_test_sql/accepted_values.sql
+2022-12-14 14:02:48.597712 (Thread-12): 14:02:48  Parsing macros/utils/intersect.sql
+2022-12-14 14:02:48.598603 (Thread-12): 14:02:48  Parsing macros/utils/position.sql
+2022-12-14 14:02:48.599728 (Thread-12): 14:02:48  Parsing macros/utils/escape_single_quotes.sql
+2022-12-14 14:02:48.600803 (Thread-12): 14:02:48  Parsing macros/utils/safe_cast.sql
+2022-12-14 14:02:48.602080 (Thread-12): 14:02:48  Parsing macros/utils/array_construct.sql
+2022-12-14 14:02:48.603587 (Thread-12): 14:02:48  Parsing macros/utils/cast_bool_to_text.sql
+2022-12-14 14:02:48.604649 (Thread-12): 14:02:48  Parsing macros/utils/datediff.sql
+2022-12-14 14:02:48.605876 (Thread-12): 14:02:48  Parsing macros/utils/concat.sql
+2022-12-14 14:02:48.606902 (Thread-12): 14:02:48  Parsing macros/utils/length.sql
+2022-12-14 14:02:48.607872 (Thread-12): 14:02:48  Parsing macros/utils/any_value.sql
+2022-12-14 14:02:48.608826 (Thread-12): 14:02:48  Parsing macros/utils/data_types.sql
+2022-12-14 14:02:48.615872 (Thread-12): 14:02:48  Parsing macros/utils/array_concat.sql
+2022-12-14 14:02:48.616947 (Thread-12): 14:02:48  Parsing macros/utils/right.sql
+2022-12-14 14:02:48.618045 (Thread-12): 14:02:48  Parsing macros/utils/array_append.sql
+2022-12-14 14:02:48.619152 (Thread-12): 14:02:48  Parsing macros/utils/last_day.sql
+2022-12-14 14:02:48.620945 (Thread-12): 14:02:48  Parsing macros/utils/split_part.sql
+2022-12-14 14:02:48.622975 (Thread-12): 14:02:48  Parsing macros/utils/date_trunc.sql
+2022-12-14 14:02:48.624415 (Thread-12): 14:02:48  Parsing macros/utils/literal.sql
+2022-12-14 14:02:48.626187 (Thread-12): 14:02:48  Parsing macros/utils/hash.sql
+2022-12-14 14:02:48.627571 (Thread-12): 14:02:48  Parsing macros/utils/except.sql
+2022-12-14 14:02:48.628616 (Thread-12): 14:02:48  Parsing macros/utils/bool_or.sql
+2022-12-14 14:02:48.630499 (Thread-12): 14:02:48  Parsing macros/utils/replace.sql
+2022-12-14 14:02:48.631747 (Thread-12): 14:02:48  Parsing macros/utils/dateadd.sql
+2022-12-14 14:02:48.633006 (Thread-12): 14:02:48  Parsing macros/utils/listagg.sql
+2022-12-14 14:02:48.635275 (Thread-12): 14:02:48  Parsing tests/generic/builtin.sql
+2022-12-14 14:02:48.638147 (Thread-12): 14:02:48  Parsing macros/materializations/insert_by_period_helpers.sql
+2022-12-14 14:02:48.661911 (Thread-12): 14:02:48  Parsing macros/materializations/insert_by_period_materialization.sql
+2022-12-14 14:02:48.682075 (Thread-12): 14:02:48  Parsing macros/dbt_expectations/math/log_natural.sql
+2022-12-14 14:02:48.682596 (Thread-12): 14:02:48  Parsing macros/dbt_expectations/schema_tests/table_shape/expect_grouped_row_values_to_have_recent_data.sql
+2022-12-14 14:02:48.685528 (Thread-12): 14:02:48  Parsing macros/dbt_expectations/schema_tests/multi-column/expect_select_column_values_to_be_unique_within_record.sql
+2022-12-14 14:02:48.690363 (Thread-12): 14:02:48  Parsing macros/dbt_expectations/schema_tests/_generalized/expression_is_true.sql
+2022-12-14 14:02:48.692768 (Thread-12): 14:02:48  Parsing macros/dbt_expectations/schema_tests/_generalized/equal_expression.sql
+2022-12-14 14:02:48.700802 (Thread-12): 14:02:48  Parsing macros/dbt_expectations/schema_tests/distributional/expect_column_values_to_be_within_n_stdevs.sql
+2022-12-14 14:02:48.702984 (Thread-12): 14:02:48  Parsing macros/dbt_expectations/schema_tests/distributional/expect_column_values_to_be_within_n_moving_stdevs.sql
+2022-12-14 14:02:48.709737 (Thread-12): 14:02:48  Parsing macros/dbt_expectations/schema_tests/aggregate_functions/expect_column_stdev_to_be_between.sql
+2022-12-14 14:02:48.711257 (Thread-12): 14:02:48  Parsing macros/dbt_expectations/schema_tests/aggregate_functions/expect_column_most_common_value_to_be_in_set.sql
+2022-12-14 14:02:48.714525 (Thread-12): 14:02:48  Parsing macros/dbt_utils/sql/deduplicate.sql
+2022-12-14 14:02:48.715240 (Thread-12): 14:02:48  Parsing macros/dbt_utils/sql/surrogate_key.sql
+2022-12-14 14:02:48.718904 (Thread-12): 14:02:48  Parsing macros/dbt_utils/sql/get_tables_by_pattern_sql.sql
+2022-12-14 14:02:48.719751 (Thread-12): 14:02:48  Parsing macros/dbt_utils/sql/generate_series.sql
+2022-12-14 14:02:48.721461 (Thread-12): 14:02:48  Parsing macros/dbt_utils/schema_cleanup/drop_old_relations.sql
+2022-12-14 14:02:48.726315 (Thread-12): 14:02:48  Parsing macros/dbt_utils/schema_cleanup/drop_schemas_by_prefixes.sql
+2022-12-14 14:02:48.728858 (Thread-12): 14:02:48  Parsing macros/dbt_utils/schema_cleanup/drop_schema_by_name.sql
+2022-12-14 14:02:48.729658 (Thread-12): 14:02:48  Parsing macros/dbt_utils/datetime/date_spine.sql
+2022-12-14 14:02:48.732812 (Thread-12): 14:02:48  Parsing macros/dbt_utils/schema_tests/sequential_values.sql
+2022-12-14 14:02:48.734560 (Thread-12): 14:02:48  Parsing macros/dbt_utils/schema_tests/test_not_null_where.sql
+2022-12-14 14:02:48.735893 (Thread-12): 14:02:48  Parsing macros/dbt_utils/schema_tests/test_unique_where.sql
+2022-12-14 14:02:48.737199 (Thread-12): 14:02:48  Parsing macros/dbt_utils/schema_tests/mutually_exclusive_ranges.sql
+2022-12-14 14:02:48.745134 (Thread-12): 14:02:48  Parsing macros/dbt_utils/schema_tests/relationships_where.sql
+2022-12-14 14:02:48.746437 (Thread-12): 14:02:48  Parsing macros/dbt_utils/cross_db_utils/width_bucket.sql
+2022-12-14 14:02:48.748440 (Thread-12): 14:02:48  Parsing macros/dbt_date/calendar_date/week_end.sql
+2022-12-14 14:02:48.749193 (Thread-12): 14:02:48  Parsing macros/dbt_date/calendar_date/to_unixtimestamp.sql
+2022-12-14 14:02:48.749964 (Thread-12): 14:02:48  Parsing macros/dbt_date/calendar_date/iso_week_of_year.sql
+2022-12-14 14:02:48.750884 (Thread-12): 14:02:48  Parsing macros/dbt_date/calendar_date/month_name.sql
+2022-12-14 14:02:48.751619 (Thread-12): 14:02:48  Parsing macros/dbt_date/calendar_date/day_name.sql
+2022-12-14 14:02:48.752338 (Thread-12): 14:02:48  Parsing macros/dbt_date/calendar_date/convert_timezones.sql
+2022-12-14 14:02:48.753118 (Thread-12): 14:02:48  Parsing macros/dbt_date/calendar_date/date_part.sql
+2022-12-14 14:02:48.753670 (Thread-12): 14:02:48  Parsing macros/dbt_date/calendar_date/week_of_year.sql
+2022-12-14 14:02:48.754367 (Thread-12): 14:02:48  Parsing macros/dbt_date/calendar_date/iso_week_start.sql
+2022-12-14 14:02:48.754876 (Thread-12): 14:02:48  Parsing macros/dbt_date/calendar_date/from_unixtimestamp.sql
+2022-12-14 14:02:48.757145 (Thread-12): 14:02:48  Parsing macros/dbt_date/calendar_date/day_of_week.sql
+2022-12-14 14:02:48.758136 (Thread-12): 14:02:48  Parsing macros/dbt_date/calendar_date/week_start.sql
+2022-12-14 14:02:48.758999 (Thread-12): 14:02:48  Parsing macros/dbt_audit_helper/compare_queries.sql
+2022-12-14 14:02:48.760566 (Thread-12): 14:02:48  Parsing macros/dbt_audit_helper/compare_relation_columns.sql
+2022-12-14 14:02:48.762282 (Thread-12): 14:02:48  Parsing macros/dbt_audit_helper/compare_column_values.sql
+2022-12-14 14:02:48.766903 (Thread-12): 14:02:48  Parsing macros/dbt_audit_helper/compare_relations.sql
+2022-12-14 14:02:48.768814 (Thread-12): 14:02:48  Parsing macros/sql/pivot.sql
+2022-12-14 14:02:48.772708 (Thread-12): 14:02:48  Parsing macros/sql/star.sql
+2022-12-14 14:02:48.778106 (Thread-12): 14:02:48  Parsing macros/sql/get_table_types_sql.sql
+2022-12-14 14:02:48.779640 (Thread-12): 14:02:48  Parsing macros/sql/generate_surrogate_key.sql
+2022-12-14 14:02:48.782069 (Thread-12): 14:02:48  Parsing macros/sql/deduplicate.sql
+2022-12-14 14:02:48.785645 (Thread-12): 14:02:48  Parsing macros/sql/surrogate_key.sql
+2022-12-14 14:02:48.787146 (Thread-12): 14:02:48  Parsing macros/sql/get_query_results_as_dict.sql
+2022-12-14 14:02:48.789351 (Thread-12): 14:02:48  Parsing macros/sql/date_spine.sql
+2022-12-14 14:02:48.793334 (Thread-12): 14:02:48  Parsing macros/sql/get_column_values.sql
+2022-12-14 14:02:48.798736 (Thread-12): 14:02:48  Parsing macros/sql/groupby.sql
+2022-12-14 14:02:48.800051 (Thread-12): 14:02:48  Parsing macros/sql/get_tables_by_pattern_sql.sql
+2022-12-14 14:02:48.806215 (Thread-12): 14:02:48  Parsing macros/sql/nullcheck_table.sql
+2022-12-14 14:02:48.807800 (Thread-12): 14:02:48  Parsing macros/sql/get_tables_by_prefix_sql.sql
+2022-12-14 14:02:48.809403 (Thread-12): 14:02:48  Parsing macros/sql/safe_divide.sql
+2022-12-14 14:02:48.810500 (Thread-12): 14:02:48  Parsing macros/sql/get_relations_by_pattern.sql
+2022-12-14 14:02:48.813724 (Thread-12): 14:02:48  Parsing macros/sql/get_relations_by_prefix.sql
+2022-12-14 14:02:48.816953 (Thread-12): 14:02:48  Parsing macros/sql/safe_add.sql
+2022-12-14 14:02:48.819082 (Thread-12): 14:02:48  Parsing macros/sql/haversine_distance.sql
+2022-12-14 14:02:48.824740 (Thread-12): 14:02:48  Parsing macros/sql/unpivot.sql
+2022-12-14 14:02:48.830529 (Thread-12): 14:02:48  Parsing macros/sql/generate_series.sql
+2022-12-14 14:02:48.834626 (Thread-12): 14:02:48  Parsing macros/sql/get_single_value.sql
+2022-12-14 14:02:48.837363 (Thread-12): 14:02:48  Parsing macros/sql/width_bucket.sql
+2022-12-14 14:02:48.842205 (Thread-12): 14:02:48  Parsing macros/sql/nullcheck.sql
+2022-12-14 14:02:48.843853 (Thread-12): 14:02:48  Parsing macros/sql/union.sql
+2022-12-14 14:02:48.856119 (Thread-12): 14:02:48  Parsing macros/sql/get_filtered_columns_in_relation.sql
+2022-12-14 14:02:48.858790 (Thread-12): 14:02:48  Parsing macros/jinja_helpers/pretty_time.sql
+2022-12-14 14:02:48.860006 (Thread-12): 14:02:48  Parsing macros/jinja_helpers/_is_relation.sql
+2022-12-14 14:02:48.861104 (Thread-12): 14:02:48  Parsing macros/jinja_helpers/slugify.sql
+2022-12-14 14:02:48.862589 (Thread-12): 14:02:48  Parsing macros/jinja_helpers/_is_ephemeral.sql
+2022-12-14 14:02:48.864428 (Thread-12): 14:02:48  Parsing macros/jinja_helpers/log_info.sql
+2022-12-14 14:02:48.865596 (Thread-12): 14:02:48  Parsing macros/jinja_helpers/pretty_log_format.sql
+2022-12-14 14:02:48.866719 (Thread-12): 14:02:48  Parsing macros/web/get_url_parameter.sql
+2022-12-14 14:02:48.868247 (Thread-12): 14:02:48  Parsing macros/web/get_url_path.sql
+2022-12-14 14:02:48.870677 (Thread-12): 14:02:48  Parsing macros/web/get_url_host.sql
+2022-12-14 14:02:48.872575 (Thread-12): 14:02:48  Parsing macros/generic_tests/expression_is_true.sql
+2022-12-14 14:02:48.874524 (Thread-12): 14:02:48  Parsing macros/generic_tests/not_constant.sql
+2022-12-14 14:02:48.876575 (Thread-12): 14:02:48  Parsing macros/generic_tests/sequential_values.sql
+2022-12-14 14:02:48.880266 (Thread-12): 14:02:48  Parsing macros/generic_tests/not_null_proportion.sql
+2022-12-14 14:02:48.883357 (Thread-12): 14:02:48  Parsing macros/generic_tests/at_least_one.sql
+2022-12-14 14:02:48.885422 (Thread-12): 14:02:48  Parsing macros/generic_tests/equality.sql
+2022-12-14 14:02:48.888892 (Thread-12): 14:02:48  Parsing macros/generic_tests/equal_rowcount.sql
+2022-12-14 14:02:48.892870 (Thread-12): 14:02:48  Parsing macros/generic_tests/not_accepted_values.sql
+2022-12-14 14:02:48.894922 (Thread-12): 14:02:48  Parsing macros/generic_tests/mutually_exclusive_ranges.sql
+2022-12-14 14:02:48.903604 (Thread-12): 14:02:48  Parsing macros/generic_tests/relationships_where.sql
+2022-12-14 14:02:48.905679 (Thread-12): 14:02:48  Parsing macros/generic_tests/not_empty_string.sql
+2022-12-14 14:02:48.907473 (Thread-12): 14:02:48  Parsing macros/generic_tests/accepted_range.sql
+2022-12-14 14:02:48.909781 (Thread-12): 14:02:48  Parsing macros/generic_tests/fewer_rows_than.sql
+2022-12-14 14:02:48.913902 (Thread-12): 14:02:48  Parsing macros/generic_tests/unique_combination_of_columns.sql
+2022-12-14 14:02:48.916622 (Thread-12): 14:02:48  Parsing macros/generic_tests/recency.sql
+2022-12-14 14:02:48.919907 (Thread-12): 14:02:48  Parsing macros/generic_tests/cardinality_equality.sql
+2022-12-14 14:02:49.387047 (Thread-12): 14:02:49  1699: static parser successfully parsed inter/d_team.sql
+2022-12-14 14:02:49.398547 (Thread-12): 14:02:49  1699: static parser successfully parsed inter/d_league.sql
+2022-12-14 14:02:49.401514 (Thread-12): 14:02:49  1699: static parser successfully parsed inter/f_financial_team.sql
+2022-12-14 14:02:49.404302 (Thread-12): 14:02:49  1603: static parser failed on inter/f_results_match.sql
+2022-12-14 14:02:49.410617 (Thread-12): 14:02:49  1602: parser fallback to jinja rendering on inter/f_results_match.sql
+2022-12-14 14:02:49.412365 (Thread-12): 14:02:49  1699: static parser successfully parsed inter/f_team_other.sql
+2022-12-14 14:02:49.415333 (Thread-12): 14:02:49  1699: static parser successfully parsed inter/d_calendar.sql
+2022-12-14 14:02:49.417910 (Thread-12): 14:02:49  1603: static parser failed on inter/f_results_team.sql
+2022-12-14 14:02:49.423608 (Thread-12): 14:02:49  1602: parser fallback to jinja rendering on inter/f_results_team.sql
+2022-12-14 14:02:49.425320 (Thread-12): 14:02:49  1699: static parser successfully parsed admin/audit_log.sql
+2022-12-14 14:02:49.428029 (Thread-12): 14:02:49  1699: static parser successfully parsed staging/f_team_other_stg.sql
+2022-12-14 14:02:49.430876 (Thread-12): 14:02:49  1603: static parser failed on staging/f_results_team_stg.sql
+2022-12-14 14:02:49.437006 (Thread-12): 14:02:49  1602: parser fallback to jinja rendering on staging/f_results_team_stg.sql
+2022-12-14 14:02:49.438865 (Thread-12): 14:02:49  1699: static parser successfully parsed staging/f_results_match_stg.sql
+2022-12-14 14:02:49.441439 (Thread-12): 14:02:49  1603: static parser failed on staging/x_football_results.sql
+2022-12-14 14:02:49.445993 (Thread-12): 14:02:49  1602: parser fallback to jinja rendering on staging/x_football_results.sql
+2022-12-14 14:02:49.447714 (Thread-12): 14:02:49  1699: static parser successfully parsed staging/team_financial.sql
+2022-12-14 14:02:49.450793 (Thread-12): 14:02:49  1699: static parser successfully parsed staging/results_england_stg.sql
+2022-12-14 14:02:49.453667 (Thread-12): 14:02:49  1699: static parser successfully parsed staging/results_france_stg.sql
+2022-12-14 14:02:49.456600 (Thread-12): 14:02:49  1699: static parser successfully parsed staging/d_season_stg.sql
+2022-12-14 14:02:49.459354 (Thread-12): 14:02:49  1699: static parser successfully parsed staging/results_spain_stg.sql
+2022-12-14 14:02:49.462186 (Thread-12): 14:02:49  1699: static parser successfully parsed staging/results_italy_stg.sql
+2022-12-14 14:02:49.465014 (Thread-12): 14:02:49  1699: static parser successfully parsed staging/results_germany_stg.sql
+2022-12-14 14:02:49.468239 (Thread-12): 14:02:49  1699: static parser successfully parsed marts/f_financial.sql
+2022-12-14 14:02:49.471066 (Thread-12): 14:02:49  1603: static parser failed on marts/f_results_england.sql
+2022-12-14 14:02:49.481758 (Thread-12): 14:02:49  1602: parser fallback to jinja rendering on marts/f_results_england.sql
+2022-12-14 14:02:49.483217 (Thread-12): 14:02:49  1603: static parser failed on marts/f_results_team_m.sql
+2022-12-14 14:02:49.488067 (Thread-12): 14:02:49  1602: parser fallback to jinja rendering on marts/f_results_team_m.sql
+2022-12-14 14:02:49.489844 (Thread-12): 14:02:49  1603: static parser failed on xold/old_countries_union.sql
+2022-12-14 14:02:49.502004 (Thread-12): 14:02:49  1602: parser fallback to jinja rendering on xold/old_countries_union.sql
+2022-12-14 14:02:49.503472 (Thread-12): 14:02:49  1603: static parser failed on land/land_countries_union.sql
+2022-12-14 14:02:49.508048 (Thread-12): 14:02:49  1602: parser fallback to jinja rendering on land/land_countries_union.sql
+2022-12-14 14:02:49.509769 (Thread-12): 14:02:49  1699: static parser successfully parsed land/land_team_other.sql
+2022-12-14 14:02:49.512537 (Thread-12): 14:02:49  1699: static parser successfully parsed land/land_england_2000_2019.sql
+2022-12-14 14:02:49.515295 (Thread-12): 14:02:49  1699: static parser successfully parsed land/land_england_2019_2022.sql
+2022-12-14 14:02:49.518022 (Thread-12): 14:02:49  1699: static parser successfully parsed land/land_spain_2000_2019.sql
+2022-12-14 14:02:49.520810 (Thread-12): 14:02:49  1699: static parser successfully parsed land/land_italy_2000_2019.sql
+2022-12-14 14:02:49.523817 (Thread-12): 14:02:49  1699: static parser successfully parsed land/land_germany_2000_2019.sql
+2022-12-14 14:02:49.526509 (Thread-12): 14:02:49  1699: static parser successfully parsed land/land_france_2019_2022.sql
+2022-12-14 14:02:49.529200 (Thread-12): 14:02:49  1699: static parser successfully parsed land/land_team_financial.sql
+2022-12-14 14:02:49.531925 (Thread-12): 14:02:49  1699: static parser successfully parsed land/land_france_2000_2019.sql
+2022-12-14 14:02:49.534642 (Thread-12): 14:02:49  1699: static parser successfully parsed land/land_spain_2019_2022.sql
+2022-12-14 14:02:49.537538 (Thread-12): 14:02:49  1699: static parser successfully parsed land/land_italy_2019_2022.sql
+2022-12-14 14:02:49.540270 (Thread-12): 14:02:49  1699: static parser successfully parsed land/land_germany_2019_2022.sql
+2022-12-14 14:02:50.664168 (Thread-13): handling ps request
+2022-12-14 14:02:50.664606 (Thread-13): 14:02:50  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe92906070>]}
+2022-12-14 14:02:50.665215 (Thread-13): sending response (<Response 106 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 14:02:50.698990 (Thread-14): handling status request
+2022-12-14 14:02:50.699379 (Thread-14): 14:02:50  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe928ae940>]}
+2022-12-14 14:02:50.702934 (Thread-14): sending response (<Response 75743 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 14:02:50.845783 (Thread-15): handling status request
+2022-12-14 14:02:50.846189 (Thread-15): 14:02:50  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe9293ea30>]}
+2022-12-14 14:02:50.848615 (Thread-15): sending response (<Response 75743 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 14:02:50.915185 (Thread-16): handling status request
+2022-12-14 14:02:50.915586 (Thread-16): 14:02:50  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe90163ca0>]}
+2022-12-14 14:02:50.917919 (Thread-16): sending response (<Response 75743 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 14:02:52.062697 (Thread-17): handling status request
+2022-12-14 14:02:52.063120 (Thread-17): 14:02:52  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe90163a30>]}
+2022-12-14 14:02:52.072426 (Thread-17): sending response (<Response 75743 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 14:03:13.121662 (Thread-18): handling status request
+2022-12-14 14:03:13.123208 (Thread-18): 14:03:13  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe90163850>]}
+2022-12-14 14:03:13.125517 (Thread-18): sending response (<Response 75743 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 14:03:13.433812 (Thread-19): handling compile_sql request
+2022-12-14 14:03:13.434117 (Thread-19): 14:03:13  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe90163460>]}
+2022-12-14 14:03:13.434533 (Thread-19): sending response (<Response 746 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 14:03:59.159507 (Thread-20): handling status request
+2022-12-14 14:03:59.159914 (Thread-20): 14:03:59  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe92935dc0>]}
+2022-12-14 14:03:59.162301 (Thread-20): sending response (<Response 75743 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 14:03:59.203494 (Thread-21): handling status request
+2022-12-14 14:03:59.203787 (Thread-21): 14:03:59  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe928cde80>]}
+2022-12-14 14:03:59.205975 (Thread-21): sending response (<Response 75743 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 14:04:06.782804 (Thread-22): handling status request
+2022-12-14 14:04:06.783263 (Thread-22): 14:04:06  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe9297b100>]}
+2022-12-14 14:04:06.785591 (Thread-22): sending response (<Response 75743 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 14:04:06.838566 (Thread-23): handling status request
+2022-12-14 14:04:06.838982 (Thread-23): 14:04:06  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe928c8c40>]}
+2022-12-14 14:04:06.841327 (Thread-23): sending response (<Response 75743 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 14:04:32.886237 (Thread-24): handling ps request
+2022-12-14 14:04:32.887871 (Thread-24): 14:04:32  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe928fed00>]}
+2022-12-14 14:04:32.888288 (Thread-24): sending response (<Response 100 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 14:04:33.106967 (Thread-25): handling status request
+2022-12-14 14:04:33.107369 (Thread-25): 14:04:33  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe928f7d90>]}
+2022-12-14 14:04:33.109827 (Thread-25): sending response (<Response 75737 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 14:04:33.145815 (Thread-26): handling ps request
+2022-12-14 14:04:33.146214 (Thread-26): 14:04:33  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe90163160>]}
+2022-12-14 14:04:33.146667 (Thread-26): sending response (<Response 100 bytes [200 OK]>) to 10.0.195.122
+2022-12-14 14:04:33.234304 (Thread-27): handling status request
+2022-12-14 14:04:33.234754 (Thread-27): 14:04:33  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4ba33cc4-fb07-4cec-b984-eac5b4c58672', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe901635b0>]}
+2022-12-14 14:04:33.237098 (Thread-27): sending response (<Response 75720 bytes [200 OK]>) to 10.0.195.122
