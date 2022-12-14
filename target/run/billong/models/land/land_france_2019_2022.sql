@@ -4,7 +4,6 @@
    as (
     
 
-
     SELECT
         CONCAT("date","HomeTeam","AwayTeam") AS match_key
         ,"date"       AS match_date
