@@ -6,7 +6,7 @@
 
 
     SELECT
-        CONCAT("date",HomeTeam,AwayTeam) AS match_key
+        CONCAT("date","HomeTeam","AwayTeam") AS match_key
         ,"date"       AS match_date
         ,"Time"		AS match_time
         ,CASE   WHEN "date" BETWEEN '2021-08-01' AND '2022-06-01' THEN '2021/2022'
@@ -15,7 +15,6 @@
         ,'France'			AS country
         ,'Ligue 1'          AS league
         ,1					AS division
-
         ,"HomeTeam"			AS team_home
         ,"AwayTeam"			AS team_away
         ,NULL               AS referee
