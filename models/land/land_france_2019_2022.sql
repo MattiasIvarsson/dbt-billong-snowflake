@@ -1,6 +1,5 @@
 {{config(materialized='view', tags=['football','france'])}}
 
-
     SELECT
         CONCAT("date","HomeTeam","AwayTeam") AS match_key
         ,"date"       AS match_date
