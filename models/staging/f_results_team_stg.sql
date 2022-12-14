@@ -1,7 +1,4 @@
-{{config(   materialized='table',
-            tags='football',
-            post_hook ="{{ create_nonclustered_index(columns = ['match_key'], includes = ['points']) }}"
-)}}
+{{config(   materialized='table',tags='football')}}
 
 
 WITH match_union AS (
