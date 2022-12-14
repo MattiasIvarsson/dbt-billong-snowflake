@@ -1,8 +1,8 @@
 {{config(materialized='view', tags=['football','england'])}}
 
     SELECT
-       -- CONCAT("date",HomeTeam,AwayTeam) AS match_key
-        "date"       AS match_date
+        CONCAT("date","HomeTeam","AwayTeam") AS match_key
+        ,"date"       AS match_date
         ,"Time"		AS match_time
         ,CASE   WHEN "date" BETWEEN '2021-08-01' AND '2022-06-01' THEN '2021/2022'
                 WHEN "date" BETWEEN '2020-08-01' AND '2021-06-01' THEN '2020/2021'
@@ -10,7 +10,6 @@
         ,'England'			AS country
         ,'Premier League'	AS league
         ,1					AS division
-
         ,"HomeTeam"			AS team_home
         ,"AwayTeam"			AS team_away
         ,"Referee"          AS referee
