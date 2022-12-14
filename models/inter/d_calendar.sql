@@ -1,3 +1,7 @@
+{{config(enabled=false)}}
+
+
+
 WITH datelimit AS(
 	select
 		CAST( '2000-01-01' AS DATE) AS StartDate,
