@@ -1,18 +1,19 @@
 {{config(materialized='view', tags=['football','england'])}}
 
-    SELECT
-        CONCAT(date,HomeTeam,AwayTeam) AS match_key
-        ,date       AS match_date
-        ,Time		AS match_time
-        ,CASE	WHEN date BETWEEN '2021-08-01' AND '2022-06-01' THEN '2021/2022'
-                WHEN date BETWEEN '2020-08-01' AND '2021-06-01' THEN '2020/2021'
-                WHEN date BETWEEN '2019-08-01' AND '2020-07-31' THEN '2019/2020' END AS season
+    SELECT TOP 5
+       -- CONCAT("date",HomeTeam,AwayTeam) AS match_key
+        "date"       AS match_date
+        ,"Time"		AS match_time
+        ,CASE   WHEN "date" BETWEEN '2021-08-01' AND '2022-06-01' THEN '2021/2022'
+                WHEN "date" BETWEEN '2020-08-01' AND '2021-06-01' THEN '2020/2021'
+                WHEN "date" BETWEEN '2019-08-01' AND '2020-07-31' THEN '2019/2020' END AS season
         ,'England'			AS country
         ,'Premier League'	AS league
         ,1					AS division
-        ,HomeTeam			AS team_home
-        ,AwayTeam			AS team_away
-        ,referee            AS referee
+
+        ,"HomeTeam"			AS team_home
+        ,"AwayTeam"			AS team_away
+        ,"Referee"            AS referee
         ,FTR				AS result_full_time
         ,HTR				AS result_half_time
         ,FTHG				AS goals_home
@@ -20,7 +21,7 @@
         ,HTHG				AS goals_half_time_home
         ,HTAG				AS goals_half_time_away
         ,HS					AS shots_home
-        ,[AS]				AS shots_away
+        ,"AS"				AS shots_away
         ,HST				AS shots_target_home
         ,AST				AS shots_target_away
         ,HF					AS fouls_home
